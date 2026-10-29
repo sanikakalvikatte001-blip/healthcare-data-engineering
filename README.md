@@ -26,6 +26,7 @@ Every project README covers:
 
 | Date | Problem | Area | Tech |
 |------|---------|------|------|
+| 2026-10-29 | [Eligibility span consolidation & HEDIS continuous enrollment](problems/2026-10-29-eligibility-span-consolidation/) | Eligibility / HEDIS | Python, pandas, DuckDB SQL |
 <!-- NEW_ROWS_ABOVE -->
 
 ## About
