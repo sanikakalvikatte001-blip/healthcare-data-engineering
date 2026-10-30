@@ -1,0 +1,3 @@
+# Local run + tests. On Databricks, Spark and Delta come with the runtime.
+pyspark==3.5.3
+pytest>=8

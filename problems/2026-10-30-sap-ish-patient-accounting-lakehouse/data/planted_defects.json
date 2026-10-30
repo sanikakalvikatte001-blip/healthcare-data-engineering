@@ -1,0 +1,12 @@
+{
+  "NOT_BILLED": 13,
+  "AMOUNT_MISMATCH": 4,
+  "UNITS_MISMATCH": 5,
+  "CANCELLED_BUT_BILLED": 6,
+  "BILLED_NOT_IN_SAP": 4,
+  "cancelled_case": "0004000004",
+  "deleted_case": "0004999999",
+  "claim_lines": 4127,
+  "cases_client_100": 601,
+  "cases_in_scope": 587
+}

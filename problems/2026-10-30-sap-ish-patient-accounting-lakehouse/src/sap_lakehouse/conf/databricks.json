@@ -1,0 +1,7 @@
+{
+  "catalog": "hc_dev",
+  "table_format": "delta",
+  "landing_path": "/Volumes/hc_dev/landing/raw",
+  "sap_client": "100",
+  "claims_cutoff_date": "2026-10-26"
+}

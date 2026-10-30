@@ -1,0 +1,8 @@
+{
+  "catalog": null,
+  "table_format": "parquet",
+  "landing_path": "data/landing",
+  "sap_client": "100",
+  "claims_cutoff_date": "2026-10-26",
+  "local_warehouse_dir": "_local_warehouse"
+}

@@ -1,0 +1,8 @@
+_local_warehouse/
+spark-warehouse/
+metastore_db/
+derby.log
+dist/
+build/
+*.egg-info/
+.databricks/

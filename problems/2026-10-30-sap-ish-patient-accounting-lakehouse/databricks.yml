@@ -1,0 +1,68 @@
+# Databricks Asset Bundle: builds the wheel and deploys a 3-task job
+# (bronze -> silver -> gold) that runs against Unity Catalog with Delta tables.
+#
+#   databricks bundle validate
+#   databricks bundle deploy -t dev
+#   databricks bundle run sap_ish_lakehouse -t dev
+#
+# Before deploying: create catalog hc_dev with schemas bronze/silver/gold and a
+# volume hc_dev.landing.raw, and upload data/landing/* into that volume.
+bundle:
+  name: sap-ish-patient-accounting-lakehouse
+
+artifacts:
+  sap_lakehouse_wheel:
+    type: whl
+    path: .
+    build: python -m pip wheel . --no-deps -w dist
+
+variables:
+  conf:
+    description: Settings file in src/sap_lakehouse/conf/
+    default: databricks
+
+resources:
+  jobs:
+    sap_ish_lakehouse:
+      name: sap-ish-lakehouse-${bundle.target}
+      job_clusters:
+        - job_cluster_key: small
+          new_cluster:
+            spark_version: 15.4.x-scala2.12
+            node_type_id: i3.xlarge
+            num_workers: 1
+            data_security_mode: SINGLE_USER
+      tasks:
+        - task_key: bronze
+          job_cluster_key: small
+          python_wheel_task:
+            package_name: sap_lakehouse
+            entry_point: pipeline
+            parameters: ["--layer", "bronze", "--conf", "${var.conf}"]
+          libraries:
+            - whl: ./dist/*.whl
+        - task_key: silver
+          depends_on: [{ task_key: bronze }]
+          job_cluster_key: small
+          python_wheel_task:
+            package_name: sap_lakehouse
+            entry_point: pipeline
+            parameters: ["--layer", "silver", "--conf", "${var.conf}"]
+          libraries:
+            - whl: ./dist/*.whl
+        - task_key: gold
+          depends_on: [{ task_key: silver }]
+          job_cluster_key: small
+          python_wheel_task:
+            package_name: sap_lakehouse
+            entry_point: pipeline
+            parameters: ["--layer", "gold", "--conf", "${var.conf}"]
+          libraries:
+            - whl: ./dist/*.whl
+
+targets:
+  dev:
+    mode: development
+    default: true
+  prod:
+    mode: production

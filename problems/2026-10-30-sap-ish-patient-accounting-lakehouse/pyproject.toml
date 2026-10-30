@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sap_lakehouse"
+version = "0.1.0"
+description = "SAP IS-H patient accounting extracts -> bronze/silver/gold lakehouse, reconciled to 837 claims"
+requires-python = ">=3.10"
+dependencies = []          # pyspark is provided by the Databricks runtime
+
+[project.scripts]
+pipeline = "sap_lakehouse.pipeline:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"sap_lakehouse.conf" = ["*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
