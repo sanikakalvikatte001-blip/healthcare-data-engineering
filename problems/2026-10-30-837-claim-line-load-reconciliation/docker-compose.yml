@@ -1,0 +1,13 @@
+# Only dependency: PostgreSQL 14+ (built and tested on 16) and the psql client.
+# Optional local database:
+#   docker compose up -d
+#   export PGHOST=localhost PGPORT=5432 PGUSER=recon PGPASSWORD=recon PGDATABASE=claims_recon
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: recon
+      POSTGRES_PASSWORD: recon
+      POSTGRES_DB: claims_recon
+    ports:
+      - "5432:5432"

@@ -27,6 +27,7 @@ Every project README covers:
 | Date | Problem | Area | Tech |
 |------|---------|------|------|
 | 2026-10-29 | [Eligibility span consolidation & HEDIS continuous enrollment](problems/2026-10-29-eligibility-span-consolidation/) | Eligibility / HEDIS | Python, pandas, DuckDB SQL |
+| 2026-10-30 | [837P claim-line load reconciliation (staging → warehouse)](problems/2026-10-30-837-claim-line-load-reconciliation/) | Claims / Data Quality & Reconciliation | SQL (PostgreSQL, PL/pgSQL) |
 <!-- NEW_ROWS_ABOVE -->
 
 ## About
