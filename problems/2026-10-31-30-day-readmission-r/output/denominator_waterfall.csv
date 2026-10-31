@@ -1,0 +1,9 @@
+step,stays_removed,stays_remaining
+all stays,,604
+discharge outside period,27,577
+died during stay,22,555
+transferred out to acute care,20,535
+under 18 at discharge,16,519
+maternity / perinatal,30,489
+not enrolled 30 days post-discharge,10,479
+eligible index stays,,479

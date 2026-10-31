@@ -1,0 +1,14 @@
+Package: readmit30
+Title: 30-Day All-Cause Readmission Logic on Inpatient Claims
+Version: 0.1.0
+Authors@R: person("Sanika", "Kalvikatte", email = "sanikakalvikatte1996@gmail.com", role = c("aut", "cre"))
+Description: Builds acute inpatient stays from raw facility claims (claim
+    versioning, direct-transfer chaining), selects eligible index discharges,
+    and flags unplanned 30-day readmissions using data.table non-equi joins.
+    Synthetic data only.
+License: MIT
+Encoding: UTF-8
+Depends: R (>= 4.1)
+Imports: data.table (>= 1.14)
+Suggests: testthat (>= 3.0)
+Config/testthat/edition: 3
