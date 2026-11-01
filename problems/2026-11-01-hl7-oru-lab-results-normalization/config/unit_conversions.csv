@@ -1,0 +1,15 @@
+loinc,canonical_unit,source_unit,factor,offset
+2345-7,mg/dL,mg/dL,1,0
+2345-7,mg/dL,mmol/L,18.016,0
+2160-0,mg/dL,mg/dL,1,0
+2160-0,mg/dL,umol/L,0.011312,0
+2823-3,mmol/L,mmol/L,1,0
+2823-3,mmol/L,mEq/L,1,0
+2951-2,mmol/L,mmol/L,1,0
+2951-2,mmol/L,mEq/L,1,0
+4548-4,%,%,1,0
+4548-4,%,mmol/mol,0.09148,2.152
+718-7,g/dL,g/dL,1,0
+718-7,g/dL,g/L,0.1,0
+6598-7,ng/mL,ng/mL,1,0
+6598-7,ng/mL,ng/L,0.001,0

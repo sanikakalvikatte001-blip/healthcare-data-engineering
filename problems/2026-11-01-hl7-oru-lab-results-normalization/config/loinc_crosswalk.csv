@@ -1,0 +1,9 @@
+sending_facility,local_code,loinc,loinc_display
+CEDAR,GLU,2345-7,Glucose [Mass/volume] in Serum or Plasma
+CEDAR,CREAT,2160-0,Creatinine [Mass/volume] in Serum or Plasma
+CEDAR,K,2823-3,Potassium [Moles/volume] in Serum or Plasma
+CEDAR,NA,2951-2,Sodium [Moles/volume] in Serum or Plasma
+CEDAR,A1C,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood
+CEDAR,HGB,718-7,Hemoglobin [Mass/volume] in Blood
+CEDAR,TROP,6598-7,Troponin T.cardiac [Mass/volume] in Serum or Plasma
+CEDAR,UCULT,630-4,Bacteria identified in Urine by Culture

@@ -30,6 +30,7 @@ Every project README covers:
 | 2026-10-30 | [837P claim-line load reconciliation (staging → warehouse)](problems/2026-10-30-837-claim-line-load-reconciliation/) | Claims / Data Quality & Reconciliation | SQL (PostgreSQL, PL/pgSQL) |
 | 2026-10-30 | [SAP IS-H patient accounting → lakehouse, reconciled to 837 claims](problems/2026-10-30-sap-ish-patient-accounting-lakehouse/) | SAP / Revenue Integrity / Lakehouse | PySpark, Databricks (Asset Bundle, Unity Catalog, Delta) |
 | 2026-10-31 | [30-day all-cause readmissions from inpatient claims](problems/2026-10-31-30-day-readmission-r/) | Utilization / Quality Measures (readmissions) | R, data.table, testthat |
+| 2026-11-01 | [HL7 v2 ORU^R01 lab results → LOINC-coded, unit-normalized observations](problems/2026-11-01-hl7-oru-lab-results-normalization/) | HL7 v2 / Lab Results / LOINC | Python (standard library), pytest |
 <!-- NEW_ROWS_ABOVE -->
 
 ## About
