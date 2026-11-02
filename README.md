@@ -31,6 +31,7 @@ Every project README covers:
 | 2026-10-30 | [SAP IS-H patient accounting → lakehouse, reconciled to 837 claims](problems/2026-10-30-sap-ish-patient-accounting-lakehouse/) | SAP / Revenue Integrity / Lakehouse | PySpark, Databricks (Asset Bundle, Unity Catalog, Delta) |
 | 2026-10-31 | [30-day all-cause readmissions from inpatient claims](problems/2026-10-31-30-day-readmission-r/) | Utilization / Quality Measures (readmissions) | R, data.table, testthat |
 | 2026-11-01 | [HL7 v2 ORU^R01 lab results → LOINC-coded, unit-normalized observations](problems/2026-11-01-hl7-oru-lab-results-normalization/) | HL7 v2 / Lab Results / LOINC | Python (standard library), pytest |
+| 2026-11-02 | [Master Patient Index: probabilistic patient matching across EHR, lab and payer feeds](problems/2026-11-02-mpi-patient-matching/) | Patient Matching / MPI | SQL (PostgreSQL, PL/pgSQL), pgTAP |
 <!-- NEW_ROWS_ABOVE -->
 
 ## About
