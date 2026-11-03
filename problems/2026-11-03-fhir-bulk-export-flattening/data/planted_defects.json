@@ -1,0 +1,44 @@
+{
+  "nickname_first_patient": [
+    "5330a25f-3074-4f6f-82a5-b56c73ea70b9"
+  ],
+  "multi_version_patients": [
+    "29be5d21-2981-4b38-a4c2-771116e58928",
+    "9d8ad616-fd35-4f2c-9eaa-3ca931b51313",
+    "875d257a-0dff-4428-a233-5332d0e67b86",
+    "ae4d6fdf-bd5b-4fe0-879a-f86c41012b99"
+  ],
+  "patient_v3_out_of_order": [
+    "ae4d6fdf-bd5b-4fe0-879a-f86c41012b99"
+  ],
+  "exact_duplicate_patient": [
+    "2da62b05-1d4b-4f6f-8221-2f82b3f011ea"
+  ],
+  "orphan_encounter": [
+    "b16e75dd-1d38-4b71-b341-7b2bebe7147c"
+  ],
+  "in_progress_encounter": [
+    "f766344c-bd09-44b0-8066-bb22d9b99974"
+  ],
+  "full_url_reference_obs": [
+    "8664e064-1b06-4018-b95a-e9692052bd50",
+    "0805f175-688f-4c8b-812e-89c3ce26125e"
+  ],
+  "no_loinc_obs": [
+    "08cb5980-e1b3-45ac-aa9a-8c58bb139fba",
+    "56f0d5fc-7f92-471a-b032-bcd098ace773"
+  ],
+  "entered_in_error_obs": [
+    "9531aa12-a7c9-4ded-b964-04f3c5617691",
+    "1eb9badf-9bb3-440b-bd25-09ccdfbb1e7c"
+  ],
+  "data_absent_obs": [
+    "a0993c08-56d7-4b26-a39e-580f8b892f3c"
+  ],
+  "value_string_obs": [
+    "9843a5cc-062c-458c-84e4-61c2470126e8"
+  ],
+  "orphan_obs": [
+    "29eda50e-9fbf-4a68-98c7-1b03b11bb93f"
+  ]
+}

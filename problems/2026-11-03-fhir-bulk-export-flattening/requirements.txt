@@ -1,0 +1,2 @@
+pyspark>=4.0,<5.0   # tested with 4.3.0 (Java 17+)
+pytest>=8.0
