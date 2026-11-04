@@ -1,0 +1,14 @@
+attribute,at_dos_vs_current,claim_lines,paid_amt
+group_tin,84-1003333 -> 84-9990000,55,8012.80
+group_tin,84-1000000 -> 84-9990000,54,7410.40
+network_status,IN -> OUT,171,23357.60
+network_status,NOT_ON_ROSTER -> IN,107,14720.40
+network_status,IN -> TERMED,81,11161.00
+network_status,OUT -> TERMED,76,10168.20
+network_status,NOT_ON_ROSTER -> OUT,72,9756.80
+network_status,OUT -> IN,33,3838.20
+specialty,Dermatology -> Interventional Cardiology,41,5884.40
+specialty,Obstetrics & Gynecology -> Interventional Cardiology,38,5317.60
+specialty,Internal Medicine -> Interventional Cardiology,35,5173.40
+specialty,Orthopaedic Surgery -> Interventional Cardiology,38,4769.00
+specialty,Cardiovascular Disease -> Interventional Cardiology,33,4019.40
