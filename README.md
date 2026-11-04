@@ -34,6 +34,7 @@ Every project README covers:
 | 2026-11-02 | [Master Patient Index: probabilistic patient matching across EHR, lab and payer feeds](problems/2026-11-02-mpi-patient-matching/) | Patient Matching / MPI | SQL (PostgreSQL, PL/pgSQL), pgTAP |
 | 2026-11-03 | [FHIR R4 Bulk Data export (NDJSON) → flat warehouse tables](problems/2026-11-03-fhir-bulk-export-flattening/) | FHIR / Clinical Data Integration | PySpark (Spark SQL), pytest |
 | 2026-11-04 | [Provider SCD Type 2 dimension + claims star schema with point-in-time network attribution](problems/2026-11-04-provider-scd2-claims-star-schema/) | Warehouse Modeling / Claims / Provider Network | SQL (DuckDB), star schema, SCD2, window functions |
+| 2026-11-04 | [Prior authorization turnaround: ADF → Snowflake → dbt incremental pipeline (CMS-0057-F timeframes)](problems/2026-11-04-prior-auth-turnaround-adf-snowflake-dbt/) | Utilization Management / Prior Authorization / Incremental ELT | dbt (SQL), Snowflake SQL, Azure Data Factory, DuckDB |
 <!-- NEW_ROWS_ABOVE -->
 
 ## About

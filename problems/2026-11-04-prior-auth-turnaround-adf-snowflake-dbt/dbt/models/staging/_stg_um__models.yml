@@ -1,0 +1,43 @@
+version: 2
+
+models:
+  - name: stg_um__pa_requests
+    description: Latest version of each prior authorization request.
+    columns:
+      - name: request_id
+        data_tests: [unique, not_null]
+      - name: priority
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['EXPEDITED', 'STANDARD']
+      - name: line_of_business
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['MEDICAID', 'MEDICARE_ADV', 'COMMERCIAL']
+      - name: received_at
+        data_tests: [not_null]
+
+  - name: stg_um__pa_status_events
+    description: Latest version of each status event.
+    columns:
+      - name: event_id
+        data_tests: [unique, not_null]
+      - name: request_id
+        data_tests:
+          - not_null
+          # warn, not error: an event can land one load before its request
+          # header (header keyed late). The fact waits for the header.
+          - relationships:
+              arguments:
+                to: ref('stg_um__pa_requests')
+                field: request_id
+              config:
+                severity: warn
+      - name: status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['RECEIVED', 'PENDED_INFO', 'INFO_RECEIVED', 'APPROVED',
+                         'DENIED', 'PARTIAL_APPROVED', 'WITHDRAWN']

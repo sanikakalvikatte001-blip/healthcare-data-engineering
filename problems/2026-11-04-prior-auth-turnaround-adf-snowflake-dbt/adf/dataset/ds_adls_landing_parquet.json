@@ -1,0 +1,24 @@
+{
+  "name": "ds_adls_landing_parquet",
+  "properties": {
+    "type": "Parquet",
+    "description": "Landing folder per table / load date / pipeline run: landing/um/<table>/load_date=<yyyy-MM-dd>/run_id=<runId>/",
+    "linkedServiceName": { "referenceName": "ls_adls_landing", "type": "LinkedServiceReference" },
+    "parameters": {
+      "tableName": { "type": "string" },
+      "loadDate":  { "type": "string" },
+      "runId":     { "type": "string" }
+    },
+    "typeProperties": {
+      "location": {
+        "type": "AzureBlobFSLocation",
+        "fileSystem": "landing",
+        "folderPath": {
+          "value": "@concat('um/', dataset().tableName, '/load_date=', dataset().loadDate, '/run_id=', dataset().runId)",
+          "type": "Expression"
+        }
+      },
+      "compressionCodec": "snappy"
+    }
+  }
+}

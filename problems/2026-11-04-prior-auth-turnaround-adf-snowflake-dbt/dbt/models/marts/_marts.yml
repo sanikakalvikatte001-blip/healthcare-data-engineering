@@ -1,0 +1,55 @@
+version: 2
+
+models:
+  - name: fct_prior_auth_request
+    description: One row per prior authorization request with turnaround and timeframe compliance.
+    columns:
+      - name: request_id
+        data_tests: [unique, not_null]
+      - name: lifecycle_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['DETERMINED', 'WITHDRAWN', 'OPEN']
+      - name: turnaround_hours
+        data_tests:
+          - expression_is_true:
+              arguments:
+                expression: "turnaround_hours >= 0"
+                where: "turnaround_hours is not null"
+    data_tests:
+      - expression_is_true:
+          name: determined_requests_have_status_and_month
+          arguments:
+            expression: "determination_status is not null and determination_month is not null and met_timeframe is not null"
+            where: "lifecycle_status = 'DETERMINED'"
+      - expression_is_true:
+          name: open_requests_have_no_determination
+          arguments:
+            expression: "determination_at is null and turnaround_hours is null"
+            where: "lifecycle_status <> 'DETERMINED'"
+
+  - name: mart_pa_turnaround_monthly
+    description: Monthly determination metrics by line of business and priority.
+    data_tests:
+      - expression_is_true:
+          name: monthly_pcts_sum_to_100
+          arguments:
+            expression: "abs(pct_approved + pct_partial + pct_denied - 100) <= 0.2"
+    columns:
+      - name: determinations
+        data_tests:
+          - expression_is_true:
+              arguments:
+                expression: "determinations > 0"
+
+  - name: mart_pa_open_overdue
+    description: Open requests aged against the as-of timestamp, with SLA status.
+    columns:
+      - name: request_id
+        data_tests: [unique, not_null]
+      - name: sla_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['OVERDUE', 'AT_RISK', 'ON_TRACK']

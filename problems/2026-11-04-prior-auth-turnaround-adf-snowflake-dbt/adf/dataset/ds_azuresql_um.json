@@ -1,0 +1,9 @@
+{
+  "name": "ds_azuresql_um",
+  "properties": {
+    "type": "AzureSqlTable",
+    "description": "Generic UM source dataset; the Copy activity supplies a query.",
+    "linkedServiceName": { "referenceName": "ls_azuresql_um", "type": "LinkedServiceReference" },
+    "typeProperties": {}
+  }
+}

@@ -1,0 +1,41 @@
+name: prior_auth_um
+version: "1.0.0"
+config-version: 2
+profile: prior_auth_um
+
+model-paths: ["models"]
+snapshot-paths: ["snapshots"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages", "logs"]
+
+vars:
+  # Decision timeframes (calendar hours). CMS-0057-F sets 72h for expedited and
+  # 7 calendar days for standard requests for impacted payers starting 2026.
+  # Kept as vars so a commercial plan can apply its own contractual/state rules.
+  expedited_timeframe_hours: 72
+  standard_timeframe_hours: 168
+  # "Now" for open-request aging. Pinned for reproducible local runs; in
+  # production pass --vars '{as_of_ts: ...}' from the orchestrator or leave null
+  # to use current_timestamp.
+  as_of_ts: "2026-11-01 00:00:00"
+  # Where the raw (COPY INTO) tables live
+  raw_database: null       # null -> target database
+  raw_schema: raw_um
+
+models:
+  prior_auth_um:
+    staging:
+      +schema: staging
+      +materialized: view
+    intermediate:
+      +schema: intermediate
+      +materialized: view
+    marts:
+      +schema: marts
+      +materialized: table
+
+snapshots:
+  prior_auth_um:
+    +schema: snapshots

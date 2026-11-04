@@ -1,0 +1,9 @@
+{
+  "name": "ds_snowflake_control",
+  "properties": {
+    "type": "SnowflakeV2Table",
+    "description": "Watermark control table in Snowflake.",
+    "linkedServiceName": { "referenceName": "ls_snowflake", "type": "LinkedServiceReference" },
+    "typeProperties": { "schema": "CONTROL", "table": "WATERMARK" }
+  }
+}

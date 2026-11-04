@@ -1,0 +1,16 @@
+# SCD Type 2 history of request attributes that UM nurses can change after
+# intake (priority downgrade EXPEDITED -> STANDARD, service reclassification).
+# Runs after every daily load; two changes between runs collapse to the last.
+# Audit needs to answer: "what priority did this request have when we
+# started the clock?"
+snapshots:
+  - name: snap_pa_request
+    relation: ref('stg_um__pa_requests')
+    description: SCD2 history of prior authorization request classification.
+    config:
+      unique_key: request_id
+      # timestamp strategy on the SOURCE modified_at: dbt_valid_from is when
+      # the UM platform changed the row, not when dbt happened to run
+      strategy: timestamp
+      updated_at: source_modified_at
+      hard_deletes: ignore

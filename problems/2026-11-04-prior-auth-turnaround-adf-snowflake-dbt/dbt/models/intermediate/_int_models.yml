@@ -1,0 +1,92 @@
+version: 2
+
+models:
+  - name: int_pa_status_events_sequenced
+    description: Ordered status events with pend durations.
+  - name: int_pa_request_lifecycle
+    description: One row per request with milestones, turnaround and timeframe.
+    columns:
+      - name: request_id
+        data_tests: [unique, not_null]
+
+unit_tests:
+  - name: pend_time_and_turnaround_are_calendar_hours
+    description: >
+      Pended 10h, info back 20h later, approved 30h after that. Turnaround is
+      the full 60h from receipt (the clock is not paused); pend_hours = 20.
+    model: int_pa_request_lifecycle
+    given:
+      - input: ref('stg_um__pa_requests')
+        rows:
+          - {request_id: PA1, priority: EXPEDITED, received_at: "2026-09-01 00:00:00",
+             _loaded_at: "2026-09-05 00:00:00"}
+      - input: ref('int_pa_status_events_sequenced')
+        format: sql
+        rows: |
+          select 'E1' as event_id, 'PA1' as request_id, 'RECEIVED' as status,
+                 cast('2026-09-01 00:00:00' as timestamp) as event_at, null as reason_code,
+                 cast('2026-09-05 00:00:00' as timestamp) as _loaded_at, 1 as event_seq,
+                 cast('2026-09-01 10:00:00' as timestamp) as next_event_at,
+                 false as is_determination, cast(null as double) as pend_hours
+          union all
+          select 'E2', 'PA1', 'PENDED_INFO', cast('2026-09-01 10:00:00' as timestamp), null,
+                 cast('2026-09-05 00:00:00' as timestamp), 2,
+                 cast('2026-09-02 06:00:00' as timestamp), false, 20.0
+          union all
+          select 'E3', 'PA1', 'INFO_RECEIVED', cast('2026-09-02 06:00:00' as timestamp), null,
+                 cast('2026-09-05 00:00:00' as timestamp), 3,
+                 cast('2026-09-03 12:00:00' as timestamp), false, null
+          union all
+          select 'E4', 'PA1', 'APPROVED', cast('2026-09-03 12:00:00' as timestamp), null,
+                 cast('2026-09-05 00:00:00' as timestamp), 4, null, true, null
+    expect:
+      rows:
+        - {request_id: PA1, determination_status: APPROVED, pend_count: 1, pend_hours: 20.0,
+           turnaround_hours: 60.0, timeframe_hours: 72, lifecycle_status: DETERMINED}
+
+  - name: first_determination_wins_and_open_requests_stay_open
+    description: >
+      PA2 is denied then approved on appeal-style re-review: the FIRST
+      determination (DENIED) drives turnaround. PA3 has no decision -> OPEN.
+    model: int_pa_request_lifecycle
+    given:
+      - input: ref('stg_um__pa_requests')
+        rows:
+          - {request_id: PA2, priority: STANDARD, received_at: "2026-09-01 00:00:00", _loaded_at: "2026-09-20 00:00:00"}
+          - {request_id: PA3, priority: STANDARD, received_at: "2026-09-10 00:00:00", _loaded_at: "2026-09-20 00:00:00"}
+      - input: ref('int_pa_status_events_sequenced')
+        format: sql
+        rows: |
+          select 'E5' as event_id, 'PA2' as request_id, 'DENIED' as status,
+                 cast('2026-09-09 00:00:00' as timestamp) as event_at, 'NOT_MED_NECESSARY' as reason_code,
+                 cast('2026-09-20 00:00:00' as timestamp) as _loaded_at, 1 as event_seq,
+                 cast('2026-09-12 00:00:00' as timestamp) as next_event_at,
+                 true as is_determination, cast(null as double) as pend_hours
+          union all
+          select 'E6', 'PA2', 'APPROVED', cast('2026-09-12 00:00:00' as timestamp), null,
+                 cast('2026-09-20 00:00:00' as timestamp), 2, null, true, null
+          union all
+          select 'E7', 'PA3', 'RECEIVED', cast('2026-09-10 00:00:00' as timestamp), null,
+                 cast('2026-09-20 00:00:00' as timestamp), 1, null, false, null
+    expect:
+      rows:
+        - {request_id: PA2, determination_status: DENIED, turnaround_hours: 192.0,
+           timeframe_hours: 168, lifecycle_status: DETERMINED}
+        - {request_id: PA3, determination_status: null, turnaround_hours: null,
+           timeframe_hours: 168, lifecycle_status: OPEN}
+
+  - name: corrected_event_replaces_original
+    description: Same event_id re-sent with a corrected status -> latest modified_at wins.
+    model: stg_um__pa_status_events
+    given:
+      - input: source('um', 'pa_status_event')
+        rows:
+          - {event_id: E9, request_id: PA9, status: DENIED, event_at: "2026-09-01 08:00:00",
+             reason_code: MISSING_DOCUMENTATION, modified_at: "2026-09-01 08:10:00",
+             _loaded_at: "2026-09-01 09:00:00"}
+          - {event_id: E9, request_id: PA9, status: APPROVED, event_at: "2026-09-01 08:00:00",
+             reason_code: "", modified_at: "2026-09-02 07:00:00",
+             _loaded_at: "2026-09-02 08:00:00"}
+    expect:
+      rows:
+        - {event_id: E9, status: APPROVED, reason_code: null}

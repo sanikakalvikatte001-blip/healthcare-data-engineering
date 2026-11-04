@@ -1,0 +1,10 @@
+{
+  "name": "ls_adls_landing",
+  "properties": {
+    "type": "AzureBlobFS",
+    "description": "ADLS Gen2 landing zone. Snowflake reads the same container through a storage integration.",
+    "typeProperties": {
+      "url": "https://<storageaccount>.dfs.core.windows.net/"
+    }
+  }
+}

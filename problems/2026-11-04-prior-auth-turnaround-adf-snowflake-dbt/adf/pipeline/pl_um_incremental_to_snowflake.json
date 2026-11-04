@@ -1,0 +1,273 @@
+{
+  "name": "pl_um_incremental_to_snowflake",
+  "properties": {
+    "description": "Watermark-based incremental extract of the UM prior-auth tables: Azure SQL -> ADLS (parquet) -> Snowflake RAW via COPY INTO, then start the dbt job. Watermarks live in RAW.CONTROL.WATERMARK and only advance after COPY succeeds.",
+    "parameters": {
+      "overlapMinutes": {
+        "type": "int",
+        "defaultValue": 60
+      },
+      "tables": {
+        "type": "array",
+        "defaultValue": [
+          {
+            "sourceTable": "um.pa_request",
+            "landingName": "pa_request",
+            "rawTable": "RAW.UM.PA_REQUEST",
+            "copySelect": "$1:request_id::VARCHAR, $1:member_id::VARCHAR, $1:requesting_npi::VARCHAR, $1:line_of_business::VARCHAR, $1:service_category::VARCHAR, $1:procedure_code::VARCHAR, $1:submission_channel::VARCHAR, $1:received_at::VARCHAR, $1:priority::VARCHAR, $1:modified_at::VARCHAR"
+          },
+          {
+            "sourceTable": "um.pa_status_event",
+            "landingName": "pa_status_event",
+            "rawTable": "RAW.UM.PA_STATUS_EVENT",
+            "copySelect": "$1:event_id::VARCHAR, $1:request_id::VARCHAR, $1:status::VARCHAR, $1:event_at::VARCHAR, $1:reason_code::VARCHAR, $1:modified_at::VARCHAR"
+          }
+        ]
+      },
+      "dbtJobUrl": {
+        "type": "string",
+        "defaultValue": "https://management.azure.com/subscriptions/<sub-id>/resourceGroups/rg-dataplatform/providers/Microsoft.App/jobs/caj-dbt-prior-auth/start?api-version=2024-03-01"
+      },
+      "alertWebhookUrl": {
+        "type": "string",
+        "defaultValue": "https://<logic-app-alert-endpoint>"
+      }
+    },
+    "activities": [
+      {
+        "name": "ForEachTable",
+        "type": "ForEach",
+        "typeProperties": {
+          "items": {
+            "value": "@pipeline().parameters.tables",
+            "type": "Expression"
+          },
+          "isSequential": false,
+          "batchCount": 2,
+          "activities": [
+            {
+              "name": "LookupOldWatermark",
+              "type": "Lookup",
+              "policy": {
+                "timeout": "0.00:10:00",
+                "retry": 2,
+                "retryIntervalInSeconds": 60
+              },
+              "typeProperties": {
+                "source": {
+                  "type": "SnowflakeV2Source",
+                  "query": {
+                    "value": "@concat('SELECT TO_VARCHAR(WATERMARK_VALUE, ''YYYY-MM-DD HH24:MI:SS.FF3'') AS WATERMARK_VALUE FROM RAW.CONTROL.WATERMARK WHERE SOURCE_TABLE = ''', item().sourceTable, '''')",
+                    "type": "Expression"
+                  }
+                },
+                "dataset": {
+                  "referenceName": "ds_snowflake_control",
+                  "type": "DatasetReference"
+                },
+                "firstRowOnly": true
+              }
+            },
+            {
+              "name": "LookupNewWatermark",
+              "type": "Lookup",
+              "policy": {
+                "timeout": "0.00:10:00",
+                "retry": 2,
+                "retryIntervalInSeconds": 60
+              },
+              "typeProperties": {
+                "source": {
+                  "type": "AzureSqlSource",
+                  "sqlReaderQuery": {
+                    "value": "@concat('SELECT CONVERT(varchar(23), MAX(modified_at), 121) AS NEW_WATERMARK FROM ', item().sourceTable)",
+                    "type": "Expression"
+                  }
+                },
+                "dataset": {
+                  "referenceName": "ds_azuresql_um",
+                  "type": "DatasetReference"
+                },
+                "firstRowOnly": true
+              }
+            },
+            {
+              "name": "CopySourceToLanding",
+              "type": "Copy",
+              "dependsOn": [
+                {
+                  "activity": "LookupOldWatermark",
+                  "dependencyConditions": [
+                    "Succeeded"
+                  ]
+                },
+                {
+                  "activity": "LookupNewWatermark",
+                  "dependencyConditions": [
+                    "Succeeded"
+                  ]
+                }
+              ],
+              "policy": {
+                "timeout": "0.02:00:00",
+                "retry": 2,
+                "retryIntervalInSeconds": 120
+              },
+              "typeProperties": {
+                "source": {
+                  "type": "AzureSqlSource",
+                  "queryTimeout": "01:00:00",
+                  "sqlReaderQuery": {
+                    "value": "@concat('SELECT * FROM ', item().sourceTable, ' WHERE modified_at > DATEADD(minute, -', string(pipeline().parameters.overlapMinutes), ', CAST(''', activity('LookupOldWatermark').output.firstRow.WATERMARK_VALUE, ''' AS datetime2)) AND modified_at <= CAST(''', activity('LookupNewWatermark').output.firstRow.NEW_WATERMARK, ''' AS datetime2)')",
+                    "type": "Expression"
+                  }
+                },
+                "sink": {
+                  "type": "ParquetSink",
+                  "storeSettings": {
+                    "type": "AzureBlobFSWriteSettings"
+                  },
+                  "formatSettings": {
+                    "type": "ParquetWriteSettings",
+                    "maxRowsPerFile": 1000000
+                  }
+                },
+                "enableStaging": false
+              },
+              "inputs": [
+                {
+                  "referenceName": "ds_azuresql_um",
+                  "type": "DatasetReference"
+                }
+              ],
+              "outputs": [
+                {
+                  "referenceName": "ds_adls_landing_parquet",
+                  "type": "DatasetReference",
+                  "parameters": {
+                    "tableName": {
+                      "value": "@item().landingName",
+                      "type": "Expression"
+                    },
+                    "loadDate": {
+                      "value": "@formatDateTime(pipeline().TriggerTime, 'yyyy-MM-dd')",
+                      "type": "Expression"
+                    },
+                    "runId": {
+                      "value": "@pipeline().RunId",
+                      "type": "Expression"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "CopyIntoRawAndAdvanceWatermark",
+              "type": "Script",
+              "dependsOn": [
+                {
+                  "activity": "CopySourceToLanding",
+                  "dependencyConditions": [
+                    "Succeeded"
+                  ]
+                }
+              ],
+              "policy": {
+                "timeout": "0.01:00:00",
+                "retry": 1,
+                "retryIntervalInSeconds": 120
+              },
+              "linkedServiceName": {
+                "referenceName": "ls_snowflake",
+                "type": "LinkedServiceReference"
+              },
+              "typeProperties": {
+                "scripts": [
+                  {
+                    "type": "NonQuery",
+                    "text": {
+                      "value": "@concat('COPY INTO ', item().rawTable, ' FROM (SELECT ', item().copySelect, ', METADATA$FILENAME, CURRENT_TIMESTAMP()::TIMESTAMP_NTZ FROM @RAW.UM.UM_LANDING_STAGE/', item().landingName, '/load_date=', formatDateTime(pipeline().TriggerTime, 'yyyy-MM-dd'), '/run_id=', pipeline().RunId, '/) FILE_FORMAT = (FORMAT_NAME = ''RAW.UM.FF_PARQUET'') ON_ERROR = ''ABORT_STATEMENT''')",
+                      "type": "Expression"
+                    }
+                  },
+                  {
+                    "type": "NonQuery",
+                    "text": {
+                      "value": "@concat('UPDATE RAW.CONTROL.WATERMARK SET WATERMARK_VALUE = ''', coalesce(activity('LookupNewWatermark').output.firstRow.NEW_WATERMARK, activity('LookupOldWatermark').output.firstRow.WATERMARK_VALUE), '''::TIMESTAMP_NTZ, LAST_RUN_ID = ''', pipeline().RunId, ''', UPDATED_AT = CURRENT_TIMESTAMP()::TIMESTAMP_NTZ WHERE SOURCE_TABLE = ''', item().sourceTable, '''')",
+                      "type": "Expression"
+                    }
+                  }
+                ],
+                "scriptBlockExecutionTimeout": "01:00:00"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "StartDbtJob",
+        "description": "Starts the Azure Container Apps job that runs `dbt build --target snowflake` (image with this repo's dbt project).",
+        "type": "WebActivity",
+        "dependsOn": [
+          {
+            "activity": "ForEachTable",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ],
+        "policy": {
+          "timeout": "0.00:10:00",
+          "retry": 2,
+          "retryIntervalInSeconds": 60
+        },
+        "typeProperties": {
+          "method": "POST",
+          "url": {
+            "value": "@pipeline().parameters.dbtJobUrl",
+            "type": "Expression"
+          },
+          "body": {
+            "value": "{}",
+            "type": "Expression"
+          },
+          "authentication": {
+            "type": "MSI",
+            "resource": "https://management.azure.com/"
+          }
+        }
+      },
+      {
+        "name": "AlertOnFailure",
+        "description": "StartDbtJob is Skipped when ForEachTable fails, so Failed OR Skipped covers both stages.",
+        "type": "WebActivity",
+        "dependsOn": [
+          {
+            "activity": "StartDbtJob",
+            "dependencyConditions": [
+              "Failed",
+              "Skipped"
+            ]
+          }
+        ],
+        "typeProperties": {
+          "method": "POST",
+          "url": {
+            "value": "@pipeline().parameters.alertWebhookUrl",
+            "type": "Expression"
+          },
+          "body": {
+            "value": "@json(concat('{\"pipeline\":\"', pipeline().Pipeline, '\",\"runId\":\"', pipeline().RunId, '\",\"factory\":\"', pipeline().DataFactory, '\"}'))",
+            "type": "Expression"
+          }
+        }
+      }
+    ],
+    "annotations": [
+      "prior-auth",
+      "um",
+      "snowflake",
+      "dbt"
+    ]
+  }
+}

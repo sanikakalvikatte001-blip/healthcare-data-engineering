@@ -1,0 +1,17 @@
+{
+  "name": "ls_azuresql_um",
+  "properties": {
+    "type": "AzureSqlDatabase",
+    "description": "Utilization-management platform database (source of prior auth requests).",
+    "typeProperties": {
+      "connectionString": {
+        "type": "AzureKeyVaultSecret",
+        "store": {
+          "referenceName": "ls_keyvault",
+          "type": "LinkedServiceReference"
+        },
+        "secretName": "um-sql-connection-string"
+      }
+    }
+  }
+}

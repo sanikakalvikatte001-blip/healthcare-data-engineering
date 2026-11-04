@@ -1,0 +1,20 @@
+{
+  "name": "ls_snowflake",
+  "properties": {
+    "type": "SnowflakeV2",
+    "description": "Snowflake RAW database as the ADF service user (LOADER role, key-pair auth).",
+    "typeProperties": {
+      "accountIdentifier": "<org>-<account>",
+      "database": "RAW",
+      "warehouse": "LOAD_WH",
+      "role": "LOADER",
+      "authenticationType": "KeyPair",
+      "user": "SVC_ADF_UM",
+      "privateKey": {
+        "type": "AzureKeyVaultSecret",
+        "store": { "referenceName": "ls_keyvault", "type": "LinkedServiceReference" },
+        "secretName": "snowflake-svc-adf-um-private-key"
+      }
+    }
+  }
+}

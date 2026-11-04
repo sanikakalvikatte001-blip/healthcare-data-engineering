@@ -1,0 +1,8 @@
+# local run (DuckDB) + static checks
+dbt-core==1.12.6
+dbt-duckdb==1.11.1
+duckdb==2.0.0
+pytest==9.1.1
+sqlglot==30.29.0
+# production target (Snowflake) - only needed for `--target snowflake`
+dbt-snowflake==1.12.5

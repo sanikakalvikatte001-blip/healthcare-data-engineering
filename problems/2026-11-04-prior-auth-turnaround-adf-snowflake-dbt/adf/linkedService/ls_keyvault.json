@@ -1,0 +1,10 @@
+{
+  "name": "ls_keyvault",
+  "properties": {
+    "type": "AzureKeyVault",
+    "description": "Secrets for source DB and Snowflake key pair. ADF reads it with its managed identity.",
+    "typeProperties": {
+      "baseUrl": "https://kv-um-dataplatform.vault.azure.net/"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: um
+    description: >
+      Utilization-management platform tables, landed by ADF (watermark on
+      modified_at) and appended to Snowflake RAW by COPY INTO. Append-only:
+      the same business row can appear several times (re-extract overlap,
+      later corrections). All columns arrive as text; staging casts them.
+    database: "{{ var('raw_database') or target.database }}"
+    schema: "{{ var('raw_schema') }}"
+    config:
+      loaded_at_field: _loaded_at
+      # daily ADF schedule: warn if a day's load is missing, error after two
+      freshness:
+        warn_after: {count: 26, period: hour}
+        error_after: {count: 50, period: hour}
+    tables:
+      - name: pa_request
+        description: Prior authorization request header (one version per extract).
+        columns:
+          - name: request_id
+            data_tests: [not_null]
+      - name: pa_status_event
+        description: Status history for each request.
+        columns:
+          - name: event_id
+            data_tests: [not_null]

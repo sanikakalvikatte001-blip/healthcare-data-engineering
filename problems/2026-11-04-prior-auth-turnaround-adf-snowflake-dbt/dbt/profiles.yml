@@ -1,0 +1,23 @@
+# Two targets:
+#   local      DuckDB file, used for CI and for this repo's results (default)
+#   snowflake  the real target; credentials come from env vars (set by the
+#              dbt job / Azure Container Instance that ADF triggers)
+prior_auth_um:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: um_local.duckdb
+      schema: analytics
+      threads: 4
+    snowflake:
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      authenticator: snowflake_jwt
+      private_key_path: "{{ env_var('SNOWFLAKE_PRIVATE_KEY_PATH') }}"
+      role: TRANSFORMER
+      warehouse: TRANSFORM_WH
+      database: ANALYTICS
+      schema: DBT
+      threads: 8
