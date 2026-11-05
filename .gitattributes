@@ -1,0 +1,6 @@
+# GitHub Linguist treats plain SQL as a "data" language and leaves it out of
+# the repo language bar. Count it, since SQL is the main language here.
+*.sql linguist-detectable=true
+# Generated synthetic data and exported results are not source code.
+problems/**/data/** linguist-generated=true
+problems/**/output/** linguist-generated=true
