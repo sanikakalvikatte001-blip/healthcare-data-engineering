@@ -1,0 +1,31 @@
+835 ERA reconciliation as of 2026-11-05
+============================================================
+Ledger claims (837 submitted) : 40
+835 transactions parsed       : 4
+835 transactions accepted     : 3 (duplicates skipped: 1)
+Claim payment loops (CLP)     : 38
+
+Payments by check/EFT
+  EFT0091500001   99001   15 claims  BPR02   1,848.52  PLB    -3.42
+  EFT0100600002   99001   14 claims  BPR02   1,326.97  PLB     0.00
+  CHK0000778812   99002    9 claims  BPR02   1,027.41  PLB    40.00
+
+Claim status                 claims      billed    net paid   open ins bal
+  PAID                         28    7,301.00    3,759.05           0.00
+  DENIED                        2      601.00        0.00           0.00
+  REPROCESSED                   1      191.00      130.05           0.00
+  REVERSED_NOT_REPAID           1      315.00        0.00         315.00
+  OUT_OF_BALANCE                1      320.00      185.25           5.00
+  CHARGE_MISMATCH               1      185.00       96.98          18.00
+  AWAITING_REMIT                3      714.00        0.00         714.00
+  NO_REMIT_OVERDUE              3      601.00        0.00         601.00
+  UNMATCHED_REMIT               1        0.00       68.15           0.00
+  TOTAL                        41   10,228.00    4,239.48       1,653.00
+
+Adjustment mix (ledger claims): contractual 3,103.13 | patient resp 1,300.54 | other 0.00
+
+Exceptions
+  [Warning] DUPLICATE_REMITTANCE            Trace CHK0000778812 from payer 99002 already loaded; file skipped (9 claims).
+  [Error  ] SVC_LINE_BALANCE     PCN261007  Line 99396: charge 240.00 != paid 140.16 + adjustments 94.84
+  [Error  ] CLAIM_BALANCE        PCN261007  Charge 320.00 != paid 185.25 + adjustments 129.75
+  [Warning] PATIENT_RESP         PCN261015  CLP05 35.00 != PR adjustments 25.00

@@ -1,0 +1,5 @@
+severity,rule,source_file,trace_number,patient_control_number,expected,actual,difference,message
+Warning,DUPLICATE_REMITTANCE,era_04_99002_20261021_resend.835,CHK0000778812,,0.00,1027.41,1027.41,Trace CHK0000778812 from payer 99002 already loaded; file skipped (9 claims).
+Error,SVC_LINE_BALANCE,era_01_99001_20260915.835,EFT0091500001,PCN261007,240.00,235.00,-5.00,Line 99396: charge 240.00 != paid 140.16 + adjustments 94.84
+Error,CLAIM_BALANCE,era_01_99001_20260915.835,EFT0091500001,PCN261007,320.00,315.00,-5.00,Charge 320.00 != paid 185.25 + adjustments 129.75
+Warning,PATIENT_RESP,era_01_99001_20260915.835,EFT0091500001,PCN261015,35.00,25.00,-10.00,CLP05 35.00 != PR adjustments 25.00
