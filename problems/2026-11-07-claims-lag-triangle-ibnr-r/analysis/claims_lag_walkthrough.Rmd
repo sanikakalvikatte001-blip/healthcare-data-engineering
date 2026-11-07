@@ -1,0 +1,131 @@
+---
+title: "Claims lag triangle & completion factors — walkthrough"
+output:
+  github_document:
+    toc: false
+    html_preview: false
+    fig_width: 8
+    fig_height: 4
+params:
+  config: "../config.yml"
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, comment = "#>")
+knitr::opts_knit$set(root.dir = normalizePath(".."))   # run from the project folder
+options(width = 110)
+```
+
+```{r load}
+library(dplyr)
+library(ggplot2)
+source("R/pipeline.R")
+source_lib(".")
+
+cfg <- load_config(basename(params$config))
+res <- run_pipeline(cfg)
+```
+
+Valuation date: **`r cfg$valuation_date`**. Factors use the most recent
+**`r cfg$factor_window`** incurred months at each lag; months are reportable at
+**`r scales::percent(cfg$completeness_threshold)`** completion.
+
+## 1. Intake: what the feed sent vs what we can use
+
+```{r intake}
+res$intake
+count(res$exceptions, reason_code)
+```
+
+## 2. How fast do claims pay?
+
+Professional claims (837P) settle in about a month; facility claims (837I)
+take two to three times longer — so one completion curve for "all claims"
+would be wrong for both.
+
+```{r lag-profile}
+res$lag_profile |>
+  mutate(across(starts_with("pct_"), scales::percent, accuracy = 0.1))
+```
+
+## 3. Cumulative paid triangle (Institutional, last 8 incurred months, $000s)
+
+Each row is an incurred month; each column is months since incurred. The
+lower-right is empty — those payments haven't happened yet.
+
+```{r triangle}
+res$triangle |>
+  filter(claim_type == "Institutional", incurred_month >= as.Date("2025-11-01"), lag <= 7) |>
+  mutate(cumulative_paid = round(cumulative_paid / 1000, 1)) |>
+  triangle_wide() |>
+  knitr::kable()
+```
+
+## 4. Completion factors
+
+```{r completion-curve, fig.alt = "Completion factor by lag month for professional and institutional claims"}
+res$factors |>
+  filter(lag <= 12) |>
+  ggplot(aes(lag, completion_factor, colour = claim_type)) +
+  geom_hline(yintercept = cfg$completeness_threshold, linetype = "dashed", colour = "grey50") +
+  geom_line(linewidth = 1) +
+  geom_point() +
+  scale_y_continuous(labels = scales::percent, limits = c(0, 1)) +
+  scale_x_continuous(breaks = 0:12) +
+  labs(x = "Months since incurred", y = "Share of ultimate paid",
+       colour = NULL, title = "Completion curve by claim type",
+       subtitle = "Dashed line = reporting gate") +
+  theme_minimal() +
+  theme(legend.position = "top")
+```
+
+```{r months-to-gate}
+res$factors |>
+  filter(completion_factor >= cfg$completeness_threshold) |>
+  group_by(claim_type) |>
+  summarise(first_reportable_lag = min(lag))
+```
+
+## 5. IBNR for the open months
+
+```{r ibnr}
+res$projection |>
+  filter(incurred_month >= as.Date("2026-01-01")) |>
+  mutate(across(c(paid_to_date, est_ultimate, ibnr), round),
+         completion_factor = round(completion_factor, 3)) |>
+  knitr::kable()
+```
+
+Total IBNR at the valuation date:
+**`r scales::dollar(sum(res$projection$ibnr))`**
+on **`r scales::dollar(sum(res$projection$paid_to_date))`** paid to date.
+
+## 6. Did it work? Backtest against the synthetic truth
+
+The generator knows the full run-out, so we can check the estimate. Error is
+`estimate / true ultimate − 1`.
+
+```{r backtest}
+bt <- backtest(res$projection, cfg$paths$truth, cfg$segment_by)
+
+bt |>
+  mutate(maturity = case_when(current_lag <= 2 ~ "0-2 months",
+                              current_lag <= 5 ~ "3-5 months",
+                              TRUE             ~ "6+ months")) |>
+  group_by(claim_type, maturity) |>
+  summarise(months = n(),
+            mean_abs_err_paid_only = scales::percent(mean(abs(pct_error_paid_only)), 0.1),
+            mean_abs_err_projected = scales::percent(mean(abs(pct_error_projected)), 0.1),
+            .groups = "drop") |>
+  knitr::kable()
+```
+
+Takeaways:
+
+* Reporting raw paid-to-date for the last quarter understates cost badly,
+  especially for facility claims.
+* Chain ladder is accurate once a month has some run-out; for the newest
+  months the Bornhuetter-Ferguson fallback keeps the estimate in a sane range
+  instead of multiplying a few dollars by a very large factor.
+* The reporting gate tells downstream jobs (PMPM dashboards, HEDIS admin
+  refreshes) which incurred months are safe to publish.

@@ -1,0 +1,5 @@
+stage,rows
+raw_rows,9875
+after_dedupe,9835
+exceptions,20
+clean_rows,9815

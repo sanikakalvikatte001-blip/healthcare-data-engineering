@@ -36,6 +36,7 @@ Every project README covers:
 | 2026-11-04 | [Provider SCD Type 2 dimension + claims star schema with point-in-time network attribution](problems/2026-11-04-provider-scd2-claims-star-schema/) | Warehouse Modeling / Claims / Provider Network | SQL (DuckDB), star schema, SCD2, window functions |
 | 2026-11-04 | [Prior authorization turnaround: ADF → Snowflake → dbt incremental pipeline (CMS-0057-F timeframes)](problems/2026-11-04-prior-auth-turnaround-adf-snowflake-dbt/) | Utilization Management / Prior Authorization / Incremental ELT | dbt (SQL), Snowflake SQL, Azure Data Factory, DuckDB |
 | 2026-11-05 | [835 ERA remittance parsing, balancing & claim-to-payment reconciliation](problems/2026-11-05-835-era-remittance-reconciliation/) | Claims / Remittance (835) / Reconciliation | C# (.NET 8), X12 835, class library + CLI |
+| 2026-11-07 | [Claims lag triangles, completion factors & IBNR with a reporting-completeness gate](problems/2026-11-07-claims-lag-triangle-ibnr-r/) | Claims / Lag Analysis (DOS vs paid date) / IBNR | R, tidyverse (dplyr, tidyr, purrr), testthat, R Markdown |
 <!-- NEW_ROWS_ABOVE -->
 
 ## About

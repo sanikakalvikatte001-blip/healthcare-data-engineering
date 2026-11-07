@@ -1,0 +1,28 @@
+# Run settings for the claims lag / completion-factor pipeline.
+# Everything the actuarial / reporting team usually argues about lives here,
+# not in the code.
+
+valuation_date: "2026-06-30"      # "as-of" date of the paid claims extract
+history_start:  "2024-01-01"      # first incurred (service) month kept in the triangle
+
+# Development settings
+max_dev_lag: 24                   # months of development modelled; factors beyond are 1.0 (no tail)
+factor_window: 12                 # age-to-age factors use the most recent N incurred months at each lag
+
+# Reporting gate: an incurred month is "reportable" (e.g. for PMPM / HEDIS
+# admin-data refreshes) only once this share of its ultimate is believed paid.
+completeness_threshold: 0.95
+
+# Immature months: below this completion the chain-ladder estimate is too
+# leveraged, so use Bornhuetter-Ferguson with an expected ultimate taken from
+# the most recent N reportable months.
+bf_below_completion: 0.50
+bf_prior_months: 6
+
+# Segments get their own triangle: professional claims pay faster than facility claims.
+segment_by: claim_type
+
+paths:
+  claims: data/paid_claims_extract.csv
+  truth:  data/synthetic_true_ultimate.csv
+  output: output
