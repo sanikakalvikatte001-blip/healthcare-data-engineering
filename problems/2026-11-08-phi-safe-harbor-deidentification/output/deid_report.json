@@ -1,0 +1,113 @@
+{
+  "method": "HIPAA Safe Harbor, 45 CFR 164.514(b)(2)",
+  "as_of_date": "2026-11-01",
+  "released": true,
+  "tables": {
+    "patients": {
+      "input_rows": 250,
+      "output_rows": 250,
+      "input_columns": 13,
+      "output_columns": 6
+    },
+    "encounters": {
+      "input_rows": 788,
+      "output_rows": 788,
+      "input_columns": 8,
+      "output_columns": 8
+    }
+  },
+  "rules_applied": {
+    "patients": {
+      "surrogate": 1,
+      "drop": 8,
+      "dob_to_age": 1,
+      "keep": 2,
+      "zip3": 1
+    },
+    "encounters": {
+      "surrogate": 2,
+      "year": 2,
+      "keep": 3,
+      "scrub_text": 1
+    }
+  },
+  "text_redactions": {
+    "encounters": {
+      "ADDRESS": 101,
+      "DATE": 296,
+      "EMAIL": 114,
+      "LOCATION": 101,
+      "MRN": 98,
+      "NAME": 559,
+      "PHONE": 181,
+      "SSN": 96,
+      "URL": 96
+    }
+  },
+  "surrogate_keys": {
+    "patient": 250,
+    "encounter": 788
+  },
+  "checks": [
+    {
+      "name": "removed_columns_absent",
+      "table": "patients",
+      "status": "pass",
+      "detail": "11 source columns removed/renamed"
+    },
+    {
+      "name": "residual_phi_patterns",
+      "table": "patients",
+      "status": "pass",
+      "detail": "0 pattern hits in string columns"
+    },
+    {
+      "name": "no_original_identifier_values",
+      "table": "patients",
+      "status": "pass",
+      "detail": "checked against 2577 original identifier values"
+    },
+    {
+      "name": "zip3_safe_harbor",
+      "table": "patients",
+      "status": "pass",
+      "detail": "15 set to 000; bad_format=0, restricted_left=0"
+    },
+    {
+      "name": "age_top_coded_90",
+      "table": "patients",
+      "status": "pass",
+      "detail": "13 top-coded at 90; over_90=0, birth_year_left_for_90plus=0"
+    },
+    {
+      "name": "small_cells_k5",
+      "table": "patients",
+      "status": "warn",
+      "detail": "228 of 228 (zip3, birth_year, sex) groups have < 5 people (250 of 250 rows) \u2014 review for actual-knowledge risk"
+    },
+    {
+      "name": "removed_columns_absent",
+      "table": "encounters",
+      "status": "pass",
+      "detail": "4 source columns removed/renamed"
+    },
+    {
+      "name": "residual_phi_patterns",
+      "table": "encounters",
+      "status": "pass",
+      "detail": "0 pattern hits in string columns"
+    },
+    {
+      "name": "no_original_identifier_values",
+      "table": "encounters",
+      "status": "pass",
+      "detail": "checked against 2577 original identifier values"
+    },
+    {
+      "name": "known_values_scrubbed",
+      "table": "encounters",
+      "status": "pass",
+      "detail": "788 notes checked"
+    }
+  ]
+}

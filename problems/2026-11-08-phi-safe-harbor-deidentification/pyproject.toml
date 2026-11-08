@@ -1,0 +1,19 @@
+[project]
+name = "safeharbor"
+version = "0.1.0"
+description = "Config-driven HIPAA Safe Harbor de-identification for EHR extracts, with a release gate"
+requires-python = ">=3.11"   # tomllib
+dependencies = ["polars>=1.20"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+safeharbor = "safeharbor.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

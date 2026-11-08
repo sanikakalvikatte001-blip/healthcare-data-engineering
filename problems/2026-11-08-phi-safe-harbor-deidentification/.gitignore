@@ -1,0 +1,4 @@
+# Re-identification crosswalks stay with the honest broker, never in the repo
+# (even though this data is synthetic, the habit matters).
+output/restricted/
+*.egg-info/

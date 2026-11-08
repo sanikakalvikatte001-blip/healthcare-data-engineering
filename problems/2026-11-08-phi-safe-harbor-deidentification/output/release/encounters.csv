@@ -1,0 +1,789 @@
+encounter_key,patient_key,admit_year,discharge_year,facility,attending_npi,primary_dx,note_text
+ENC-2179806c10b5,PAT-f2a752e6b438,2024,2024,NORTHWIND MED CTR,1245319599,M54.5,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-26de8825ae56,PAT-f2a752e6b438,2025,2025,NORTHWIND MED CTR,1245319599,M54.5,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-82b386048719,PAT-6513269e0d37,2024,2024,CEDAR VALLEY HOSP,1679576722,F32.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-df7004c9d78d,PAT-6513269e0d37,2026,2026,LAKESIDE CLINIC,1003000126,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-c6c970ac06ac,PAT-0c5ca6a3a450,2025,2025,LAKESIDE CLINIC,1003000126,I50.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-9bca2ee0289d,PAT-0c5ca6a3a450,2024,2024,NORTHWIND MED CTR,1003000126,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC-c6aa0101b811,PAT-0c5ca6a3a450,2026,2026,LAKESIDE CLINIC,1679576722,I10,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-2659cc966f46,PAT-0c5ca6a3a450,2025,2025,LAKESIDE CLINIC,1245319599,I10,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-243d2c1eea1f,PAT-d23f128b2f33,2026,2026,LAKESIDE CLINIC,1245319599,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-9e7d7936d536,PAT-d23f128b2f33,2025,2025,NORTHWIND MED CTR,1245319599,I10,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-1eceb9a6442e,PAT-1818892f902b,2024,2024,CEDAR VALLEY HOSP,1245319599,N18.3,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-0fcf8e752fdf,PAT-1818892f902b,2026,2026,NORTHWIND MED CTR,1003000126,N18.3,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-aead537390e5,PAT-95315d9dc9f8,2024,2024,CEDAR VALLEY HOSP,1679576722,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-87dd84b28054,PAT-95315d9dc9f8,2025,2025,LAKESIDE CLINIC,1245319599,E11.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-7b848e317041,PAT-95315d9dc9f8,2025,2025,NORTHWIND MED CTR,1003000126,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-c6c8c8c614b2,PAT-95315d9dc9f8,2026,2026,NORTHWIND MED CTR,1679576722,I10,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-e21b1b29fc99,PAT-e8e20ed90475,2026,2026,CEDAR VALLEY HOSP,1245319599,E11.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-0e8b8f6f915f,PAT-e8e20ed90475,2025,2025,LAKESIDE CLINIC,1679576722,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-30f93f9d52f9,PAT-e8e20ed90475,2026,2026,LAKESIDE CLINIC,1245319599,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-0acd46e40990,PAT-e8e20ed90475,2026,2026,CEDAR VALLEY HOSP,1003000126,F32.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-1905c5b2e75a,PAT-36f681e74ef5,2026,2026,NORTHWIND MED CTR,1679576722,I50.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-73c181f98b52,PAT-36f681e74ef5,2025,2025,NORTHWIND MED CTR,1679576722,I10,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-07228fcd7f40,PAT-36f681e74ef5,2026,2026,LAKESIDE CLINIC,1679576722,N18.3,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-e4ddc28ee907,PAT-1600099950d8,2026,2026,CEDAR VALLEY HOSP,1003000126,J45.909,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-1038e998d0ee,PAT-1600099950d8,2025,2025,CEDAR VALLEY HOSP,1245319599,N18.3,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-535b7178ba0a,PAT-1600099950d8,2024,2024,NORTHWIND MED CTR,1245319599,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC-f92e9ccea098,PAT-1600099950d8,2024,2024,CEDAR VALLEY HOSP,1679576722,N18.3,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-9b2b816bee06,PAT-1600099950d8,2026,2026,CEDAR VALLEY HOSP,1245319599,N18.3,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-330c831d03bf,PAT-6b0d6f03675a,2026,2026,NORTHWIND MED CTR,1245319599,M54.5,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-46f5b156d1ad,PAT-6b0d6f03675a,2025,2025,NORTHWIND MED CTR,1679576722,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-821673ccef03,PAT-6b0d6f03675a,2024,2024,NORTHWIND MED CTR,1003000126,F32.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-ceaf888564e8,PAT-3d9c11e20b8f,2025,2025,NORTHWIND MED CTR,1679576722,F32.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-81fc7a609683,PAT-3d9c11e20b8f,2025,2025,LAKESIDE CLINIC,1245319599,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-3f66f10637ce,PAT-8d111738f7d9,2025,2025,NORTHWIND MED CTR,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-85f1b2fff17b,PAT-8d111738f7d9,2024,2024,LAKESIDE CLINIC,1003000126,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC-e040e064a114,PAT-8d111738f7d9,2026,2026,LAKESIDE CLINIC,1003000126,F32.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-ed84f132bf2d,PAT-8d111738f7d9,2024,2024,NORTHWIND MED CTR,1003000126,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC-ec3b4274a3eb,PAT-0f216cad4a26,2026,2026,LAKESIDE CLINIC,1245319599,I10,No acute distress. Vitals stable. Continue current regimen.
+ENC-e48b8f3c4be3,PAT-90c1d3ac94af,2024,2024,CEDAR VALLEY HOSP,1679576722,Z00.00,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-33dcf179f2d2,PAT-90c1d3ac94af,2026,2026,CEDAR VALLEY HOSP,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-7291d70a39d1,PAT-90c1d3ac94af,2025,2025,NORTHWIND MED CTR,1245319599,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-6aa8231b3e14,PAT-90c1d3ac94af,2025,2025,CEDAR VALLEY HOSP,1679576722,M54.5,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-64711f229dd0,PAT-f28c1fb17c23,2025,2025,CEDAR VALLEY HOSP,1679576722,J45.909,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-50e4712ea6b3,PAT-f28c1fb17c23,2025,2025,LAKESIDE CLINIC,1245319599,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-abd012926185,PAT-a17039263059,2025,2025,CEDAR VALLEY HOSP,1679576722,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC-6da73d9a8079,PAT-a17039263059,2024,2024,LAKESIDE CLINIC,1679576722,Z00.00,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-367212b80aed,PAT-a17039263059,2025,2025,NORTHWIND MED CTR,1679576722,Z00.00,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-4d82ab6286cd,PAT-a17039263059,2026,2026,CEDAR VALLEY HOSP,1679576722,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC-1f52c8b007ee,PAT-a17039263059,2025,2025,LAKESIDE CLINIC,1003000126,I50.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-c6e5e5a3863e,PAT-953fa09f76b5,2024,2024,LAKESIDE CLINIC,1679576722,F32.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-f0832789d059,PAT-953fa09f76b5,2024,2024,NORTHWIND MED CTR,1003000126,N18.3,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-a4b9b753a1ee,PAT-953fa09f76b5,2025,2025,LAKESIDE CLINIC,1679576722,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-5dbea906922f,PAT-0fd6f29d0da9,2026,2026,CEDAR VALLEY HOSP,1679576722,J45.909,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-40cb249a4584,PAT-0fd6f29d0da9,2026,2026,CEDAR VALLEY HOSP,1245319599,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-2323e2015522,PAT-0fd6f29d0da9,2026,2026,NORTHWIND MED CTR,1003000126,M54.5,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-77bdf7b103df,PAT-0fd6f29d0da9,2025,2025,CEDAR VALLEY HOSP,1003000126,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC-bf263836e865,PAT-95e693bd04cf,2025,2025,CEDAR VALLEY HOSP,1003000126,Z00.00,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-1818f3d74f82,PAT-95e693bd04cf,2026,2026,LAKESIDE CLINIC,1245319599,J45.909,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-e28a65f42986,PAT-95e693bd04cf,2026,2026,LAKESIDE CLINIC,1003000126,I50.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-29ac7cbd1f5a,PAT-95e693bd04cf,2025,2025,CEDAR VALLEY HOSP,1003000126,Z00.00,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-aaf7fd68373b,PAT-95e693bd04cf,2025,2025,CEDAR VALLEY HOSP,1003000126,I50.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-3945d51b1815,PAT-0cb1658cda14,2026,2026,LAKESIDE CLINIC,1245319599,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC-b4d12955d6f0,PAT-0cb1658cda14,2025,2025,CEDAR VALLEY HOSP,1003000126,E11.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-fe7b6e7836a4,PAT-0cb1658cda14,2025,2025,CEDAR VALLEY HOSP,1003000126,E11.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-676083feb17b,PAT-0cb1658cda14,2024,2025,CEDAR VALLEY HOSP,1003000126,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-6bd856d050cd,PAT-3898f9ebdacc,2026,2026,NORTHWIND MED CTR,1003000126,J45.909,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-5b4b321c5296,PAT-3898f9ebdacc,2025,2025,CEDAR VALLEY HOSP,1245319599,Z00.00,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-179a518ae452,PAT-3898f9ebdacc,2025,2025,LAKESIDE CLINIC,1245319599,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-5dafb8dee081,PAT-3898f9ebdacc,2026,2026,LAKESIDE CLINIC,1679576722,Z00.00,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-568504fcd555,PAT-3898f9ebdacc,2024,2024,LAKESIDE CLINIC,1003000126,M54.5,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-756b8dd63cb9,PAT-8e810becd7b0,2026,2026,NORTHWIND MED CTR,1245319599,Z00.00,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-b40170c1dca1,PAT-8e810becd7b0,2024,2024,CEDAR VALLEY HOSP,1003000126,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC-626404a10547,PAT-8e810becd7b0,2025,2025,NORTHWIND MED CTR,1003000126,I50.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-847654dd0ba5,PAT-8e810becd7b0,2026,2026,LAKESIDE CLINIC,1245319599,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-4ba29fb9af50,PAT-2217dbc496cb,2026,2026,NORTHWIND MED CTR,1679576722,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC-f5f583239ef5,PAT-2217dbc496cb,2026,2026,LAKESIDE CLINIC,1245319599,Z00.00,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-1ce310755c97,PAT-6b4c4a23d596,2025,2025,CEDAR VALLEY HOSP,1679576722,E11.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-eb25fc2e6a59,PAT-6b4c4a23d596,2025,2025,NORTHWIND MED CTR,1003000126,F32.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-3a82c9d22950,PAT-6b4c4a23d596,2026,2026,LAKESIDE CLINIC,1003000126,J45.909,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-e05bf8c110fb,PAT-8a6a24ede6a4,2025,2025,CEDAR VALLEY HOSP,1003000126,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-15851ad2d5f1,PAT-8a6a24ede6a4,2024,2024,NORTHWIND MED CTR,1003000126,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-459c43fc0527,PAT-8a6a24ede6a4,2024,2024,LAKESIDE CLINIC,1245319599,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC-e7e80a227385,PAT-8a6a24ede6a4,2025,2025,NORTHWIND MED CTR,1003000126,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-2e7ac76c603f,PAT-8a6a24ede6a4,2025,2025,LAKESIDE CLINIC,1245319599,Z00.00,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-c17a453bf491,PAT-92271e27a1c0,2025,2025,CEDAR VALLEY HOSP,1679576722,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-d1dc212a8d9b,PAT-92271e27a1c0,2024,2024,CEDAR VALLEY HOSP,1245319599,F32.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-d97e6c18d982,PAT-92271e27a1c0,2025,2025,NORTHWIND MED CTR,1679576722,I10,No acute distress. Vitals stable. Continue current regimen.
+ENC-ad0ce9526a69,PAT-92271e27a1c0,2024,2024,NORTHWIND MED CTR,1245319599,N18.3,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-f22dd1a89b37,PAT-92271e27a1c0,2026,2026,NORTHWIND MED CTR,1003000126,E11.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-67ec42343354,PAT-8f6d4ef8aa38,2024,2024,CEDAR VALLEY HOSP,1679576722,F32.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-895e263cfa5e,PAT-8f6d4ef8aa38,2025,2025,LAKESIDE CLINIC,1003000126,I50.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-83c8eb4ed2e3,PAT-ae97d0eda82f,2025,2025,NORTHWIND MED CTR,1003000126,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-7e9e9212824c,PAT-ae97d0eda82f,2025,2025,CEDAR VALLEY HOSP,1679576722,I10,No acute distress. Vitals stable. Continue current regimen.
+ENC-53b9b34e8ece,PAT-ae97d0eda82f,2025,2025,LAKESIDE CLINIC,1679576722,I10,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-477016e6fec3,PAT-1a612e44158b,2026,2026,NORTHWIND MED CTR,1245319599,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-ccb10eba0ea8,PAT-923a94e3bf91,2026,2026,LAKESIDE CLINIC,1003000126,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-2eefb02e3d8d,PAT-923a94e3bf91,2026,2026,NORTHWIND MED CTR,1679576722,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-e5316ce193c2,PAT-923a94e3bf91,2024,2024,NORTHWIND MED CTR,1003000126,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-44d81289bafa,PAT-3018a38fd547,2024,2024,NORTHWIND MED CTR,1245319599,N18.3,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-044ff037afc6,PAT-3018a38fd547,2025,2025,CEDAR VALLEY HOSP,1679576722,I10,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-16aca26aa0ae,PAT-3018a38fd547,2026,2026,CEDAR VALLEY HOSP,1003000126,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-42b3cd37880e,PAT-3018a38fd547,2025,2025,CEDAR VALLEY HOSP,1245319599,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC-9bb11570266b,PAT-3018a38fd547,2026,2026,LAKESIDE CLINIC,1003000126,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC-38efdb31ccd2,PAT-18f15f557203,2026,2026,LAKESIDE CLINIC,1245319599,N18.3,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-43b3110e2cb6,PAT-18f15f557203,2024,2024,NORTHWIND MED CTR,1679576722,N18.3,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-1f26dcded204,PAT-18f15f557203,2026,2026,LAKESIDE CLINIC,1679576722,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-02f4742a8063,PAT-b64c8c38fb29,2026,2026,CEDAR VALLEY HOSP,1679576722,I10,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-fe8a56d2a68c,PAT-b64c8c38fb29,2025,2025,LAKESIDE CLINIC,1003000126,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-6af28d959c31,PAT-b64c8c38fb29,2025,2025,NORTHWIND MED CTR,1679576722,I10,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-ea59ed3a32a8,PAT-b64c8c38fb29,2024,2024,NORTHWIND MED CTR,1245319599,N18.3,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-9f27449274d2,PAT-b64c8c38fb29,2024,2024,CEDAR VALLEY HOSP,1679576722,M54.5,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-0b0f2114e068,PAT-907a1012f037,2025,2025,LAKESIDE CLINIC,1245319599,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-b5a486e3e726,PAT-907a1012f037,2025,2025,LAKESIDE CLINIC,1003000126,I10,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-f0293d0a270b,PAT-9e770f4205b4,2024,2024,NORTHWIND MED CTR,1003000126,M54.5,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-f81e1c0502c6,PAT-9e770f4205b4,2026,2026,NORTHWIND MED CTR,1679576722,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-430b2954ba5c,PAT-9e770f4205b4,2024,2024,CEDAR VALLEY HOSP,1245319599,N18.3,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-2e5f0ce5af69,PAT-9e770f4205b4,2025,2025,LAKESIDE CLINIC,1679576722,Z00.00,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-eea733a71568,PAT-9e770f4205b4,2024,2024,CEDAR VALLEY HOSP,1245319599,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-a0f04fdebbec,PAT-7f1534b9b5df,2025,2025,CEDAR VALLEY HOSP,1245319599,M54.5,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-87f54e14d571,PAT-7f1534b9b5df,2026,2026,LAKESIDE CLINIC,1003000126,F32.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-34b3c26e7a42,PAT-7f1534b9b5df,2024,2024,LAKESIDE CLINIC,1245319599,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-72184a3adf99,PAT-7f1534b9b5df,2025,2025,NORTHWIND MED CTR,1003000126,M54.5,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-ac128005ce74,PAT-881eae2eb154,2026,2026,CEDAR VALLEY HOSP,1245319599,I10,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-45402d8ad8c0,PAT-881eae2eb154,2025,2025,NORTHWIND MED CTR,1003000126,M54.5,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-cdbd58d50f1b,PAT-c6f86d76b07e,2025,2025,CEDAR VALLEY HOSP,1245319599,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-fe9704a65651,PAT-c6f86d76b07e,2026,2026,CEDAR VALLEY HOSP,1003000126,M54.5,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-0975401d68fb,PAT-c6f86d76b07e,2024,2024,NORTHWIND MED CTR,1679576722,F32.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-04b803edb920,PAT-c6f86d76b07e,2024,2024,CEDAR VALLEY HOSP,1679576722,M54.5,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-8172bbab27f6,PAT-7731506bf2ef,2024,2024,CEDAR VALLEY HOSP,1245319599,Z00.00,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-fa618d118e37,PAT-7731506bf2ef,2025,2025,CEDAR VALLEY HOSP,1003000126,E11.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-83a430803889,PAT-7731506bf2ef,2026,2026,LAKESIDE CLINIC,1003000126,Z00.00,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-3ee47989e9d0,PAT-ec6695e761d1,2025,2025,NORTHWIND MED CTR,1679576722,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-7272ef44c0d5,PAT-ec6695e761d1,2025,2025,NORTHWIND MED CTR,1003000126,I50.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-a8871b35411b,PAT-ec6695e761d1,2024,2024,CEDAR VALLEY HOSP,1245319599,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-a66dd1a4c01e,PAT-5c907403e430,2026,2026,NORTHWIND MED CTR,1003000126,I10,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-a8116ea330a1,PAT-5c907403e430,2026,2026,CEDAR VALLEY HOSP,1003000126,I10,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-8bc07eb86c57,PAT-5c907403e430,2026,2026,LAKESIDE CLINIC,1003000126,F32.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-e383d5a9422a,PAT-5c907403e430,2026,2026,NORTHWIND MED CTR,1245319599,J45.909,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-f86664a149f5,PAT-3f984cbd87ad,2026,2026,NORTHWIND MED CTR,1245319599,E11.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-4eca81b62bb5,PAT-3f984cbd87ad,2025,2025,CEDAR VALLEY HOSP,1003000126,E11.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-3716b00fd7bb,PAT-3f984cbd87ad,2025,2025,LAKESIDE CLINIC,1679576722,I50.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-3ac4fb813921,PAT-3f984cbd87ad,2025,2025,CEDAR VALLEY HOSP,1679576722,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-32d957bb7d97,PAT-3f984cbd87ad,2026,2026,CEDAR VALLEY HOSP,1003000126,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-e1c6d510bb04,PAT-2e05cb5c7427,2026,2026,CEDAR VALLEY HOSP,1245319599,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-ba95b4ebf4b6,PAT-2e05cb5c7427,2025,2025,NORTHWIND MED CTR,1679576722,Z00.00,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-23c4a2cf62ba,PAT-2e05cb5c7427,2026,2026,CEDAR VALLEY HOSP,1679576722,Z00.00,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-fd4b679a44dd,PAT-2e05cb5c7427,2026,2026,LAKESIDE CLINIC,1679576722,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC-fb5c58f92dea,PAT-c7a2b2f14c94,2026,2026,NORTHWIND MED CTR,1245319599,M54.5,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-d6440dec6823,PAT-c7a2b2f14c94,2025,2025,CEDAR VALLEY HOSP,1679576722,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-03a6213bca7f,PAT-14f43e7d1bfb,2025,2026,LAKESIDE CLINIC,1245319599,M54.5,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-a01d121ae3e6,PAT-14f43e7d1bfb,2025,2025,CEDAR VALLEY HOSP,1003000126,N18.3,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-e13ebdaaea00,PAT-14f43e7d1bfb,2024,2024,LAKESIDE CLINIC,1003000126,M54.5,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-6e45416e99b0,PAT-14f43e7d1bfb,2026,2026,CEDAR VALLEY HOSP,1679576722,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-0e2e29ca862d,PAT-14f43e7d1bfb,2026,2026,LAKESIDE CLINIC,1679576722,E11.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-aa4c15a0cce6,PAT-4cdd930d6eaf,2025,2025,CEDAR VALLEY HOSP,1245319599,I50.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-6181d75d6769,PAT-4cdd930d6eaf,2024,2024,CEDAR VALLEY HOSP,1679576722,Z00.00,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-8185dedb9109,PAT-4cdd930d6eaf,2025,2025,LAKESIDE CLINIC,1679576722,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-f88eaba8b9b3,PAT-7ebf86734721,2025,2025,NORTHWIND MED CTR,1003000126,N18.3,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-9949482cc78e,PAT-57eee00902c7,2026,2026,NORTHWIND MED CTR,1003000126,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-b1533e01aaa6,PAT-57eee00902c7,2026,2026,CEDAR VALLEY HOSP,1245319599,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-0b944b05e1ae,PAT-57eee00902c7,2024,2024,NORTHWIND MED CTR,1679576722,I50.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-2f73759eb559,PAT-72e6babced20,2024,2024,LAKESIDE CLINIC,1679576722,M54.5,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-44df28541424,PAT-72e6babced20,2025,2025,NORTHWIND MED CTR,1245319599,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC-00ed72218fdc,PAT-72e6babced20,2025,2025,CEDAR VALLEY HOSP,1679576722,F32.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-5d384363e5d9,PAT-9be449b64a08,2024,2024,NORTHWIND MED CTR,1245319599,J45.909,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-5434f637a468,PAT-9be449b64a08,2025,2025,LAKESIDE CLINIC,1679576722,N18.3,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-fc23f8fdd208,PAT-9be449b64a08,2024,2024,LAKESIDE CLINIC,1003000126,F32.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-52d38c0d0033,PAT-12bdfaecbd38,2024,2024,CEDAR VALLEY HOSP,1003000126,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-08d13e940bb4,PAT-12bdfaecbd38,2025,2025,CEDAR VALLEY HOSP,1679576722,E11.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-e1e4f735efe6,PAT-12bdfaecbd38,2024,2024,CEDAR VALLEY HOSP,1003000126,I10,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-37c64f3e885e,PAT-12bdfaecbd38,2025,2025,CEDAR VALLEY HOSP,1245319599,J45.909,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-2ed65b491561,PAT-830e1e398f10,2026,2026,CEDAR VALLEY HOSP,1679576722,M54.5,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-55d800460d69,PAT-830e1e398f10,2025,2025,CEDAR VALLEY HOSP,1245319599,I50.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-157961b2480c,PAT-830e1e398f10,2026,2026,NORTHWIND MED CTR,1245319599,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-476779823eb2,PAT-830e1e398f10,2026,2026,LAKESIDE CLINIC,1003000126,E11.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-a7f080b5244a,PAT-830e1e398f10,2026,2026,NORTHWIND MED CTR,1245319599,J45.909,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-3f8833736dcc,PAT-2a3a6b0a18e8,2025,2025,LAKESIDE CLINIC,1003000126,M54.5,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-c6b781365acc,PAT-2a3a6b0a18e8,2024,2024,CEDAR VALLEY HOSP,1679576722,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC-17420144702b,PAT-5790c1d3fcff,2025,2025,CEDAR VALLEY HOSP,1003000126,E11.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-d12943a08f06,PAT-eeea26e87555,2024,2024,CEDAR VALLEY HOSP,1679576722,Z00.00,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-24d416fa1421,PAT-eeea26e87555,2025,2025,CEDAR VALLEY HOSP,1679576722,I10,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-963866465d28,PAT-eeea26e87555,2024,2024,CEDAR VALLEY HOSP,1679576722,E11.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-64db0aaaaf81,PAT-eeea26e87555,2025,2025,LAKESIDE CLINIC,1003000126,M54.5,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-4cb505c22d3f,PAT-eeea26e87555,2026,2026,LAKESIDE CLINIC,1245319599,Z00.00,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-a1324de2f8ad,PAT-6bf47d2caf82,2025,2025,NORTHWIND MED CTR,1679576722,J45.909,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-15a03b996870,PAT-f6460a097c97,2025,2025,LAKESIDE CLINIC,1003000126,M54.5,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-f52795e8c93e,PAT-13deab1031d0,2024,2024,CEDAR VALLEY HOSP,1679576722,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-da6e8778f742,PAT-13deab1031d0,2026,2026,CEDAR VALLEY HOSP,1003000126,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-27bec0236e49,PAT-13deab1031d0,2025,2025,LAKESIDE CLINIC,1003000126,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-e48ea854c834,PAT-8edec3baea9e,2024,2024,NORTHWIND MED CTR,1003000126,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-c8b6b74b589b,PAT-8edec3baea9e,2026,2026,LAKESIDE CLINIC,1003000126,M54.5,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-98b8e10c167d,PAT-8edec3baea9e,2024,2024,NORTHWIND MED CTR,1679576722,M54.5,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-c3a963b759f5,PAT-8edec3baea9e,2025,2025,LAKESIDE CLINIC,1679576722,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-b87e537d9128,PAT-ca0292b1d3f2,2026,2026,LAKESIDE CLINIC,1679576722,I10,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-7e83fc173498,PAT-ca0292b1d3f2,2026,2026,CEDAR VALLEY HOSP,1679576722,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-48bf26433798,PAT-d17fe01f5057,2025,2025,NORTHWIND MED CTR,1003000126,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-9e63b96245d3,PAT-d17fe01f5057,2025,2025,NORTHWIND MED CTR,1679576722,F32.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-250ea4aa07b4,PAT-d17fe01f5057,2024,2024,CEDAR VALLEY HOSP,1003000126,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-d3290b35b1de,PAT-57125051c1cc,2026,2026,LAKESIDE CLINIC,1245319599,Z00.00,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-b70ad5d5891f,PAT-57125051c1cc,2024,2024,CEDAR VALLEY HOSP,1003000126,Z00.00,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-8352e456559c,PAT-57125051c1cc,2026,2026,LAKESIDE CLINIC,1679576722,M54.5,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-6de2a098d691,PAT-59a5b1fee08f,2025,2025,CEDAR VALLEY HOSP,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-b378bbddbb9b,PAT-59a5b1fee08f,2026,2026,CEDAR VALLEY HOSP,1679576722,J45.909,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-816bcfed943b,PAT-7f2698289fcd,2026,2026,CEDAR VALLEY HOSP,1245319599,I10,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-e8ee23a9a9da,PAT-7f2698289fcd,2026,2026,LAKESIDE CLINIC,1245319599,J45.909,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-c0bb8614f504,PAT-7f2698289fcd,2025,2025,CEDAR VALLEY HOSP,1003000126,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC-9187811e7616,PAT-7f2698289fcd,2026,2026,NORTHWIND MED CTR,1679576722,M54.5,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-d01ad5be785a,PAT-cc019474031b,2025,2025,LAKESIDE CLINIC,1245319599,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-041dcdff5a1c,PAT-cc019474031b,2025,2025,CEDAR VALLEY HOSP,1003000126,I10,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-afbcd38f8c45,PAT-cc019474031b,2024,2024,NORTHWIND MED CTR,1245319599,F32.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-cc4795850e21,PAT-cc019474031b,2024,2024,NORTHWIND MED CTR,1003000126,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC-b610e4907d49,PAT-cc019474031b,2025,2025,CEDAR VALLEY HOSP,1679576722,J45.909,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-f4c1aed23b0f,PAT-119a74c9df6a,2025,2025,CEDAR VALLEY HOSP,1245319599,I50.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-a494b17dd255,PAT-119a74c9df6a,2026,2026,CEDAR VALLEY HOSP,1003000126,I10,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-15c83add6527,PAT-119a74c9df6a,2025,2025,NORTHWIND MED CTR,1003000126,Z00.00,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-0ab707fa22f7,PAT-119a74c9df6a,2025,2025,NORTHWIND MED CTR,1679576722,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-a31a22126540,PAT-17f5d70820fe,2024,2024,LAKESIDE CLINIC,1003000126,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-f5a25c57532b,PAT-17f5d70820fe,2025,2025,NORTHWIND MED CTR,1245319599,M54.5,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-606a1adbce5d,PAT-451af1d69ed6,2025,2025,LAKESIDE CLINIC,1679576722,F32.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-738ed5f860c3,PAT-451af1d69ed6,2025,2025,LAKESIDE CLINIC,1679576722,F32.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-0cff8efba442,PAT-451af1d69ed6,2024,2024,NORTHWIND MED CTR,1679576722,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-04d2a0b55864,PAT-451af1d69ed6,2025,2025,CEDAR VALLEY HOSP,1003000126,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-880ca0506098,PAT-b271795e8229,2026,2026,LAKESIDE CLINIC,1679576722,N18.3,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-3e9bae4001e3,PAT-b271795e8229,2025,2025,CEDAR VALLEY HOSP,1245319599,J45.909,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-43877d42646f,PAT-b271795e8229,2025,2025,LAKESIDE CLINIC,1679576722,I10,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-74fa00d93534,PAT-10a3aa05e11a,2025,2025,LAKESIDE CLINIC,1003000126,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-11f2cc35e834,PAT-bb2d0f88080b,2025,2025,NORTHWIND MED CTR,1003000126,N18.3,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-eeb8bf8e51aa,PAT-bb2d0f88080b,2024,2024,CEDAR VALLEY HOSP,1245319599,N18.3,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-e5d980c2b5f1,PAT-bb2d0f88080b,2025,2025,NORTHWIND MED CTR,1679576722,M54.5,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-17898902dafc,PAT-bb2d0f88080b,2025,2025,NORTHWIND MED CTR,1003000126,I10,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-86a7a8c7d9e0,PAT-bb2d0f88080b,2026,2026,LAKESIDE CLINIC,1679576722,M54.5,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-bee810e8ad01,PAT-4f42b394fb36,2025,2025,NORTHWIND MED CTR,1679576722,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-794ebc9e28ea,PAT-93f4a5aa3c81,2026,2026,NORTHWIND MED CTR,1679576722,M54.5,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-cf28408fc146,PAT-93f4a5aa3c81,2026,2026,LAKESIDE CLINIC,1679576722,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-d89c130f27b2,PAT-93f4a5aa3c81,2025,2025,NORTHWIND MED CTR,1003000126,I10,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-3c1a43fb9fbc,PAT-ae65fe3b890b,2025,2025,LAKESIDE CLINIC,1245319599,M54.5,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-c1a6bab5b373,PAT-7215d269a9a5,2024,2024,NORTHWIND MED CTR,1003000126,F32.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-3b11348922d7,PAT-7215d269a9a5,2025,2025,CEDAR VALLEY HOSP,1003000126,I50.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-a661bd65680c,PAT-b77448db40af,2025,2025,NORTHWIND MED CTR,1003000126,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-75d8f9c9c679,PAT-e31562c33a4f,2026,2026,LAKESIDE CLINIC,1679576722,N18.3,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-d8747e736d5f,PAT-58d5ab2cd31e,2026,2026,LAKESIDE CLINIC,1003000126,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-13a561ef7bd1,PAT-58d5ab2cd31e,2026,2026,NORTHWIND MED CTR,1245319599,J45.909,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-e9147aa068f1,PAT-58d5ab2cd31e,2026,2026,CEDAR VALLEY HOSP,1245319599,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-498daf06bcf7,PAT-f0ce05c6af07,2024,2024,CEDAR VALLEY HOSP,1679576722,Z00.00,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-0bf7c458272f,PAT-f0ce05c6af07,2026,2026,CEDAR VALLEY HOSP,1679576722,Z00.00,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-a1fe9df2025f,PAT-f0ce05c6af07,2026,2026,NORTHWIND MED CTR,1003000126,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-32c3a48c1d5c,PAT-f0ce05c6af07,2025,2025,CEDAR VALLEY HOSP,1679576722,F32.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-998613d5316f,PAT-5aff7631a992,2024,2024,CEDAR VALLEY HOSP,1245319599,J45.909,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-54ef25bda659,PAT-5aff7631a992,2026,2026,LAKESIDE CLINIC,1003000126,F32.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-a6ca41023aed,PAT-5aff7631a992,2025,2025,CEDAR VALLEY HOSP,1245319599,Z00.00,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-b161be437c7b,PAT-5aff7631a992,2026,2026,NORTHWIND MED CTR,1003000126,Z00.00,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-9f034dee4812,PAT-5aff7631a992,2026,2026,LAKESIDE CLINIC,1245319599,F32.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-22299158d4a8,PAT-9c652b0537e6,2024,2024,LAKESIDE CLINIC,1003000126,F32.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-7b7f03312ead,PAT-9c652b0537e6,2026,2026,CEDAR VALLEY HOSP,1245319599,J45.909,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-7c5d0f877ae3,PAT-9c652b0537e6,2024,2024,NORTHWIND MED CTR,1245319599,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-f8f644ce4ab3,PAT-9c652b0537e6,2024,2024,CEDAR VALLEY HOSP,1003000126,I10,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-197aac084ba5,PAT-7e621df9fd78,2026,2026,CEDAR VALLEY HOSP,1679576722,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-37bab1330c3f,PAT-37dc0f17a300,2024,2024,LAKESIDE CLINIC,1679576722,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-7d57acfb2d5e,PAT-37dc0f17a300,2025,2025,NORTHWIND MED CTR,1679576722,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-b5784a7591f2,PAT-4995c4aaeac1,2026,2026,NORTHWIND MED CTR,1003000126,I50.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-4919843baee9,PAT-bd05211c70cf,2025,2025,NORTHWIND MED CTR,1003000126,I10,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-774576f4251e,PAT-bd05211c70cf,2026,2026,NORTHWIND MED CTR,1003000126,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-c465776200b5,PAT-bd05211c70cf,2024,2024,CEDAR VALLEY HOSP,1003000126,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-fe481e563408,PAT-bd05211c70cf,2025,2025,LAKESIDE CLINIC,1003000126,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC-8c90e4c717fd,PAT-65dc3f63af83,2025,2025,CEDAR VALLEY HOSP,1245319599,M54.5,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-4fc933020ccd,PAT-65dc3f63af83,2026,2026,LAKESIDE CLINIC,1245319599,I10,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-15fafa6672cd,PAT-65dc3f63af83,2025,2025,CEDAR VALLEY HOSP,1679576722,M54.5,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-7912efae5d4e,PAT-65dc3f63af83,2024,2025,CEDAR VALLEY HOSP,1679576722,J45.909,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-4a22047b2c10,PAT-eab46415479c,2024,2024,CEDAR VALLEY HOSP,1679576722,M54.5,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-1393757f1cba,PAT-7f1bdf1582b0,2026,2026,NORTHWIND MED CTR,1679576722,E11.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-81b1d1e4d0a3,PAT-7f1bdf1582b0,2025,2025,CEDAR VALLEY HOSP,1003000126,I10,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-fe9ef7d5f124,PAT-7f1bdf1582b0,2024,2024,CEDAR VALLEY HOSP,1245319599,Z00.00,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-fe74730f37f1,PAT-7f1bdf1582b0,2025,2025,LAKESIDE CLINIC,1245319599,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-630844c6b895,PAT-7f1bdf1582b0,2026,2026,NORTHWIND MED CTR,1245319599,N18.3,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-eaa335b7e448,PAT-2a9614a0f9e7,2025,2025,CEDAR VALLEY HOSP,1679576722,M54.5,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-ee37f21201e4,PAT-2a9614a0f9e7,2025,2025,LAKESIDE CLINIC,1003000126,I50.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-131935f10300,PAT-2a9614a0f9e7,2025,2025,LAKESIDE CLINIC,1679576722,I50.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-171e94db5f8f,PAT-66d272fdf202,2025,2025,LAKESIDE CLINIC,1245319599,F32.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-bf5b24491df6,PAT-66d272fdf202,2024,2024,LAKESIDE CLINIC,1679576722,J45.909,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-430586292bb5,PAT-66d272fdf202,2024,2024,LAKESIDE CLINIC,1679576722,J45.909,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-5c0bf3e6ca73,PAT-66d272fdf202,2024,2024,NORTHWIND MED CTR,1003000126,I50.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-9a7621f267e2,PAT-47208ca81811,2026,2026,LAKESIDE CLINIC,1679576722,J45.909,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-a1b5d1f9bdfe,PAT-47208ca81811,2025,2025,LAKESIDE CLINIC,1245319599,F32.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-4791823d11ed,PAT-47208ca81811,2025,2025,NORTHWIND MED CTR,1003000126,J45.909,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-1cd8e3096619,PAT-47208ca81811,2025,2025,CEDAR VALLEY HOSP,1679576722,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC-5d7cb40de56d,PAT-230de2257159,2026,2026,NORTHWIND MED CTR,1679576722,I50.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-7f753b3bf4bf,PAT-230de2257159,2025,2025,CEDAR VALLEY HOSP,1245319599,J45.909,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-e04be5d00a4d,PAT-6e36d1bc52d9,2024,2024,NORTHWIND MED CTR,1679576722,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-64e27c73b6c9,PAT-8cdbdd2e1609,2025,2025,NORTHWIND MED CTR,1003000126,N18.3,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-28b8065b8c35,PAT-b4d647469a4d,2024,2024,LAKESIDE CLINIC,1003000126,I10,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-f33000eb4e11,PAT-b4d647469a4d,2026,2026,NORTHWIND MED CTR,1245319599,J45.909,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-ae7c7ddfcbc9,PAT-b4d647469a4d,2024,2024,CEDAR VALLEY HOSP,1003000126,I10,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-67c9736506ec,PAT-b4d647469a4d,2026,2026,NORTHWIND MED CTR,1679576722,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-ba284d4ca9c7,PAT-b4d647469a4d,2025,2025,NORTHWIND MED CTR,1245319599,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-6a8a24056360,PAT-fc896a50df4d,2026,2026,LAKESIDE CLINIC,1003000126,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-6048580dc5ab,PAT-fc896a50df4d,2025,2025,NORTHWIND MED CTR,1679576722,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-1ef350ea7da7,PAT-fc896a50df4d,2026,2026,LAKESIDE CLINIC,1003000126,I10,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-54d1d7196189,PAT-fc896a50df4d,2025,2025,LAKESIDE CLINIC,1679576722,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-531500721f84,PAT-aec65bd86d40,2026,2026,CEDAR VALLEY HOSP,1679576722,I10,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-5699c0301b21,PAT-aec65bd86d40,2025,2025,LAKESIDE CLINIC,1003000126,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-65f4d6cff718,PAT-6164e25a7605,2024,2024,NORTHWIND MED CTR,1245319599,F32.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-f09c1ebb0794,PAT-6164e25a7605,2025,2025,NORTHWIND MED CTR,1245319599,Z00.00,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-321ced2879c1,PAT-6164e25a7605,2026,2026,NORTHWIND MED CTR,1245319599,M54.5,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-0300b688b661,PAT-3b12f52ddf5d,2024,2024,LAKESIDE CLINIC,1245319599,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC-bd6ae6cd10f1,PAT-3b12f52ddf5d,2024,2024,LAKESIDE CLINIC,1679576722,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC-40d24a327e2d,PAT-3b12f52ddf5d,2025,2025,CEDAR VALLEY HOSP,1245319599,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC-10a25f49f0fc,PAT-3b12f52ddf5d,2025,2025,LAKESIDE CLINIC,1003000126,N18.3,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-63e164950dc2,PAT-3b12f52ddf5d,2026,2026,LAKESIDE CLINIC,1245319599,J45.909,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-deb6ffb0dd9e,PAT-153e26a2c0bd,2024,2024,LAKESIDE CLINIC,1679576722,N18.3,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-138e96d4480f,PAT-153e26a2c0bd,2024,2024,LAKESIDE CLINIC,1003000126,N18.3,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-ece85c57722e,PAT-153e26a2c0bd,2024,2024,NORTHWIND MED CTR,1679576722,M54.5,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-c1726d94dd6d,PAT-26bb2d1c9af0,2024,2024,NORTHWIND MED CTR,1245319599,J45.909,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-dab046709312,PAT-26bb2d1c9af0,2024,2024,LAKESIDE CLINIC,1679576722,J45.909,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-47d70c5b4c59,PAT-a8943b618676,2025,2025,CEDAR VALLEY HOSP,1003000126,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-0d361a09a840,PAT-a8943b618676,2026,2026,CEDAR VALLEY HOSP,1679576722,I50.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-a977d5ad5360,PAT-a8943b618676,2026,2026,CEDAR VALLEY HOSP,1679576722,N18.3,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-a28c491e99f5,PAT-03163bbbe9ea,2025,2025,LAKESIDE CLINIC,1003000126,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-261fef82d1a3,PAT-03163bbbe9ea,2025,2025,NORTHWIND MED CTR,1245319599,M54.5,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-f8953fd3be98,PAT-03163bbbe9ea,2025,2025,LAKESIDE CLINIC,1679576722,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-6fad4406c053,PAT-d4c27c26847f,2026,2026,CEDAR VALLEY HOSP,1003000126,I10,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-50cb82ce786f,PAT-d4c27c26847f,2026,2026,CEDAR VALLEY HOSP,1679576722,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-c5ef3099f271,PAT-d4c27c26847f,2024,2024,NORTHWIND MED CTR,1003000126,M54.5,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-c8ff5f93d180,PAT-d4c27c26847f,2024,2024,LAKESIDE CLINIC,1003000126,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-6d80f4c73f2b,PAT-d4c27c26847f,2026,2026,LAKESIDE CLINIC,1679576722,I10,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-076de25f4b1c,PAT-2eae96d0cc5f,2025,2025,NORTHWIND MED CTR,1003000126,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-c2fbcfdcc257,PAT-2eae96d0cc5f,2025,2025,LAKESIDE CLINIC,1245319599,N18.3,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-6669a1826327,PAT-2eae96d0cc5f,2025,2025,CEDAR VALLEY HOSP,1003000126,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-e02fe9d625c9,PAT-2eae96d0cc5f,2025,2025,NORTHWIND MED CTR,1679576722,N18.3,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-8ddcf0d1ab56,PAT-2eae96d0cc5f,2024,2024,NORTHWIND MED CTR,1003000126,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-34148c9a3751,PAT-482c43435cc5,2024,2024,CEDAR VALLEY HOSP,1003000126,Z00.00,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-14a0b835e8a5,PAT-254b010c4759,2025,2025,NORTHWIND MED CTR,1679576722,N18.3,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-eef70caa7612,PAT-254b010c4759,2026,2026,NORTHWIND MED CTR,1003000126,F32.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-692fbb7b738e,PAT-254b010c4759,2025,2025,CEDAR VALLEY HOSP,1245319599,I50.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-9d6b736b96a0,PAT-254b010c4759,2024,2024,CEDAR VALLEY HOSP,1679576722,I10,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-2379c0aed9c5,PAT-254b010c4759,2025,2025,CEDAR VALLEY HOSP,1679576722,Z00.00,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-de96a4fd57c5,PAT-88da6b4013ef,2024,2024,LAKESIDE CLINIC,1245319599,M54.5,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-7c4e4944f2ce,PAT-88da6b4013ef,2026,2026,NORTHWIND MED CTR,1245319599,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-e9720c89c001,PAT-88da6b4013ef,2025,2025,LAKESIDE CLINIC,1679576722,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-8cd3ed4142ba,PAT-9c1c5e8766ed,2025,2025,NORTHWIND MED CTR,1245319599,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-2bb72097798c,PAT-9c1c5e8766ed,2025,2025,NORTHWIND MED CTR,1679576722,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-6a3478e10e70,PAT-9c1c5e8766ed,2024,2024,LAKESIDE CLINIC,1003000126,E11.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-482057fa49e5,PAT-519090fbbd11,2024,2024,NORTHWIND MED CTR,1003000126,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-41784c3ac6fc,PAT-519090fbbd11,2025,2025,NORTHWIND MED CTR,1003000126,F32.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-bd1ebd313bee,PAT-2020f3fe39c0,2025,2025,LAKESIDE CLINIC,1679576722,J45.909,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-a71ff9ee8bc8,PAT-2020f3fe39c0,2024,2024,NORTHWIND MED CTR,1245319599,N18.3,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-67fd429a7079,PAT-dbf4b0c4312d,2026,2026,LAKESIDE CLINIC,1003000126,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-3d19a7ef4f5d,PAT-dbf4b0c4312d,2024,2024,CEDAR VALLEY HOSP,1245319599,N18.3,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-7bb14d039b72,PAT-dbf4b0c4312d,2024,2024,LAKESIDE CLINIC,1003000126,N18.3,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-ab3b8eaca288,PAT-f34183f73f16,2026,2026,NORTHWIND MED CTR,1003000126,N18.3,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-1ea764f54969,PAT-a7ab9e1a8ef4,2025,2025,CEDAR VALLEY HOSP,1003000126,E11.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-a4a92ad64ce9,PAT-a7ab9e1a8ef4,2025,2025,NORTHWIND MED CTR,1003000126,N18.3,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-133e296259c8,PAT-a7ab9e1a8ef4,2024,2024,NORTHWIND MED CTR,1003000126,I50.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-802735372235,PAT-a7ab9e1a8ef4,2026,2026,CEDAR VALLEY HOSP,1245319599,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC-cfd3e7ecfd0c,PAT-a7ab9e1a8ef4,2025,2025,NORTHWIND MED CTR,1003000126,N18.3,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-8ce67f405bc8,PAT-bd62ad1b72db,2026,2026,CEDAR VALLEY HOSP,1679576722,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-73f63853933d,PAT-bd62ad1b72db,2024,2024,NORTHWIND MED CTR,1245319599,M54.5,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-5534e8009d90,PAT-bd62ad1b72db,2025,2025,NORTHWIND MED CTR,1679576722,I10,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-c25eff18fe33,PAT-bd62ad1b72db,2024,2024,NORTHWIND MED CTR,1679576722,I10,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-6d6b73309b95,PAT-bd62ad1b72db,2025,2025,CEDAR VALLEY HOSP,1245319599,I50.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-8c3b23bc9152,PAT-74e60dd27a65,2024,2024,CEDAR VALLEY HOSP,1245319599,J45.909,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-3e7c31419775,PAT-def8e647cb8f,2025,2025,LAKESIDE CLINIC,1679576722,F32.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-2cb8173910e3,PAT-f3aec7ac1491,2024,2024,LAKESIDE CLINIC,1003000126,M54.5,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-8e4d578a60d8,PAT-f3aec7ac1491,2024,2024,CEDAR VALLEY HOSP,1679576722,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-51bc1751f579,PAT-ae3adfe01893,2026,2026,CEDAR VALLEY HOSP,1003000126,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-5e493d376642,PAT-8f2ccc4169a3,2026,2026,CEDAR VALLEY HOSP,1003000126,Z00.00,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-cf324223b8aa,PAT-65e76472f1a3,2026,2026,CEDAR VALLEY HOSP,1003000126,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-33bf91d277f2,PAT-65e76472f1a3,2024,2024,CEDAR VALLEY HOSP,1679576722,N18.3,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-0524e322e96d,PAT-65e76472f1a3,2024,2024,LAKESIDE CLINIC,1679576722,M54.5,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-dee0bfe98f8c,PAT-64e566237a04,2025,2025,NORTHWIND MED CTR,1003000126,Z00.00,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-620169ac0f03,PAT-64e566237a04,2025,2025,NORTHWIND MED CTR,1245319599,E11.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-beef69f44612,PAT-64e566237a04,2025,2025,NORTHWIND MED CTR,1003000126,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-35c2862fe231,PAT-7b451a81682c,2025,2025,NORTHWIND MED CTR,1003000126,N18.3,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-452e607a4732,PAT-7b451a81682c,2025,2025,LAKESIDE CLINIC,1245319599,N18.3,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-c08a56947a7a,PAT-7b451a81682c,2025,2025,LAKESIDE CLINIC,1003000126,E11.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-7f860fe321ec,PAT-7b451a81682c,2024,2024,NORTHWIND MED CTR,1679576722,E11.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-9304470b4fad,PAT-7b451a81682c,2024,2024,CEDAR VALLEY HOSP,1245319599,J45.909,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-5c32f7ba38b6,PAT-6683a260cd0b,2026,2026,NORTHWIND MED CTR,1245319599,Z00.00,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-afcf203943f6,PAT-30cb0fef7928,2026,2026,CEDAR VALLEY HOSP,1003000126,Z00.00,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-877b80de8b3e,PAT-30cb0fef7928,2026,2026,CEDAR VALLEY HOSP,1003000126,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-ca51a12f3a94,PAT-30cb0fef7928,2025,2025,NORTHWIND MED CTR,1003000126,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-d93fdce47b21,PAT-30cb0fef7928,2024,2024,CEDAR VALLEY HOSP,1245319599,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-17b437495c5e,PAT-30cb0fef7928,2024,2024,LAKESIDE CLINIC,1679576722,I10,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-e59445619fc0,PAT-fc13113db17d,2024,2024,LAKESIDE CLINIC,1245319599,E11.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-62723f9aa884,PAT-fc13113db17d,2026,2026,NORTHWIND MED CTR,1679576722,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-a55266567bc4,PAT-fc13113db17d,2024,2024,LAKESIDE CLINIC,1245319599,I10,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-6e8c7223c68a,PAT-fc13113db17d,2024,2024,NORTHWIND MED CTR,1003000126,N18.3,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-4fe0f435a573,PAT-fc13113db17d,2025,2025,NORTHWIND MED CTR,1003000126,J45.909,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-d078d9435541,PAT-70cc3571810a,2025,2025,CEDAR VALLEY HOSP,1003000126,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-f7d1df75c883,PAT-70cc3571810a,2025,2025,LAKESIDE CLINIC,1003000126,I50.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-209305955fb9,PAT-70cc3571810a,2025,2025,NORTHWIND MED CTR,1679576722,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-6cd908411c07,PAT-1c24298cb3a5,2026,2026,CEDAR VALLEY HOSP,1003000126,N18.3,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-c381b5a29061,PAT-1c24298cb3a5,2024,2024,CEDAR VALLEY HOSP,1003000126,I10,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-cde3e54c5de6,PAT-99c9570dc195,2026,2026,LAKESIDE CLINIC,1245319599,F32.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-f7e179281c19,PAT-99c9570dc195,2025,2025,CEDAR VALLEY HOSP,1679576722,I10,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-7d65965132d6,PAT-99c9570dc195,2026,2026,CEDAR VALLEY HOSP,1245319599,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC-12b9000bb5f9,PAT-99c9570dc195,2025,2025,CEDAR VALLEY HOSP,1003000126,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC-ee24643ab9e2,PAT-1a350d75985d,2025,2025,NORTHWIND MED CTR,1679576722,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-ed9bed448d4e,PAT-1a350d75985d,2025,2025,NORTHWIND MED CTR,1245319599,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-8721d359d07a,PAT-1a350d75985d,2026,2026,NORTHWIND MED CTR,1679576722,E11.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-77d8daff9a0b,PAT-9118000f49c8,2024,2024,NORTHWIND MED CTR,1679576722,N18.3,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-72eef8e4cb5c,PAT-9118000f49c8,2024,2024,NORTHWIND MED CTR,1679576722,I50.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-c8793f9b6bb2,PAT-895f26b94c7f,2026,2026,CEDAR VALLEY HOSP,1003000126,J45.909,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-394a1bea705e,PAT-f2ee19f9919c,2026,2026,LAKESIDE CLINIC,1245319599,M54.5,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-26ed27855798,PAT-f2ee19f9919c,2025,2025,NORTHWIND MED CTR,1003000126,N18.3,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-f8cd85b9c09a,PAT-9d1d5d158a2f,2025,2025,LAKESIDE CLINIC,1679576722,J45.909,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-1be0ae9c78bd,PAT-9d1d5d158a2f,2024,2024,LAKESIDE CLINIC,1003000126,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-d34df1058667,PAT-9d1d5d158a2f,2025,2025,NORTHWIND MED CTR,1679576722,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-b374b8c3a4d2,PAT-1200068739fa,2025,2025,NORTHWIND MED CTR,1245319599,Z00.00,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-d8b4a5b89b2f,PAT-1200068739fa,2024,2024,CEDAR VALLEY HOSP,1679576722,E11.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-e517c3c9f7e3,PAT-1200068739fa,2025,2025,LAKESIDE CLINIC,1003000126,E11.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-15c275134107,PAT-353cdfd43f37,2025,2025,LAKESIDE CLINIC,1003000126,J45.909,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-c6e08d2f29e7,PAT-353cdfd43f37,2025,2025,LAKESIDE CLINIC,1003000126,J45.909,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-00590a1fb43b,PAT-353cdfd43f37,2025,2025,CEDAR VALLEY HOSP,1003000126,N18.3,"Seen by Dr. [NAME]. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-202ac844b8fd,PAT-60509d33a01c,2025,2025,LAKESIDE CLINIC,1245319599,J45.909,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-91c33b8a27ba,PAT-60509d33a01c,2024,2024,CEDAR VALLEY HOSP,1003000126,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-099feb7fe26b,PAT-60509d33a01c,2026,2026,LAKESIDE CLINIC,1679576722,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-b70ba53fddc9,PAT-60509d33a01c,2025,2025,NORTHWIND MED CTR,1245319599,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-f6624dc4ac8c,PAT-a2682607679d,2024,2024,CEDAR VALLEY HOSP,1245319599,J45.909,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-a06020c26f71,PAT-a2682607679d,2024,2024,LAKESIDE CLINIC,1679576722,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-873b4075916e,PAT-a2682607679d,2026,2026,CEDAR VALLEY HOSP,1003000126,I10,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-6ffba2e3f93a,PAT-a2682607679d,2026,2026,CEDAR VALLEY HOSP,1003000126,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-c38bb2d643a2,PAT-a2682607679d,2025,2025,NORTHWIND MED CTR,1003000126,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-19751cb4ba55,PAT-f4994093f6de,2024,2024,NORTHWIND MED CTR,1245319599,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-4ce31202952f,PAT-f4994093f6de,2026,2026,LAKESIDE CLINIC,1679576722,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-f18b86417b60,PAT-f4994093f6de,2026,2026,NORTHWIND MED CTR,1003000126,I50.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-3113953857d7,PAT-f4994093f6de,2026,2026,CEDAR VALLEY HOSP,1245319599,I10,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-42c9635956be,PAT-9a2e58ee8571,2025,2025,LAKESIDE CLINIC,1003000126,F32.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-ca5d393cbcdd,PAT-9a2e58ee8571,2025,2025,NORTHWIND MED CTR,1679576722,E11.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-004b99df209b,PAT-9a2e58ee8571,2025,2025,CEDAR VALLEY HOSP,1245319599,I10,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-899802ad9d2b,PAT-79615d39d0a8,2026,2026,NORTHWIND MED CTR,1245319599,F32.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-ff124d307fe4,PAT-79615d39d0a8,2025,2025,NORTHWIND MED CTR,1003000126,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-475275efd233,PAT-1d871f7296ab,2026,2026,NORTHWIND MED CTR,1679576722,I50.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-50fcf57d1709,PAT-1d871f7296ab,2025,2025,CEDAR VALLEY HOSP,1245319599,J45.909,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-d6e3a502e8a8,PAT-1d871f7296ab,2026,2026,CEDAR VALLEY HOSP,1003000126,F32.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-3e0be23f03cc,PAT-7cf2d953ee26,2025,2025,LAKESIDE CLINIC,1003000126,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC-86ba79ad8999,PAT-fa52fe3bfada,2025,2025,CEDAR VALLEY HOSP,1679576722,J45.909,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-8c083c19c315,PAT-fa52fe3bfada,2024,2024,NORTHWIND MED CTR,1245319599,Z00.00,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-077e3f3f37ea,PAT-fa52fe3bfada,2026,2026,CEDAR VALLEY HOSP,1003000126,J45.909,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-696cf5ead065,PAT-fa52fe3bfada,2025,2025,LAKESIDE CLINIC,1245319599,I50.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-a64fb4642ea4,PAT-7afb774b15d7,2024,2024,LAKESIDE CLINIC,1679576722,I10,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-0e284eb19fca,PAT-7afb774b15d7,2025,2025,CEDAR VALLEY HOSP,1679576722,I10,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-31b10593dba2,PAT-7afb774b15d7,2025,2025,LAKESIDE CLINIC,1003000126,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-e2857f914286,PAT-7afb774b15d7,2026,2026,LAKESIDE CLINIC,1245319599,J45.909,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-a5acaca99fd0,PAT-7afb774b15d7,2024,2024,LAKESIDE CLINIC,1679576722,N18.3,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-14c26b86290b,PAT-4fd57bdc968b,2025,2025,NORTHWIND MED CTR,1245319599,M54.5,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-3a5341db898e,PAT-4fd57bdc968b,2024,2024,CEDAR VALLEY HOSP,1679576722,M54.5,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-6ca0aad7c7c0,PAT-4fd57bdc968b,2025,2025,NORTHWIND MED CTR,1003000126,M54.5,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-5ec6ecd7570b,PAT-24e415fc899e,2025,2025,CEDAR VALLEY HOSP,1679576722,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-7e313a0ea6e1,PAT-24e415fc899e,2026,2026,LAKESIDE CLINIC,1245319599,I50.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-b22108ba9bd9,PAT-24e415fc899e,2025,2025,LAKESIDE CLINIC,1679576722,I10,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-b7e4568a8c29,PAT-24e415fc899e,2025,2025,LAKESIDE CLINIC,1003000126,I50.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-5cc06ba99d01,PAT-24e415fc899e,2025,2025,LAKESIDE CLINIC,1003000126,I10,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-6577aebcb0aa,PAT-bfea1a28f7b3,2026,2026,LAKESIDE CLINIC,1245319599,I50.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-01ba32b558fd,PAT-bfea1a28f7b3,2024,2024,LAKESIDE CLINIC,1245319599,I50.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-4ac7cc0c6682,PAT-bfea1a28f7b3,2026,2026,NORTHWIND MED CTR,1003000126,I10,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-d85bbd37929d,PAT-bfea1a28f7b3,2025,2025,CEDAR VALLEY HOSP,1245319599,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-1143813fb5cd,PAT-bfea1a28f7b3,2024,2024,CEDAR VALLEY HOSP,1245319599,J45.909,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-7ee534893498,PAT-bd8757b6fb7e,2025,2026,LAKESIDE CLINIC,1679576722,Z00.00,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-334ef848a956,PAT-bd8757b6fb7e,2026,2026,CEDAR VALLEY HOSP,1679576722,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-c40f4fcc9a5c,PAT-bd8757b6fb7e,2025,2025,LAKESIDE CLINIC,1679576722,F32.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-31a5d1ebd086,PAT-bd8757b6fb7e,2026,2026,LAKESIDE CLINIC,1679576722,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-77113b164943,PAT-7a8643c71b9a,2024,2024,LAKESIDE CLINIC,1245319599,E11.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-43d838b079e1,PAT-7a8643c71b9a,2025,2025,NORTHWIND MED CTR,1003000126,J45.909,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-e3abc2ae35d2,PAT-b12ad42fddbb,2024,2024,NORTHWIND MED CTR,1679576722,M54.5,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-1be74b80b828,PAT-b12ad42fddbb,2025,2025,NORTHWIND MED CTR,1679576722,N18.3,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-9fa4f3b17af0,PAT-b12ad42fddbb,2025,2025,LAKESIDE CLINIC,1679576722,N18.3,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-9c2f7eea6fe1,PAT-b12ad42fddbb,2025,2025,NORTHWIND MED CTR,1245319599,I50.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-e57f2ff3c23c,PAT-842e29540a6e,2025,2025,NORTHWIND MED CTR,1679576722,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-7c2c392bc552,PAT-842e29540a6e,2026,2026,LAKESIDE CLINIC,1003000126,I10,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-e90f6ac26ae0,PAT-842e29540a6e,2025,2025,CEDAR VALLEY HOSP,1003000126,N18.3,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-0e71aa50b96f,PAT-842e29540a6e,2026,2026,CEDAR VALLEY HOSP,1245319599,F32.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-9844f2e2054d,PAT-348805e999f3,2024,2024,CEDAR VALLEY HOSP,1003000126,E11.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-ec0325795c18,PAT-348805e999f3,2025,2025,NORTHWIND MED CTR,1003000126,N18.3,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-0dea64b9cb1c,PAT-348805e999f3,2026,2026,NORTHWIND MED CTR,1679576722,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-060c3683d4bc,PAT-348805e999f3,2026,2026,CEDAR VALLEY HOSP,1245319599,Z00.00,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-989bf95fe8a0,PAT-348805e999f3,2025,2025,CEDAR VALLEY HOSP,1003000126,N18.3,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-6a56245448c8,PAT-f3b7f373ca53,2025,2025,NORTHWIND MED CTR,1245319599,M54.5,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-b5b90d456be0,PAT-f3b7f373ca53,2024,2024,NORTHWIND MED CTR,1245319599,I10,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-2f210f650638,PAT-f3b7f373ca53,2024,2024,NORTHWIND MED CTR,1245319599,I50.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-731b64b0bb14,PAT-5c9b873be078,2025,2025,NORTHWIND MED CTR,1245319599,J45.909,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-b647e5ee4c91,PAT-5c9b873be078,2024,2024,NORTHWIND MED CTR,1245319599,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-506fe2328994,PAT-5c9b873be078,2026,2026,CEDAR VALLEY HOSP,1245319599,I10,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-1cfbbb93c8eb,PAT-5c9b873be078,2024,2024,CEDAR VALLEY HOSP,1003000126,I10,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-1451ff5e1d1f,PAT-5c9b873be078,2026,2026,CEDAR VALLEY HOSP,1679576722,N18.3,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-2a66ee7d0ae2,PAT-b0a82587be6b,2025,2025,CEDAR VALLEY HOSP,1245319599,F32.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-30d0544940e1,PAT-b0a82587be6b,2026,2026,NORTHWIND MED CTR,1679576722,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-a7082f7dba08,PAT-b0a82587be6b,2025,2025,LAKESIDE CLINIC,1245319599,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-8659ef95eee8,PAT-b0a82587be6b,2025,2025,NORTHWIND MED CTR,1003000126,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC-77b5bf0e11e0,PAT-ea058b0d590b,2025,2025,NORTHWIND MED CTR,1245319599,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-4fd3082a2f4d,PAT-ea058b0d590b,2024,2024,NORTHWIND MED CTR,1003000126,I10,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-b9b2aa181345,PAT-ea058b0d590b,2026,2026,CEDAR VALLEY HOSP,1003000126,E11.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-d6d160ed33a0,PAT-ea058b0d590b,2025,2025,NORTHWIND MED CTR,1679576722,Z00.00,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-fc275fb6d625,PAT-c21506ec41ad,2024,2024,CEDAR VALLEY HOSP,1003000126,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-714354ea2061,PAT-c21506ec41ad,2025,2025,NORTHWIND MED CTR,1245319599,F32.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-1be42b54af77,PAT-c21506ec41ad,2026,2026,LAKESIDE CLINIC,1003000126,N18.3,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-140700bc22cb,PAT-c21506ec41ad,2024,2024,LAKESIDE CLINIC,1679576722,I50.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-14ac47a164e4,PAT-c21506ec41ad,2026,2026,LAKESIDE CLINIC,1003000126,I10,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-6b9159f9bb79,PAT-4c4f87322e25,2025,2025,LAKESIDE CLINIC,1003000126,J45.909,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-e29af49c9eba,PAT-4c4f87322e25,2025,2025,NORTHWIND MED CTR,1679576722,N18.3,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-8fa61fab5884,PAT-a496fa7f0eab,2026,2026,CEDAR VALLEY HOSP,1679576722,E11.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-c241f6da7a63,PAT-a496fa7f0eab,2026,2026,NORTHWIND MED CTR,1003000126,I50.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-615035185376,PAT-a496fa7f0eab,2026,2026,NORTHWIND MED CTR,1245319599,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-c4cb5b4c0d73,PAT-a496fa7f0eab,2025,2025,NORTHWIND MED CTR,1003000126,E11.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-4f06d252a617,PAT-a496fa7f0eab,2024,2024,LAKESIDE CLINIC,1245319599,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-cdced26f1d76,PAT-174cdd02de92,2024,2024,NORTHWIND MED CTR,1003000126,Z00.00,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-16776eb4fff8,PAT-174cdd02de92,2026,2026,CEDAR VALLEY HOSP,1003000126,N18.3,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-b48b0c9c20ef,PAT-174cdd02de92,2025,2025,LAKESIDE CLINIC,1245319599,N18.3,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-321a7934f0b8,PAT-174cdd02de92,2024,2024,CEDAR VALLEY HOSP,1003000126,I10,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-8aa15f6a35d9,PAT-174cdd02de92,2025,2025,LAKESIDE CLINIC,1003000126,E11.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-7243eb64c5c4,PAT-d86fb239f3c7,2024,2024,LAKESIDE CLINIC,1679576722,J45.909,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-52c4316a2a12,PAT-d86fb239f3c7,2024,2024,LAKESIDE CLINIC,1679576722,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-bcc05d3f69ce,PAT-d86fb239f3c7,2025,2025,CEDAR VALLEY HOSP,1679576722,J45.909,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-797be5a15b79,PAT-d86fb239f3c7,2025,2025,CEDAR VALLEY HOSP,1679576722,Z00.00,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-a1b407c0909c,PAT-84b542d87208,2026,2026,CEDAR VALLEY HOSP,1679576722,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-3f7d692a4f0e,PAT-84b542d87208,2025,2025,CEDAR VALLEY HOSP,1003000126,Z00.00,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-a01acfd3bb74,PAT-84b542d87208,2024,2024,LAKESIDE CLINIC,1245319599,J45.909,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-679fc4445aae,PAT-84b542d87208,2025,2025,NORTHWIND MED CTR,1679576722,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-60250a68013d,PAT-e8835de00997,2026,2026,NORTHWIND MED CTR,1003000126,I50.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-76cc08ec379a,PAT-e8835de00997,2025,2025,NORTHWIND MED CTR,1245319599,N18.3,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-cda710053d2c,PAT-e8835de00997,2024,2024,NORTHWIND MED CTR,1245319599,J45.909,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-0fdfeb8a25fc,PAT-5b0e2ac34446,2026,2026,NORTHWIND MED CTR,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-31e741cbcc3a,PAT-5b0e2ac34446,2024,2024,NORTHWIND MED CTR,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-1017bf4e302c,PAT-3908c59db916,2025,2025,LAKESIDE CLINIC,1003000126,N18.3,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-9b09e6077d79,PAT-3908c59db916,2025,2025,LAKESIDE CLINIC,1245319599,I50.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-5ceb56cd42d2,PAT-3908c59db916,2026,2026,LAKESIDE CLINIC,1679576722,F32.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-55c045b669f7,PAT-8aa48857f9a4,2024,2024,CEDAR VALLEY HOSP,1245319599,M54.5,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-f429f52b2549,PAT-8aa48857f9a4,2026,2026,NORTHWIND MED CTR,1003000126,M54.5,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-0b289df24d5e,PAT-8aa48857f9a4,2026,2026,CEDAR VALLEY HOSP,1245319599,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-bf16431dbc3f,PAT-80b0c7702420,2025,2025,CEDAR VALLEY HOSP,1679576722,I50.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-b088b77570a4,PAT-80b0c7702420,2024,2024,CEDAR VALLEY HOSP,1679576722,I50.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-ec9a5105122a,PAT-a2ed5464ecc2,2025,2025,LAKESIDE CLINIC,1679576722,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-4c22468fb596,PAT-a2ed5464ecc2,2026,2026,CEDAR VALLEY HOSP,1003000126,F32.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-b8b800f72d3c,PAT-9cfc39194242,2025,2025,NORTHWIND MED CTR,1003000126,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC-9877c1726f06,PAT-9cfc39194242,2024,2025,CEDAR VALLEY HOSP,1679576722,Z00.00,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-ce3fea9d18b2,PAT-9cfc39194242,2025,2025,CEDAR VALLEY HOSP,1245319599,E11.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-f24da24c8407,PAT-9cfc39194242,2025,2025,LAKESIDE CLINIC,1245319599,F32.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-10b9f178d77f,PAT-c9d4cfbf3360,2025,2025,CEDAR VALLEY HOSP,1679576722,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-d3750635afef,PAT-c9d4cfbf3360,2024,2024,LAKESIDE CLINIC,1679576722,F32.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-1b753bdea8c3,PAT-c9d4cfbf3360,2025,2025,LAKESIDE CLINIC,1245319599,F32.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-b72f79a5fd62,PAT-c9d4cfbf3360,2025,2025,NORTHWIND MED CTR,1679576722,I10,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-773af4ef6142,PAT-c9d4cfbf3360,2024,2024,LAKESIDE CLINIC,1679576722,N18.3,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-c6bff4337bd1,PAT-c221fc241d0b,2026,2026,CEDAR VALLEY HOSP,1003000126,J45.909,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-ca3062f2a21b,PAT-c221fc241d0b,2026,2026,LAKESIDE CLINIC,1679576722,I50.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-e9de40449aa0,PAT-c221fc241d0b,2025,2025,CEDAR VALLEY HOSP,1679576722,J45.909,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-d0966e106c0e,PAT-31f5da45e18a,2026,2026,LAKESIDE CLINIC,1679576722,M54.5,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-21f97e544d56,PAT-31f5da45e18a,2025,2025,NORTHWIND MED CTR,1679576722,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-7f1ded97ec76,PAT-3d48ce5b2a92,2025,2025,NORTHWIND MED CTR,1003000126,I10,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-023a2ed51b12,PAT-6693d17e4497,2025,2025,CEDAR VALLEY HOSP,1679576722,F32.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-ee59cd751e08,PAT-cda6bd685167,2026,2026,NORTHWIND MED CTR,1679576722,N18.3,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-4da6bd0d8cfe,PAT-cda6bd685167,2024,2024,CEDAR VALLEY HOSP,1245319599,I50.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-b12ed2a0169d,PAT-cda6bd685167,2024,2024,CEDAR VALLEY HOSP,1679576722,M54.5,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-26bcc5d6d5e9,PAT-cda6bd685167,2024,2024,LAKESIDE CLINIC,1245319599,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-3c739b750362,PAT-332d3a0b9965,2026,2026,LAKESIDE CLINIC,1245319599,M54.5,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-dc7a53eab031,PAT-332d3a0b9965,2024,2024,CEDAR VALLEY HOSP,1245319599,F32.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-75f551cdf2f9,PAT-332d3a0b9965,2024,2024,NORTHWIND MED CTR,1679576722,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-c8a95ca2c132,PAT-332d3a0b9965,2024,2024,LAKESIDE CLINIC,1003000126,N18.3,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-9880c841721e,PAT-332d3a0b9965,2026,2026,NORTHWIND MED CTR,1679576722,M54.5,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-830a143a5180,PAT-7e268483f8b8,2026,2026,LAKESIDE CLINIC,1245319599,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-644532830689,PAT-7e268483f8b8,2024,2024,NORTHWIND MED CTR,1679576722,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-28f1c0bd1d84,PAT-7e268483f8b8,2026,2026,LAKESIDE CLINIC,1679576722,I10,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-68623f4f8b9d,PAT-bb235b06258e,2025,2025,CEDAR VALLEY HOSP,1679576722,M54.5,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-a648109257f7,PAT-bb235b06258e,2024,2024,CEDAR VALLEY HOSP,1245319599,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-7b5008ab4ae4,PAT-bb235b06258e,2025,2025,LAKESIDE CLINIC,1679576722,J45.909,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-8b6b8d76d7a1,PAT-bb235b06258e,2026,2026,CEDAR VALLEY HOSP,1003000126,F32.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-29235364e64d,PAT-fd56076b3e36,2026,2026,CEDAR VALLEY HOSP,1679576722,J45.909,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-6d32faf20ac0,PAT-ca440726e25c,2024,2024,LAKESIDE CLINIC,1003000126,J45.909,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-1aefe22b64a6,PAT-ca440726e25c,2025,2025,CEDAR VALLEY HOSP,1245319599,I50.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-1279fce205cd,PAT-ca440726e25c,2024,2024,CEDAR VALLEY HOSP,1245319599,E11.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-9fe543cfeadf,PAT-ca440726e25c,2026,2026,CEDAR VALLEY HOSP,1003000126,E11.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-355515866ffb,PAT-ca440726e25c,2025,2025,LAKESIDE CLINIC,1003000126,J45.909,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-6bca18af266c,PAT-78e44787f93b,2026,2026,LAKESIDE CLINIC,1003000126,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC-fd097f9c1321,PAT-319242594052,2025,2025,NORTHWIND MED CTR,1679576722,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC-f8dcb5b39023,PAT-319242594052,2026,2026,NORTHWIND MED CTR,1003000126,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-2c56726c2c95,PAT-319242594052,2025,2025,CEDAR VALLEY HOSP,1679576722,J45.909,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-22073bf449fd,PAT-319242594052,2026,2026,CEDAR VALLEY HOSP,1003000126,E11.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-75ff6ab6114f,PAT-319242594052,2025,2025,CEDAR VALLEY HOSP,1245319599,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-e4299ecc7b5f,PAT-9aeab1491e24,2025,2025,NORTHWIND MED CTR,1003000126,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-3c24ac9261f1,PAT-9aeab1491e24,2024,2024,NORTHWIND MED CTR,1245319599,J45.909,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-89dfbf7b6c6c,PAT-9aeab1491e24,2024,2025,LAKESIDE CLINIC,1003000126,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC-c61cd8d4250d,PAT-9aeab1491e24,2025,2025,NORTHWIND MED CTR,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-c272aa17c57c,PAT-5822f4de2c08,2026,2026,NORTHWIND MED CTR,1679576722,N18.3,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-c79d1f04a6ff,PAT-cefe727d8349,2026,2026,CEDAR VALLEY HOSP,1003000126,I10,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-4b3ed7435571,PAT-cefe727d8349,2026,2026,LAKESIDE CLINIC,1679576722,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-47864b354e93,PAT-cefe727d8349,2024,2024,NORTHWIND MED CTR,1679576722,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-4485911f52dc,PAT-cefe727d8349,2025,2025,CEDAR VALLEY HOSP,1003000126,Z00.00,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-41095f7b07b8,PAT-b91eefe09f07,2025,2025,NORTHWIND MED CTR,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-42a5bcf1fcb5,PAT-b91eefe09f07,2026,2026,NORTHWIND MED CTR,1003000126,E11.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-707c32fe1f36,PAT-b91eefe09f07,2024,2024,NORTHWIND MED CTR,1245319599,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-2f8c3f5783ea,PAT-b91eefe09f07,2025,2025,LAKESIDE CLINIC,1679576722,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-3c493ece9f2c,PAT-b91eefe09f07,2024,2024,NORTHWIND MED CTR,1245319599,I10,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-480627401fa0,PAT-597afcf00fec,2026,2026,NORTHWIND MED CTR,1245319599,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC-e856e258d268,PAT-597afcf00fec,2025,2025,CEDAR VALLEY HOSP,1003000126,M54.5,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-3031940a3537,PAT-f979f47aebdd,2026,2026,NORTHWIND MED CTR,1679576722,E11.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-1097538ae1c1,PAT-f979f47aebdd,2025,2025,LAKESIDE CLINIC,1003000126,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-406c6564d134,PAT-f979f47aebdd,2025,2025,CEDAR VALLEY HOSP,1679576722,E11.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-3ef6fe111ebc,PAT-f979f47aebdd,2024,2024,CEDAR VALLEY HOSP,1003000126,N18.3,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-86bc81e004fb,PAT-f979f47aebdd,2025,2025,NORTHWIND MED CTR,1679576722,I10,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-a64e3b3bc813,PAT-149e5d58c705,2026,2026,LAKESIDE CLINIC,1245319599,E11.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-19bdcef61d03,PAT-149e5d58c705,2024,2024,LAKESIDE CLINIC,1245319599,Z00.00,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-76c3a74068b2,PAT-149e5d58c705,2025,2025,LAKESIDE CLINIC,1003000126,N18.3,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-097afdaf4513,PAT-149e5d58c705,2025,2025,LAKESIDE CLINIC,1003000126,N18.3,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-01261a327537,PAT-149e5d58c705,2026,2026,NORTHWIND MED CTR,1245319599,M54.5,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-e200798a0d59,PAT-1a2638703800,2025,2025,NORTHWIND MED CTR,1245319599,J45.909,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-3b2ad1b0b70b,PAT-1a2638703800,2025,2025,CEDAR VALLEY HOSP,1679576722,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-72c3d72eb3a1,PAT-1a2638703800,2024,2024,CEDAR VALLEY HOSP,1245319599,I10,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-5fb6ea14843a,PAT-1a2638703800,2025,2025,CEDAR VALLEY HOSP,1679576722,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-e07b0a5527a2,PAT-78573a12917c,2025,2025,CEDAR VALLEY HOSP,1679576722,Z00.00,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-3b9e4b2e7245,PAT-5675325b55dd,2026,2026,NORTHWIND MED CTR,1003000126,E11.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-0ce61e84fb36,PAT-5675325b55dd,2025,2025,NORTHWIND MED CTR,1245319599,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-99b93087de35,PAT-5675325b55dd,2025,2025,NORTHWIND MED CTR,1003000126,J45.909,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-d3f2f9143ef5,PAT-5675325b55dd,2026,2026,LAKESIDE CLINIC,1679576722,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-31b4954c2fc1,PAT-5675325b55dd,2024,2024,CEDAR VALLEY HOSP,1679576722,J45.909,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-133aee1fdde0,PAT-7b8f3451d013,2026,2026,CEDAR VALLEY HOSP,1679576722,I10,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-833e5f4aebeb,PAT-7b8f3451d013,2025,2025,NORTHWIND MED CTR,1245319599,N18.3,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-2d81ddba8547,PAT-fc399fc2d0a1,2025,2025,CEDAR VALLEY HOSP,1679576722,I10,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-9a6072f92026,PAT-fc399fc2d0a1,2024,2024,NORTHWIND MED CTR,1245319599,M54.5,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-c666428bf773,PAT-fc399fc2d0a1,2025,2025,CEDAR VALLEY HOSP,1003000126,J45.909,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-aa2dc71c588c,PAT-9c3ae67a9b75,2025,2025,CEDAR VALLEY HOSP,1679576722,N18.3,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-019ff2198825,PAT-007dd726c86b,2025,2025,CEDAR VALLEY HOSP,1003000126,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-a3301b1466f6,PAT-e8c17abec539,2026,2026,NORTHWIND MED CTR,1003000126,E11.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-b5af989d181c,PAT-5810a72991b9,2024,2024,CEDAR VALLEY HOSP,1245319599,N18.3,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-59859eb4e92e,PAT-5810a72991b9,2024,2024,NORTHWIND MED CTR,1679576722,N18.3,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-099637b79c48,PAT-a4a4ccb573d9,2025,2025,CEDAR VALLEY HOSP,1003000126,Z00.00,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-570b5e63af16,PAT-a4a4ccb573d9,2025,2025,LAKESIDE CLINIC,1245319599,N18.3,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-0b4e2430ca6d,PAT-a4a4ccb573d9,2024,2024,CEDAR VALLEY HOSP,1679576722,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-fff73437ccaa,PAT-a4a4ccb573d9,2025,2025,LAKESIDE CLINIC,1003000126,F32.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-09c9414205c6,PAT-d5ab15b40aeb,2025,2025,NORTHWIND MED CTR,1679576722,M54.5,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-bb739973cf5c,PAT-d5ab15b40aeb,2026,2026,CEDAR VALLEY HOSP,1679576722,M54.5,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-e9f8a6d21040,PAT-d5ab15b40aeb,2026,2026,CEDAR VALLEY HOSP,1679576722,I10,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-d0933414c2dc,PAT-d5ab15b40aeb,2025,2025,NORTHWIND MED CTR,1245319599,E11.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-d19f02e9c9fb,PAT-1eb2a91c2439,2025,2025,CEDAR VALLEY HOSP,1003000126,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-68b353c69b0a,PAT-1eb2a91c2439,2026,2026,LAKESIDE CLINIC,1003000126,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-5f2eada65cc4,PAT-1eb2a91c2439,2025,2025,NORTHWIND MED CTR,1679576722,N18.3,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-9efa2f65ab4e,PAT-1eb2a91c2439,2024,2024,CEDAR VALLEY HOSP,1003000126,F32.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-13f34fec0f40,PAT-6377e8e72789,2026,2026,NORTHWIND MED CTR,1679576722,E11.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-080e34128822,PAT-6377e8e72789,2025,2025,LAKESIDE CLINIC,1003000126,F32.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-7ee1cb978be3,PAT-6377e8e72789,2026,2026,NORTHWIND MED CTR,1679576722,J45.909,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-7bc78c4caa83,PAT-6377e8e72789,2025,2025,CEDAR VALLEY HOSP,1245319599,E11.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-687d1032888d,PAT-b624c8450070,2026,2026,CEDAR VALLEY HOSP,1003000126,F32.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-cbbc19f48c75,PAT-3306c0093492,2026,2026,NORTHWIND MED CTR,1245319599,M54.5,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-a9fd65322a48,PAT-3306c0093492,2024,2024,LAKESIDE CLINIC,1679576722,Z00.00,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-27908cd5d187,PAT-3306c0093492,2024,2024,LAKESIDE CLINIC,1003000126,E11.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-88b4a3a16d92,PAT-3306c0093492,2026,2026,NORTHWIND MED CTR,1679576722,M54.5,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-a72e1755c6de,PAT-e3967a605a91,2025,2025,CEDAR VALLEY HOSP,1679576722,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC-65d429e78b06,PAT-e3967a605a91,2026,2026,NORTHWIND MED CTR,1679576722,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-456bb2061ecc,PAT-e3967a605a91,2026,2026,NORTHWIND MED CTR,1245319599,F32.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-fcfd68e7ed23,PAT-e3967a605a91,2026,2026,CEDAR VALLEY HOSP,1679576722,I50.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-aaf548866d48,PAT-6f152db3997f,2024,2024,NORTHWIND MED CTR,1679576722,N18.3,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-6af74ebe9880,PAT-6f152db3997f,2025,2025,CEDAR VALLEY HOSP,1245319599,M54.5,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-0d25f4042f1e,PAT-a2c6ca04c79f,2024,2024,NORTHWIND MED CTR,1245319599,F32.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-bece4ff6f2c5,PAT-a2c6ca04c79f,2025,2025,LAKESIDE CLINIC,1679576722,N18.3,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-e2399107756f,PAT-a2c6ca04c79f,2025,2025,NORTHWIND MED CTR,1245319599,I10,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-6a015b7042df,PAT-a2c6ca04c79f,2024,2024,NORTHWIND MED CTR,1245319599,M54.5,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-04a96a9c2a33,PAT-1635551fd8f9,2025,2025,LAKESIDE CLINIC,1003000126,Z00.00,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-c444dd3f4006,PAT-f237cd02c5e1,2025,2025,CEDAR VALLEY HOSP,1003000126,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-cd5eff2282e6,PAT-f237cd02c5e1,2025,2025,NORTHWIND MED CTR,1003000126,M54.5,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-a4fc5d20c6a6,PAT-f237cd02c5e1,2025,2025,NORTHWIND MED CTR,1679576722,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-6406327bcda3,PAT-f237cd02c5e1,2026,2026,LAKESIDE CLINIC,1003000126,N18.3,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-67acba60491e,PAT-b8c9f8be8831,2025,2025,NORTHWIND MED CTR,1245319599,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-f1263423880b,PAT-b8c9f8be8831,2026,2026,NORTHWIND MED CTR,1245319599,N18.3,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-6f25018120f8,PAT-b8c9f8be8831,2024,2024,NORTHWIND MED CTR,1245319599,I10,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-2814e6d14318,PAT-b8c9f8be8831,2026,2026,LAKESIDE CLINIC,1245319599,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-1d106c7b31e2,PAT-76916555abfe,2026,2026,NORTHWIND MED CTR,1679576722,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-172ad203acfe,PAT-76916555abfe,2026,2026,CEDAR VALLEY HOSP,1245319599,I10,No acute distress. Vitals stable. Continue current regimen.
+ENC-93ea67fde1c3,PAT-76916555abfe,2026,2026,NORTHWIND MED CTR,1679576722,I10,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-5d5ee201aafd,PAT-76916555abfe,2024,2024,LAKESIDE CLINIC,1679576722,M54.5,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-c5e675fdf37c,PAT-76916555abfe,2026,2026,NORTHWIND MED CTR,1245319599,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-2146299c858d,PAT-be4c66c1494e,2026,2026,CEDAR VALLEY HOSP,1003000126,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-0d3b03cc2f9b,PAT-be4c66c1494e,2025,2025,NORTHWIND MED CTR,1679576722,E11.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-247a8d323d9e,PAT-be4c66c1494e,2025,2025,LAKESIDE CLINIC,1245319599,N18.3,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-ce74a402bb72,PAT-be4c66c1494e,2026,2026,NORTHWIND MED CTR,1003000126,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-658fe8e84b0d,PAT-be4c66c1494e,2026,2026,NORTHWIND MED CTR,1679576722,N18.3,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-92a716cabe32,PAT-15bdf26149ed,2026,2026,LAKESIDE CLINIC,1245319599,M54.5,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-ed5e9f48250d,PAT-15bdf26149ed,2025,2025,NORTHWIND MED CTR,1679576722,I10,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-bcbc5eef9b8b,PAT-28aab98c67c2,2026,2026,LAKESIDE CLINIC,1245319599,I50.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-2bf381247dd4,PAT-28aab98c67c2,2024,2024,NORTHWIND MED CTR,1679576722,Z00.00,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-59122558d6c0,PAT-28aab98c67c2,2025,2025,CEDAR VALLEY HOSP,1679576722,I10,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-296c4886058b,PAT-28aab98c67c2,2024,2024,NORTHWIND MED CTR,1679576722,M54.5,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-2bfa856aab1d,PAT-fe3c2b855c1f,2025,2025,CEDAR VALLEY HOSP,1003000126,I10,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-112deced8ded,PAT-fe3c2b855c1f,2025,2025,NORTHWIND MED CTR,1679576722,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-623c1bd9d912,PAT-fe3c2b855c1f,2024,2024,CEDAR VALLEY HOSP,1003000126,E11.9,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-c0e97d920a56,PAT-fe3c2b855c1f,2025,2025,NORTHWIND MED CTR,1679576722,E11.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-cacace0843c2,PAT-070d20859634,2024,2024,LAKESIDE CLINIC,1679576722,I50.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-ce01f78530bf,PAT-070d20859634,2024,2024,LAKESIDE CLINIC,1679576722,J45.909,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-4d363284fc6f,PAT-973f26b1cffc,2025,2025,NORTHWIND MED CTR,1003000126,I10,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-d658206c2856,PAT-973f26b1cffc,2025,2025,NORTHWIND MED CTR,1245319599,I50.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-0b22f16d68f3,PAT-7721e7a46309,2024,2024,NORTHWIND MED CTR,1003000126,E11.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-e9adf9bd6bbb,PAT-7721e7a46309,2026,2026,LAKESIDE CLINIC,1679576722,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-50847b949e54,PAT-7721e7a46309,2025,2025,LAKESIDE CLINIC,1679576722,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-9b8e0da9f44a,PAT-7721e7a46309,2024,2024,NORTHWIND MED CTR,1679576722,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-a2e8ed19557a,PAT-a7e6ce76e9f4,2026,2026,NORTHWIND MED CTR,1003000126,Z00.00,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-1617634d1952,PAT-a7e6ce76e9f4,2025,2025,LAKESIDE CLINIC,1245319599,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC-b659e77b0475,PAT-a7e6ce76e9f4,2026,2026,LAKESIDE CLINIC,1003000126,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-b02e9ececbff,PAT-9c90256badf9,2024,2024,CEDAR VALLEY HOSP,1245319599,I50.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-e421d31615e5,PAT-9c90256badf9,2024,2024,LAKESIDE CLINIC,1003000126,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-a3ec2907db86,PAT-9c90256badf9,2026,2026,CEDAR VALLEY HOSP,1003000126,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-db49c92bdd5a,PAT-9c90256badf9,2024,2025,NORTHWIND MED CTR,1679576722,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-9efd38d9e9ab,PAT-988ad39630d6,2025,2025,LAKESIDE CLINIC,1003000126,N18.3,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-9d5e678c4cb9,PAT-988ad39630d6,2026,2026,CEDAR VALLEY HOSP,1245319599,Z00.00,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-3234d8aa7be3,PAT-988ad39630d6,2024,2024,LAKESIDE CLINIC,1003000126,E11.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-7913d445a53e,PAT-988ad39630d6,2025,2025,LAKESIDE CLINIC,1679576722,N18.3,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-90bf2ed6d460,PAT-796ffaf55496,2025,2025,LAKESIDE CLINIC,1679576722,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-0aad37d7d190,PAT-796ffaf55496,2024,2024,CEDAR VALLEY HOSP,1679576722,N18.3,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-f0446655b9f0,PAT-796ffaf55496,2024,2024,LAKESIDE CLINIC,1245319599,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-280f84949aab,PAT-796ffaf55496,2025,2025,CEDAR VALLEY HOSP,1679576722,J45.909,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-5bf562320fa3,PAT-effda842bc19,2025,2025,LAKESIDE CLINIC,1679576722,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-26431f80a4e8,PAT-effda842bc19,2026,2026,LAKESIDE CLINIC,1003000126,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC-f87f3f3f4072,PAT-effda842bc19,2025,2025,CEDAR VALLEY HOSP,1679576722,Z00.00,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-d0ceb991e961,PAT-effda842bc19,2025,2025,CEDAR VALLEY HOSP,1003000126,N18.3,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-314de5b5206e,PAT-effda842bc19,2026,2026,CEDAR VALLEY HOSP,1679576722,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-e2440a857746,PAT-27e959b44e92,2024,2024,NORTHWIND MED CTR,1003000126,J45.909,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-d7ad8ff5ba77,PAT-27e959b44e92,2026,2026,NORTHWIND MED CTR,1003000126,N18.3,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-ac18c1e8fb16,PAT-27e959b44e92,2025,2025,NORTHWIND MED CTR,1245319599,I50.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-aafb09c2cd73,PAT-27e959b44e92,2025,2025,NORTHWIND MED CTR,1003000126,I50.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-52fed6948ded,PAT-27e959b44e92,2024,2025,LAKESIDE CLINIC,1679576722,N18.3,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-63cc1e239eb4,PAT-8c5c8c74fc1e,2026,2026,NORTHWIND MED CTR,1679576722,M54.5,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-74aa997a20be,PAT-8c5c8c74fc1e,2024,2024,LAKESIDE CLINIC,1679576722,N18.3,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-d9588cd03260,PAT-8c5c8c74fc1e,2024,2024,CEDAR VALLEY HOSP,1679576722,M54.5,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-c730a085da1f,PAT-8c5c8c74fc1e,2026,2026,NORTHWIND MED CTR,1003000126,M54.5,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-a6264e640cd4,PAT-8c5c8c74fc1e,2026,2026,CEDAR VALLEY HOSP,1245319599,N18.3,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-4ee66b89d463,PAT-057a2188287e,2025,2025,CEDAR VALLEY HOSP,1245319599,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-3fcf9526e3d0,PAT-057a2188287e,2024,2024,LAKESIDE CLINIC,1003000126,J45.909,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-63a36cfd4940,PAT-057a2188287e,2024,2024,CEDAR VALLEY HOSP,1245319599,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-5e11a8a9ea62,PAT-cca203a56cc1,2024,2024,NORTHWIND MED CTR,1245319599,J45.909,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-80ea7260ca26,PAT-cca203a56cc1,2025,2025,NORTHWIND MED CTR,1679576722,J45.909,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-2dc37037e034,PAT-cca203a56cc1,2025,2025,LAKESIDE CLINIC,1245319599,E11.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-00e505fbec3a,PAT-cca203a56cc1,2024,2024,LAKESIDE CLINIC,1003000126,E11.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-fc739e6fb2b7,PAT-b9f3f88c422b,2024,2024,CEDAR VALLEY HOSP,1245319599,E11.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-771c7d4ffa0f,PAT-b9f3f88c422b,2024,2024,NORTHWIND MED CTR,1679576722,Z00.00,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-72623c39679d,PAT-1a4fa6511445,2025,2025,LAKESIDE CLINIC,1679576722,N18.3,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-9e5ac379023e,PAT-1a4fa6511445,2025,2025,NORTHWIND MED CTR,1003000126,I50.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-d1a8c7ac6f37,PAT-bfde86ce03f9,2026,2026,CEDAR VALLEY HOSP,1003000126,Z00.00,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-d62775526e31,PAT-23a5ef02090b,2024,2024,CEDAR VALLEY HOSP,1679576722,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-cf7e2df83c66,PAT-fc8e6f0e2289,2024,2024,NORTHWIND MED CTR,1679576722,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-667c7924dede,PAT-31dedf2a8b79,2025,2025,CEDAR VALLEY HOSP,1679576722,M54.5,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-112e1b69567e,PAT-31dedf2a8b79,2026,2026,NORTHWIND MED CTR,1003000126,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-5bcb20e27c17,PAT-31dedf2a8b79,2026,2026,CEDAR VALLEY HOSP,1245319599,I50.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-5d866e3bbc97,PAT-31dedf2a8b79,2025,2025,LAKESIDE CLINIC,1245319599,J45.909,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-cd62177a8334,PAT-31dedf2a8b79,2025,2025,LAKESIDE CLINIC,1003000126,F32.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-811c7124c205,PAT-dfb8d37ee915,2025,2025,LAKESIDE CLINIC,1003000126,J45.909,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-a8378299ed6e,PAT-072a3606defc,2026,2026,LAKESIDE CLINIC,1245319599,N18.3,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-0a680a6fb154,PAT-367840783f0a,2025,2025,CEDAR VALLEY HOSP,1003000126,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-2159a2ed8962,PAT-367840783f0a,2026,2026,LAKESIDE CLINIC,1245319599,I50.9,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-ec10150dbf6a,PAT-367840783f0a,2026,2026,NORTHWIND MED CTR,1003000126,I10,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-5050bbc55c33,PAT-367840783f0a,2026,2026,LAKESIDE CLINIC,1003000126,I50.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-b86bc7132891,PAT-367840783f0a,2024,2024,LAKESIDE CLINIC,1245319599,F32.9,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-147882f0779d,PAT-804c4affdcd1,2026,2026,CEDAR VALLEY HOSP,1245319599,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC-c0860de44e65,PAT-804c4affdcd1,2026,2026,CEDAR VALLEY HOSP,1003000126,J45.909,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-e51681012ad6,PAT-804c4affdcd1,2025,2025,CEDAR VALLEY HOSP,1003000126,N18.3,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-a71a60bb9aee,PAT-804c4affdcd1,2026,2026,LAKESIDE CLINIC,1679576722,I10,No acute distress. Vitals stable. Continue current regimen.
+ENC-c8c4f36c1575,PAT-c3803d93fd4c,2024,2024,CEDAR VALLEY HOSP,1003000126,I10,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-069e22dd113c,PAT-53749620bf0d,2026,2026,NORTHWIND MED CTR,1245319599,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC-10fedb68f275,PAT-53749620bf0d,2025,2025,NORTHWIND MED CTR,1003000126,M54.5,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-9d37ff01fe80,PAT-53749620bf0d,2024,2024,NORTHWIND MED CTR,1679576722,F32.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-b14abb69e1f0,PAT-53749620bf0d,2026,2026,LAKESIDE CLINIC,1245319599,J45.909,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-1c0dd0a32611,PAT-53749620bf0d,2025,2025,NORTHWIND MED CTR,1003000126,I50.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-21b13196cd44,PAT-8b5a4265bb31,2026,2026,CEDAR VALLEY HOSP,1245319599,J45.909,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-e2bcfb52882f,PAT-d58d6b446806,2024,2024,CEDAR VALLEY HOSP,1003000126,N18.3,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-49b27deb30ad,PAT-d58d6b446806,2024,2024,NORTHWIND MED CTR,1679576722,Z00.00,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-cf9df4e64fe6,PAT-d58d6b446806,2026,2026,NORTHWIND MED CTR,1679576722,Z00.00,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-cb83ea81ad63,PAT-d58d6b446806,2026,2026,LAKESIDE CLINIC,1245319599,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-afa62a44bf93,PAT-d58d6b446806,2024,2024,CEDAR VALLEY HOSP,1245319599,I10,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-b898c9d35f16,PAT-0f97218e0b7b,2024,2024,CEDAR VALLEY HOSP,1003000126,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-389bee3ab808,PAT-0f97218e0b7b,2026,2026,LAKESIDE CLINIC,1245319599,J45.909,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-d54110c5ab83,PAT-0f97218e0b7b,2026,2026,LAKESIDE CLINIC,1003000126,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-9c4659d4697f,PAT-0f97218e0b7b,2025,2025,CEDAR VALLEY HOSP,1245319599,M54.5,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-4091c194ff53,PAT-0f97218e0b7b,2026,2026,NORTHWIND MED CTR,1003000126,I10,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-52e728a4fbd7,PAT-bd6be8f6e0bd,2026,2026,NORTHWIND MED CTR,1245319599,E11.9,Discussed plan with patient's daughter. Contact email [EMAIL].
+ENC-9d10e58376fb,PAT-bd6be8f6e0bd,2024,2024,NORTHWIND MED CTR,1679576722,I10,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-e7b24665ea19,PAT-bd6be8f6e0bd,2025,2025,CEDAR VALLEY HOSP,1245319599,I50.9,"Seen by Dr. [NAME]. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-74d6d0cce893,PAT-e5cf5a9196f0,2025,2025,NORTHWIND MED CTR,1003000126,Z00.00,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-411024c1276c,PAT-a997754a09cd,2024,2024,LAKESIDE CLINIC,1003000126,I10,No acute distress. Vitals stable. Continue current regimen.
+ENC-f6de80915aaf,PAT-a997754a09cd,2026,2026,CEDAR VALLEY HOSP,1003000126,I10,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-7ae8eb7f1414,PAT-a997754a09cd,2025,2025,NORTHWIND MED CTR,1245319599,I50.9,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-97853554ada8,PAT-a997754a09cd,2025,2025,LAKESIDE CLINIC,1679576722,I50.9,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-9da9434b4b94,PAT-a997754a09cd,2025,2025,NORTHWIND MED CTR,1003000126,Z00.00,"Seen by Dr. Hughes. Pt [NAME], [NAME] denies chest pain. Fax results to [PHONE]."
+ENC-3cc68189ac45,PAT-d0a69556585e,2024,2024,CEDAR VALLEY HOSP,1679576722,J45.909,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-5f4c51af1074,PAT-844ae77ffe48,2026,2026,LAKESIDE CLINIC,1679576722,N18.3,Mr./Ms. [NAME] reports improvement since visit on [DATE]. [MRN].
+ENC-32ed096de421,PAT-844ae77ffe48,2024,2024,LAKESIDE CLINIC,1245319599,Z00.00,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-67492e9dde73,PAT-844ae77ffe48,2026,2026,CEDAR VALLEY HOSP,1245319599,F32.9,Pt [NAME] [NAME] seen for follow-up. Call back at [PHONE].
+ENC-a2f629465388,PAT-844ae77ffe48,2024,2024,NORTHWIND MED CTR,1003000126,M54.5,"Patient lives at [ADDRESS], [LOCATION]. Transport arranged for [DATE]."
+ENC-4737efb82825,PAT-d3bf6bae4b5b,2026,2026,LAKESIDE CLINIC,1003000126,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC-53ecadff8165,PAT-d3bf6bae4b5b,2024,2024,LAKESIDE CLINIC,1245319599,I10,No acute distress. Vitals stable. Continue current regimen.
+ENC-6078e539cb16,PAT-d3bf6bae4b5b,2024,2024,CEDAR VALLEY HOSP,1245319599,Z00.00,[NAME] tolerating metformin well. Next labs [DATE].
+ENC-cac82b32ada9,PAT-e0cfeaefc4d2,2024,2024,NORTHWIND MED CTR,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-43abc8ed3213,PAT-e0cfeaefc4d2,2025,2025,NORTHWIND MED CTR,1003000126,Z00.00,"Insurance verification: SSN [SSN] on file, member portal [URL]"
+ENC-c4ad1d75cc23,PAT-e0cfeaefc4d2,2025,2025,LAKESIDE CLINIC,1679576722,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC-0c6f87dd58d9,PAT-e0cfeaefc4d2,2026,2026,LAKESIDE CLINIC,1003000126,J45.909,No acute distress. Vitals stable. Continue current regimen.

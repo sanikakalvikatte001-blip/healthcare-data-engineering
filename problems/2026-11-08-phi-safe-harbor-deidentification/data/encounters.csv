@@ -1,0 +1,789 @@
+encounter_id,mrn,admit_date,discharge_date,facility,attending_npi,primary_dx,note_text
+ENC000001,MRN100000,2024-10-28,2024-11-03,NORTHWIND MED CTR,1245319599,M54.5,"Seen by Dr. Hughes. Pt Alvarez, Wei denies chest pain. Fax results to (803) 555-0135."
+ENC000002,MRN100000,2025-11-17,2025-11-21,NORTHWIND MED CTR,1245319599,M54.5,"Patient lives at 3592 Oak Lane, Austin. Transport arranged for 2025-12-03."
+ENC000003,MRN100001,2024-08-31,2024-09-04,CEDAR VALLEY HOSP,1679576722,F32.9,"Patient lives at 5935 Lakeview Ave, Madison. Transport arranged for 2024-09-12."
+ENC000004,MRN100001,2026-05-18,2026-05-23,LAKESIDE CLINIC,1003000126,I10,"Patient lives at 5935 Lakeview Ave, Madison. Transport arranged for 2026-06-16."
+ENC000005,MRN100002,2025-09-21,2025-09-28,LAKESIDE CLINIC,1003000126,I50.9,"Insurance verification: SSN 998-17-4752 on file, member portal https://portal.example.org/u/MRN100002."
+ENC000006,MRN100002,2024-09-27,2024-10-03,NORTHWIND MED CTR,1003000126,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC000007,MRN100002,2026-07-30,2026-07-30,LAKESIDE CLINIC,1679576722,I10,Discussed plan with patient's daughter. Contact email priya.ibrahim2@example.org.
+ENC000008,MRN100002,2025-10-02,2025-10-08,LAKESIDE CLINIC,1245319599,I10,"Seen by Dr. Hughes. Pt Ibrahim, Priya denies chest pain. Fax results to (741) 555-0132."
+ENC000009,MRN100003,2026-05-28,2026-06-02,LAKESIDE CLINIC,1245319599,F32.9,Discussed plan with patient's daughter. Contact email liam.moreau3@example.org.
+ENC000010,MRN100003,2025-06-18,2025-06-18,NORTHWIND MED CTR,1245319599,I10,"Liam tolerating metformin well. Next labs July 2, 2025."
+ENC000011,MRN100004,2024-10-31,2024-11-04,CEDAR VALLEY HOSP,1245319599,N18.3,"Aisha tolerating metformin well. Next labs December 2, 2024."
+ENC000012,MRN100004,2026-03-15,2026-03-16,NORTHWIND MED CTR,1003000126,N18.3,Pt Aisha Lindqvist seen for follow-up. Call back at (802) 555-0170.
+ENC000013,MRN100005,2024-07-27,2024-08-02,CEDAR VALLEY HOSP,1679576722,M54.5,Mr./Ms. Brooks reports improvement since visit on 07/27/2024. MRN MRN100005.
+ENC000014,MRN100005,2025-09-06,2025-09-13,LAKESIDE CLINIC,1245319599,E11.9,Pt Maria Brooks seen for follow-up. Call back at (889) 555-0183.
+ENC000015,MRN100005,2025-09-14,2025-09-19,NORTHWIND MED CTR,1003000126,Z00.00,Mr./Ms. Brooks reports improvement since visit on 09/14/2025. MRN MRN100005.
+ENC000016,MRN100005,2026-06-10,2026-06-16,NORTHWIND MED CTR,1679576722,I10,"Insurance verification: SSN 909-75-4899 on file, member portal https://portal.example.org/u/MRN100005."
+ENC000017,MRN100006,2026-01-12,2026-01-18,CEDAR VALLEY HOSP,1245319599,E11.9,"Seen by Dr. Hughes. Pt Kowalski, James denies chest pain. Fax results to (358) 555-0124."
+ENC000018,MRN100006,2025-03-17,2025-03-17,LAKESIDE CLINIC,1679576722,J45.909,"James tolerating metformin well. Next labs May 10, 2025."
+ENC000019,MRN100006,2026-09-03,2026-09-04,LAKESIDE CLINIC,1245319599,M54.5,Mr./Ms. Kowalski reports improvement since visit on 09/03/2026. MRN MRN100006.
+ENC000020,MRN100006,2026-07-01,2026-07-04,CEDAR VALLEY HOSP,1003000126,F32.9,Pt James Kowalski seen for follow-up. Call back at (834) 555-0110.
+ENC000021,MRN100007,2026-06-18,2026-06-23,NORTHWIND MED CTR,1679576722,I50.9,"Patient lives at 9234 Maple St, Denver. Transport arranged for 2026-06-29."
+ENC000022,MRN100007,2025-02-12,2025-02-12,NORTHWIND MED CTR,1679576722,I10,"Insurance verification: SSN 958-50-2188 on file, member portal https://portal.example.org/u/MRN100007."
+ENC000023,MRN100007,2026-07-14,2026-07-16,LAKESIDE CLINIC,1679576722,N18.3,"Insurance verification: SSN 958-50-2188 on file, member portal https://portal.example.org/u/MRN100007."
+ENC000024,MRN100008,2026-10-22,2026-10-23,CEDAR VALLEY HOSP,1003000126,J45.909,Discussed plan with patient's daughter. Contact email liam.ibrahim8@example.org.
+ENC000025,MRN100008,2025-08-17,2025-08-19,CEDAR VALLEY HOSP,1245319599,N18.3,"Insurance verification: SSN 900-52-3143 on file, member portal https://portal.example.org/u/MRN100008."
+ENC000026,MRN100008,2024-12-18,2024-12-19,NORTHWIND MED CTR,1245319599,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC000027,MRN100008,2024-08-03,2024-08-05,CEDAR VALLEY HOSP,1679576722,N18.3,Pt Liam Ibrahim seen for follow-up. Call back at (383) 555-0194.
+ENC000028,MRN100008,2026-01-31,2026-02-02,CEDAR VALLEY HOSP,1245319599,N18.3,Mr./Ms. Ibrahim reports improvement since visit on 01/31/2026. MRN MRN100008.
+ENC000029,MRN100009,2026-10-03,2026-10-04,NORTHWIND MED CTR,1245319599,M54.5,Discussed plan with patient's daughter. Contact email ethan.fischer9@example.org.
+ENC000030,MRN100009,2025-11-12,2025-11-17,NORTHWIND MED CTR,1679576722,E11.9,Mr./Ms. Fischer reports improvement since visit on 11/12/2025. MRN MRN100009.
+ENC000031,MRN100009,2024-11-05,2024-11-11,NORTHWIND MED CTR,1003000126,F32.9,"Patient lives at 8356 Elm Drive, Valentine. Transport arranged for 2024-11-12."
+ENC000032,MRN100010,2025-02-08,2025-02-12,NORTHWIND MED CTR,1679576722,F32.9,Pt Noah Kowalski seen for follow-up. Call back at (511) 555-0136.
+ENC000033,MRN100010,2025-07-12,2025-07-19,LAKESIDE CLINIC,1245319599,I10,"Patient lives at 3153 Elm Drive, Seattle. Transport arranged for 2025-08-16."
+ENC000034,MRN100011,2025-09-02,2025-09-05,NORTHWIND MED CTR,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000035,MRN100011,2024-09-23,2024-09-24,LAKESIDE CLINIC,1003000126,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC000036,MRN100011,2026-09-10,2026-09-13,LAKESIDE CLINIC,1003000126,F32.9,"Seen by Dr. Hughes. Pt Ibrahim, Olivia denies chest pain. Fax results to (336) 555-0159."
+ENC000037,MRN100011,2024-09-18,2024-09-25,NORTHWIND MED CTR,1003000126,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC000038,MRN100012,2026-06-12,2026-06-14,LAKESIDE CLINIC,1245319599,I10,No acute distress. Vitals stable. Continue current regimen.
+ENC000039,MRN100013,2024-06-10,2024-06-16,CEDAR VALLEY HOSP,1679576722,Z00.00,"Patient lives at 6242 Elm St, Eagle Pass. Transport arranged for 2024-07-21."
+ENC000040,MRN100013,2026-10-02,2026-10-08,CEDAR VALLEY HOSP,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000041,MRN100013,2025-09-23,2025-09-23,NORTHWIND MED CTR,1245319599,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000042,MRN100013,2025-10-08,2025-10-13,CEDAR VALLEY HOSP,1679576722,M54.5,"Seen by Dr. Hughes. Pt Garcia, Sofia denies chest pain. Fax results to (534) 555-0143."
+ENC000043,MRN100014,2025-07-04,2025-07-05,CEDAR VALLEY HOSP,1679576722,J45.909,"Patient lives at 4061 Oak St, Ely. Transport arranged for 2025-08-16."
+ENC000044,MRN100014,2025-02-18,2025-02-19,LAKESIDE CLINIC,1245319599,I50.9,Discussed plan with patient's daughter. Contact email liam.nakamura14@example.org.
+ENC000045,MRN100015,2025-01-06,2025-01-11,CEDAR VALLEY HOSP,1679576722,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC000046,MRN100015,2024-11-06,2024-11-08,LAKESIDE CLINIC,1679576722,Z00.00,Discussed plan with patient's daughter. Contact email mateo.garcia15@example.org.
+ENC000047,MRN100015,2025-07-12,2025-07-18,NORTHWIND MED CTR,1679576722,Z00.00,"Insurance verification: SSN 989-48-2983 on file, member portal https://portal.example.org/u/MRN100015."
+ENC000048,MRN100015,2026-02-24,2026-03-03,CEDAR VALLEY HOSP,1679576722,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC000049,MRN100015,2025-06-19,2025-06-22,LAKESIDE CLINIC,1003000126,I50.9,"Insurance verification: SSN 989-48-2983 on file, member portal https://portal.example.org/u/MRN100015."
+ENC000050,MRN100016,2024-12-21,2024-12-26,LAKESIDE CLINIC,1679576722,F32.9,"Maria tolerating metformin well. Next labs January 27, 2025."
+ENC000051,MRN100016,2024-11-11,2024-11-18,NORTHWIND MED CTR,1003000126,N18.3,"Insurance verification: SSN 988-70-9041 on file, member portal https://portal.example.org/u/MRN100016."
+ENC000052,MRN100016,2025-12-12,2025-12-13,LAKESIDE CLINIC,1679576722,I50.9,Discussed plan with patient's daughter. Contact email maria.ibrahim16@example.org.
+ENC000053,MRN100017,2026-07-18,2026-07-18,CEDAR VALLEY HOSP,1679576722,J45.909,"Insurance verification: SSN 990-78-3073 on file, member portal https://portal.example.org/u/MRN100017."
+ENC000054,MRN100017,2026-09-09,2026-09-13,CEDAR VALLEY HOSP,1245319599,E11.9,Mr./Ms. Brooks reports improvement since visit on 09/09/2026. MRN MRN100017.
+ENC000055,MRN100017,2026-05-29,2026-05-31,NORTHWIND MED CTR,1003000126,M54.5,"Insurance verification: SSN 990-78-3073 on file, member portal https://portal.example.org/u/MRN100017."
+ENC000056,MRN100017,2025-02-18,2025-02-21,CEDAR VALLEY HOSP,1003000126,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC000057,MRN100018,2025-07-07,2025-07-11,CEDAR VALLEY HOSP,1003000126,Z00.00,"Patient lives at 2857 Lakeview St, Raleigh. Transport arranged for 2025-07-16."
+ENC000058,MRN100018,2026-08-20,2026-08-23,LAKESIDE CLINIC,1245319599,J45.909,"Patient lives at 2857 Lakeview St, Raleigh. Transport arranged for 2026-09-12."
+ENC000059,MRN100018,2026-02-01,2026-02-03,LAKESIDE CLINIC,1003000126,I50.9,Pt Olivia Jensen seen for follow-up. Call back at (369) 555-0139.
+ENC000060,MRN100018,2025-08-08,2025-08-09,CEDAR VALLEY HOSP,1003000126,Z00.00,"Insurance verification: SSN 933-94-2330 on file, member portal https://portal.example.org/u/MRN100018."
+ENC000061,MRN100018,2025-08-09,2025-08-10,CEDAR VALLEY HOSP,1003000126,I50.9,Pt Olivia Jensen seen for follow-up. Call back at (642) 555-0194.
+ENC000062,MRN100019,2026-07-30,2026-08-06,LAKESIDE CLINIC,1245319599,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC000063,MRN100019,2025-11-28,2025-12-04,CEDAR VALLEY HOSP,1003000126,E11.9,"Seen by Dr. Hughes. Pt Brooks, Maria denies chest pain. Fax results to (495) 555-0184."
+ENC000064,MRN100019,2025-07-23,2025-07-24,CEDAR VALLEY HOSP,1003000126,E11.9,"Insurance verification: SSN 973-15-3870 on file, member portal https://portal.example.org/u/MRN100019."
+ENC000065,MRN100019,2024-12-27,2025-01-03,CEDAR VALLEY HOSP,1003000126,Z00.00,Pt Maria Brooks seen for follow-up. Call back at (392) 555-0166.
+ENC000066,MRN100020,2026-10-17,2026-10-23,NORTHWIND MED CTR,1003000126,J45.909,"Patient lives at 9985 Willow Ave, Boston. Transport arranged for 2026-10-29."
+ENC000067,MRN100020,2025-06-08,2025-06-12,CEDAR VALLEY HOSP,1245319599,Z00.00,"Insurance verification: SSN 989-72-2989 on file, member portal https://portal.example.org/u/MRN100020."
+ENC000068,MRN100020,2025-04-15,2025-04-17,LAKESIDE CLINIC,1245319599,I10,"Patient lives at 9985 Willow Ave, Boston. Transport arranged for 2025-05-16."
+ENC000069,MRN100020,2026-01-22,2026-01-28,LAKESIDE CLINIC,1679576722,Z00.00,"Insurance verification: SSN 989-72-2989 on file, member portal https://portal.example.org/u/MRN100020."
+ENC000070,MRN100020,2024-05-28,2024-05-30,LAKESIDE CLINIC,1003000126,M54.5,"Seen by Dr. Hughes. Pt Moreau, Ethan denies chest pain. Fax results to (553) 555-0142."
+ENC000071,MRN100021,2026-07-21,2026-07-28,NORTHWIND MED CTR,1245319599,Z00.00,Discussed plan with patient's daughter. Contact email ethan.fischer21@example.org.
+ENC000072,MRN100021,2024-08-22,2024-08-26,CEDAR VALLEY HOSP,1003000126,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC000073,MRN100021,2025-12-11,2025-12-18,NORTHWIND MED CTR,1003000126,I50.9,Pt Ethan Fischer seen for follow-up. Call back at (832) 555-0108.
+ENC000074,MRN100021,2026-03-13,2026-03-14,LAKESIDE CLINIC,1245319599,Z00.00,Mr./Ms. Fischer reports improvement since visit on 03/13/2026. MRN MRN100021.
+ENC000075,MRN100022,2026-05-05,2026-05-06,NORTHWIND MED CTR,1679576722,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC000076,MRN100022,2026-03-08,2026-03-15,LAKESIDE CLINIC,1245319599,Z00.00,"Insurance verification: SSN 945-57-8056 on file, member portal https://portal.example.org/u/MRN100022."
+ENC000077,MRN100023,2025-03-22,2025-03-26,CEDAR VALLEY HOSP,1679576722,E11.9,"Insurance verification: SSN 988-42-8484 on file, member portal https://portal.example.org/u/MRN100023."
+ENC000078,MRN100023,2025-03-31,2025-03-31,NORTHWIND MED CTR,1003000126,F32.9,"Seen by Dr. Hughes. Pt Kowalski, Olivia denies chest pain. Fax results to (493) 555-0199."
+ENC000079,MRN100023,2026-03-21,2026-03-24,LAKESIDE CLINIC,1003000126,J45.909,"Insurance verification: SSN 988-42-8484 on file, member portal https://portal.example.org/u/MRN100023."
+ENC000080,MRN100024,2025-06-05,2025-06-09,CEDAR VALLEY HOSP,1003000126,F32.9,Discussed plan with patient's daughter. Contact email wei.kowalski24@example.org.
+ENC000081,MRN100024,2024-07-30,2024-07-31,NORTHWIND MED CTR,1003000126,M54.5,Mr./Ms. Kowalski reports improvement since visit on 07/30/2024. MRN MRN100024.
+ENC000082,MRN100024,2024-06-17,2024-06-22,LAKESIDE CLINIC,1245319599,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC000083,MRN100024,2025-10-19,2025-10-23,NORTHWIND MED CTR,1003000126,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000084,MRN100024,2025-07-06,2025-07-06,LAKESIDE CLINIC,1245319599,Z00.00,"Wei tolerating metformin well. Next labs August 21, 2025."
+ENC000085,MRN100025,2025-08-28,2025-08-30,CEDAR VALLEY HOSP,1679576722,E11.9,Mr./Ms. Kowalski reports improvement since visit on 08/28/2025. MRN MRN100025.
+ENC000086,MRN100025,2024-11-24,2024-11-29,CEDAR VALLEY HOSP,1245319599,F32.9,"Seen by Dr. Hughes. Pt Kowalski, Olivia denies chest pain. Fax results to (655) 555-0130."
+ENC000087,MRN100025,2025-04-22,2025-04-27,NORTHWIND MED CTR,1679576722,I10,No acute distress. Vitals stable. Continue current regimen.
+ENC000088,MRN100025,2024-12-22,2024-12-25,NORTHWIND MED CTR,1245319599,N18.3,Pt Olivia Kowalski seen for follow-up. Call back at (251) 555-0142.
+ENC000089,MRN100025,2026-08-22,2026-08-25,NORTHWIND MED CTR,1003000126,E11.9,"Patient lives at 6377 Elm Rd, Boston. Transport arranged for 2026-10-05."
+ENC000090,MRN100026,2024-10-02,2024-10-08,CEDAR VALLEY HOSP,1679576722,F32.9,Mr./Ms. Nakamura reports improvement since visit on 10/02/2024. MRN MRN100026.
+ENC000091,MRN100026,2025-05-24,2025-05-25,LAKESIDE CLINIC,1003000126,I50.9,"Patient lives at 3908 Lakeview Rd, Denver. Transport arranged for 2025-06-28."
+ENC000092,MRN100027,2025-10-06,2025-10-10,NORTHWIND MED CTR,1003000126,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000093,MRN100027,2025-08-17,2025-08-24,CEDAR VALLEY HOSP,1679576722,I10,No acute distress. Vitals stable. Continue current regimen.
+ENC000094,MRN100027,2025-12-15,2025-12-21,LAKESIDE CLINIC,1679576722,I10,"Insurance verification: SSN 962-66-2204 on file, member portal https://portal.example.org/u/MRN100027."
+ENC000095,MRN100028,2026-01-10,2026-01-14,NORTHWIND MED CTR,1245319599,Z00.00,Mr./Ms. Nakamura reports improvement since visit on 01/10/2026. MRN MRN100028.
+ENC000096,MRN100029,2026-10-25,2026-10-27,LAKESIDE CLINIC,1003000126,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000097,MRN100029,2026-07-30,2026-08-02,NORTHWIND MED CTR,1679576722,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000098,MRN100029,2024-10-23,2024-10-28,NORTHWIND MED CTR,1003000126,E11.9,Mr./Ms. Nakamura reports improvement since visit on 10/23/2024. MRN MRN100029.
+ENC000099,MRN100030,2024-12-17,2024-12-21,NORTHWIND MED CTR,1245319599,N18.3,"Patient lives at 1826 Cedar Drive, Seattle. Transport arranged for 2024-12-26."
+ENC000100,MRN100030,2025-12-27,2025-12-30,CEDAR VALLEY HOSP,1679576722,I10,Discussed plan with patient's daughter. Contact email aisha.esposito30@example.org.
+ENC000101,MRN100030,2026-10-24,2026-10-31,CEDAR VALLEY HOSP,1003000126,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000102,MRN100030,2025-06-06,2025-06-11,CEDAR VALLEY HOSP,1245319599,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC000103,MRN100030,2026-08-13,2026-08-18,LAKESIDE CLINIC,1003000126,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC000104,MRN100031,2026-03-19,2026-03-24,LAKESIDE CLINIC,1245319599,N18.3,Discussed plan with patient's daughter. Contact email olivia.brooks31@example.org.
+ENC000105,MRN100031,2024-08-28,2024-09-02,NORTHWIND MED CTR,1679576722,N18.3,Discussed plan with patient's daughter. Contact email olivia.brooks31@example.org.
+ENC000106,MRN100031,2026-05-07,2026-05-09,LAKESIDE CLINIC,1679576722,Z00.00,Mr./Ms. Brooks reports improvement since visit on 05/07/2026. MRN MRN100031.
+ENC000107,MRN100032,2026-08-17,2026-08-21,CEDAR VALLEY HOSP,1679576722,I10,"Seen by Dr. Hughes. Pt Kowalski, Ethan denies chest pain. Fax results to (238) 555-0107."
+ENC000108,MRN100032,2025-01-09,2025-01-10,LAKESIDE CLINIC,1003000126,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000109,MRN100032,2025-07-28,2025-07-31,NORTHWIND MED CTR,1679576722,I10,"Seen by Dr. Hughes. Pt Kowalski, Ethan denies chest pain. Fax results to (713) 555-0119."
+ENC000110,MRN100032,2024-07-23,2024-07-28,NORTHWIND MED CTR,1245319599,N18.3,Mr./Ms. Kowalski reports improvement since visit on 07/23/2024. MRN MRN100032.
+ENC000111,MRN100032,2024-11-06,2024-11-13,CEDAR VALLEY HOSP,1679576722,M54.5,Discussed plan with patient's daughter. Contact email ethan.kowalski32@example.org.
+ENC000112,MRN100033,2025-11-07,2025-11-11,LAKESIDE CLINIC,1245319599,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000113,MRN100033,2025-04-07,2025-04-13,LAKESIDE CLINIC,1003000126,I10,"Noah tolerating metformin well. Next labs May 25, 2025."
+ENC000114,MRN100034,2024-09-02,2024-09-02,NORTHWIND MED CTR,1003000126,M54.5,"Sofia tolerating metformin well. Next labs October 21, 2024."
+ENC000115,MRN100034,2026-05-27,2026-05-29,NORTHWIND MED CTR,1679576722,F32.9,Discussed plan with patient's daughter. Contact email sofia.ibrahim34@example.org.
+ENC000116,MRN100034,2024-12-08,2024-12-11,CEDAR VALLEY HOSP,1245319599,N18.3,"Insurance verification: SSN 998-72-4145 on file, member portal https://portal.example.org/u/MRN100034."
+ENC000117,MRN100034,2025-12-19,2025-12-26,LAKESIDE CLINIC,1679576722,Z00.00,"Patient lives at 2548 Maple Rd, Raleigh. Transport arranged for 2026-02-17."
+ENC000118,MRN100034,2024-09-04,2024-09-08,CEDAR VALLEY HOSP,1245319599,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000119,MRN100035,2025-11-08,2025-11-08,CEDAR VALLEY HOSP,1245319599,M54.5,Pt Carlos Nakamura seen for follow-up. Call back at (605) 555-0164.
+ENC000120,MRN100035,2026-08-09,2026-08-14,LAKESIDE CLINIC,1003000126,F32.9,Pt Carlos Nakamura seen for follow-up. Call back at (526) 555-0112.
+ENC000121,MRN100035,2024-08-12,2024-08-14,LAKESIDE CLINIC,1245319599,Z00.00,Pt Carlos Nakamura seen for follow-up. Call back at (493) 555-0160.
+ENC000122,MRN100035,2025-07-29,2025-07-29,NORTHWIND MED CTR,1003000126,M54.5,Pt Carlos Nakamura seen for follow-up. Call back at (462) 555-0127.
+ENC000123,MRN100036,2026-01-06,2026-01-12,CEDAR VALLEY HOSP,1245319599,I10,"Wei tolerating metformin well. Next labs January 13, 2026."
+ENC000124,MRN100036,2025-05-13,2025-05-18,NORTHWIND MED CTR,1003000126,M54.5,Pt Wei Moreau seen for follow-up. Call back at (599) 555-0160.
+ENC000125,MRN100037,2025-01-23,2025-01-25,CEDAR VALLEY HOSP,1245319599,I50.9,Discussed plan with patient's daughter. Contact email emma.esposito37@example.org.
+ENC000126,MRN100037,2026-04-08,2026-04-08,CEDAR VALLEY HOSP,1003000126,M54.5,"Patient lives at 2878 Willow Drive, Austin. Transport arranged for 2026-06-04."
+ENC000127,MRN100037,2024-07-19,2024-07-26,NORTHWIND MED CTR,1679576722,F32.9,Pt Emma Esposito seen for follow-up. Call back at (971) 555-0182.
+ENC000128,MRN100037,2024-06-01,2024-06-01,CEDAR VALLEY HOSP,1679576722,M54.5,"Emma tolerating metformin well. Next labs July 19, 2024."
+ENC000129,MRN100038,2024-12-24,2024-12-28,CEDAR VALLEY HOSP,1245319599,Z00.00,"Seen by Dr. Hughes. Pt Garcia, Ethan denies chest pain. Fax results to (817) 555-0191."
+ENC000130,MRN100038,2025-11-06,2025-11-13,CEDAR VALLEY HOSP,1003000126,E11.9,"Ethan tolerating metformin well. Next labs November 15, 2025."
+ENC000131,MRN100038,2026-08-16,2026-08-22,LAKESIDE CLINIC,1003000126,Z00.00,Discussed plan with patient's daughter. Contact email ethan.garcia38@example.org.
+ENC000132,MRN100039,2025-01-04,2025-01-08,NORTHWIND MED CTR,1679576722,M54.5,Mr./Ms. Chen reports improvement since visit on 01/04/2025. MRN MRN100039.
+ENC000133,MRN100039,2025-04-04,2025-04-05,NORTHWIND MED CTR,1003000126,I50.9,"Insurance verification: SSN 986-67-7077 on file, member portal https://portal.example.org/u/MRN100039."
+ENC000134,MRN100039,2024-11-20,2024-11-27,CEDAR VALLEY HOSP,1245319599,Z00.00,Mr./Ms. Chen reports improvement since visit on 11/20/2024. MRN MRN100039.
+ENC000135,MRN100040,2026-10-05,2026-10-10,NORTHWIND MED CTR,1003000126,I10,"Aisha tolerating metformin well. Next labs November 16, 2026."
+ENC000136,MRN100040,2026-08-25,2026-08-29,CEDAR VALLEY HOSP,1003000126,I10,"Seen by Dr. Hughes. Pt Moreau, Aisha denies chest pain. Fax results to (738) 555-0152."
+ENC000137,MRN100040,2026-06-25,2026-06-30,LAKESIDE CLINIC,1003000126,F32.9,Mr./Ms. Moreau reports improvement since visit on 06/25/2026. MRN MRN100040.
+ENC000138,MRN100040,2026-06-22,2026-06-24,NORTHWIND MED CTR,1245319599,J45.909,Discussed plan with patient's daughter. Contact email aisha.moreau40@example.org.
+ENC000139,MRN100041,2026-05-27,2026-05-29,NORTHWIND MED CTR,1245319599,E11.9,"Olivia tolerating metformin well. Next labs July 15, 2026."
+ENC000140,MRN100041,2025-01-13,2025-01-17,CEDAR VALLEY HOSP,1003000126,E11.9,"Patient lives at 4971 Lakeview Lane, Boston. Transport arranged for 2025-03-02."
+ENC000141,MRN100041,2025-06-09,2025-06-13,LAKESIDE CLINIC,1679576722,I50.9,"Insurance verification: SSN 932-35-5496 on file, member portal https://portal.example.org/u/MRN100041."
+ENC000142,MRN100041,2025-07-24,2025-07-25,CEDAR VALLEY HOSP,1679576722,Z00.00,Pt Olivia Chen seen for follow-up. Call back at (361) 555-0156.
+ENC000143,MRN100041,2026-04-06,2026-04-11,CEDAR VALLEY HOSP,1003000126,F32.9,Discussed plan with patient's daughter. Contact email olivia.chen41@example.org.
+ENC000144,MRN100042,2026-02-19,2026-02-21,CEDAR VALLEY HOSP,1245319599,J45.909,"Mateo tolerating metformin well. Next labs April 19, 2026."
+ENC000145,MRN100042,2025-06-08,2025-06-15,NORTHWIND MED CTR,1679576722,Z00.00,"Insurance verification: SSN 915-44-8366 on file, member portal https://portal.example.org/u/MRN100042."
+ENC000146,MRN100042,2026-02-27,2026-03-02,CEDAR VALLEY HOSP,1679576722,Z00.00,"Mateo tolerating metformin well. Next labs April 12, 2026."
+ENC000147,MRN100042,2026-01-12,2026-01-12,LAKESIDE CLINIC,1679576722,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC000148,MRN100043,2026-07-24,2026-07-30,NORTHWIND MED CTR,1245319599,M54.5,"Emma tolerating metformin well. Next labs August 23, 2026."
+ENC000149,MRN100043,2025-06-06,2025-06-06,CEDAR VALLEY HOSP,1679576722,Z00.00,Pt Emma Alvarez seen for follow-up. Call back at (340) 555-0191.
+ENC000150,MRN100044,2025-12-29,2026-01-05,LAKESIDE CLINIC,1245319599,M54.5,Pt Carlos Jensen seen for follow-up. Call back at (577) 555-0142.
+ENC000151,MRN100044,2025-03-13,2025-03-17,CEDAR VALLEY HOSP,1003000126,N18.3,Pt Carlos Jensen seen for follow-up. Call back at (811) 555-0160.
+ENC000152,MRN100044,2024-10-23,2024-10-23,LAKESIDE CLINIC,1003000126,M54.5,"Seen by Dr. Hughes. Pt Jensen, Carlos denies chest pain. Fax results to (374) 555-0167."
+ENC000153,MRN100044,2026-06-02,2026-06-05,CEDAR VALLEY HOSP,1679576722,M54.5,Mr./Ms. Jensen reports improvement since visit on 06/02/2026. MRN MRN100044.
+ENC000154,MRN100044,2026-05-29,2026-06-04,LAKESIDE CLINIC,1679576722,E11.9,"Patient lives at 8321 Willow Lane, Tampa. Transport arranged for 2026-07-19."
+ENC000155,MRN100045,2025-02-14,2025-02-21,CEDAR VALLEY HOSP,1245319599,I50.9,"Patient lives at 5814 Hillcrest Drive, Seattle. Transport arranged for 2025-03-05."
+ENC000156,MRN100045,2024-09-02,2024-09-06,CEDAR VALLEY HOSP,1679576722,Z00.00,"Patient lives at 5814 Hillcrest Drive, Seattle. Transport arranged for 2024-10-24."
+ENC000157,MRN100045,2025-11-08,2025-11-12,LAKESIDE CLINIC,1679576722,M54.5,Mr./Ms. Ibrahim reports improvement since visit on 11/08/2025. MRN MRN100045.
+ENC000158,MRN100046,2025-02-08,2025-02-11,NORTHWIND MED CTR,1003000126,N18.3,Pt Emma Moreau seen for follow-up. Call back at (885) 555-0167.
+ENC000159,MRN100047,2026-01-12,2026-01-12,NORTHWIND MED CTR,1003000126,E11.9,Mr./Ms. Brooks reports improvement since visit on 01/12/2026. MRN MRN100047.
+ENC000160,MRN100047,2026-05-05,2026-05-11,CEDAR VALLEY HOSP,1245319599,I50.9,Discussed plan with patient's daughter. Contact email james.brooks47@example.org.
+ENC000161,MRN100047,2024-05-17,2024-05-17,NORTHWIND MED CTR,1679576722,I50.9,"Insurance verification: SSN 970-30-7666 on file, member portal https://portal.example.org/u/MRN100047."
+ENC000162,MRN100048,2024-08-13,2024-08-17,LAKESIDE CLINIC,1679576722,M54.5,"Patient lives at 7528 Hillcrest Rd, Madison. Transport arranged for 2024-09-25."
+ENC000163,MRN100048,2025-05-22,2025-05-27,NORTHWIND MED CTR,1245319599,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC000164,MRN100048,2025-12-04,2025-12-07,CEDAR VALLEY HOSP,1679576722,F32.9,"Insurance verification: SSN 924-24-6417 on file, member portal https://portal.example.org/u/MRN100048."
+ENC000165,MRN100049,2024-11-24,2024-11-25,NORTHWIND MED CTR,1245319599,J45.909,"Insurance verification: SSN 985-25-8625 on file, member portal https://portal.example.org/u/MRN100049."
+ENC000166,MRN100049,2025-06-29,2025-07-01,LAKESIDE CLINIC,1679576722,N18.3,"Olivia tolerating metformin well. Next labs August 4, 2025."
+ENC000167,MRN100049,2024-09-11,2024-09-14,LAKESIDE CLINIC,1003000126,F32.9,Mr./Ms. Jensen reports improvement since visit on 09/11/2024. MRN MRN100049.
+ENC000168,MRN100050,2024-07-25,2024-07-25,CEDAR VALLEY HOSP,1003000126,E11.9,Discussed plan with patient's daughter. Contact email aisha.jensen50@example.org.
+ENC000169,MRN100050,2025-04-07,2025-04-14,CEDAR VALLEY HOSP,1679576722,E11.9,"Insurance verification: SSN 941-76-8239 on file, member portal https://portal.example.org/u/MRN100050."
+ENC000170,MRN100050,2024-09-28,2024-10-01,CEDAR VALLEY HOSP,1003000126,I10,Mr./Ms. Jensen reports improvement since visit on 09/28/2024. MRN MRN100050.
+ENC000171,MRN100050,2025-04-25,2025-04-25,CEDAR VALLEY HOSP,1245319599,J45.909,"Seen by Dr. Hughes. Pt Jensen, Aisha denies chest pain. Fax results to (232) 555-0136."
+ENC000172,MRN100051,2026-06-23,2026-06-26,CEDAR VALLEY HOSP,1679576722,M54.5,Pt Sofia Fischer seen for follow-up. Call back at (974) 555-0102.
+ENC000173,MRN100051,2025-05-05,2025-05-11,CEDAR VALLEY HOSP,1245319599,I50.9,"Patient lives at 5707 Maple Ave, Seattle. Transport arranged for 2025-07-03."
+ENC000174,MRN100051,2026-04-21,2026-04-22,NORTHWIND MED CTR,1245319599,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000175,MRN100051,2026-08-24,2026-08-25,LAKESIDE CLINIC,1003000126,E11.9,Pt Sofia Fischer seen for follow-up. Call back at (657) 555-0176.
+ENC000176,MRN100051,2026-02-23,2026-02-23,NORTHWIND MED CTR,1245319599,J45.909,"Seen by Dr. Hughes. Pt Fischer, Sofia denies chest pain. Fax results to (439) 555-0169."
+ENC000177,MRN100052,2025-01-28,2025-02-03,LAKESIDE CLINIC,1003000126,M54.5,"Seen by Dr. Hughes. Pt Dawson, Olivia denies chest pain. Fax results to (248) 555-0144."
+ENC000178,MRN100052,2024-08-18,2024-08-23,CEDAR VALLEY HOSP,1679576722,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC000179,MRN100053,2025-07-28,2025-08-02,CEDAR VALLEY HOSP,1003000126,E11.9,"Patient lives at 2206 Elm Ave, Madison. Transport arranged for 2025-08-09."
+ENC000180,MRN100054,2024-11-10,2024-11-13,CEDAR VALLEY HOSP,1679576722,Z00.00,"Patient lives at 1932 Hillcrest Blvd, Madison. Transport arranged for 2024-12-12."
+ENC000181,MRN100054,2025-05-03,2025-05-08,CEDAR VALLEY HOSP,1679576722,I10,"Insurance verification: SSN 942-48-1251 on file, member portal https://portal.example.org/u/MRN100054."
+ENC000182,MRN100054,2024-07-31,2024-08-07,CEDAR VALLEY HOSP,1679576722,E11.9,"Aisha tolerating metformin well. Next labs September 24, 2024."
+ENC000183,MRN100054,2025-04-03,2025-04-06,LAKESIDE CLINIC,1003000126,M54.5,Discussed plan with patient's daughter. Contact email aisha.dawson54@example.org.
+ENC000184,MRN100054,2026-01-02,2026-01-04,LAKESIDE CLINIC,1245319599,Z00.00,"Aisha tolerating metformin well. Next labs January 21, 2026."
+ENC000185,MRN100055,2025-05-13,2025-05-13,NORTHWIND MED CTR,1679576722,J45.909,Mr./Ms. Esposito reports improvement since visit on 05/13/2025. MRN MRN100055.
+ENC000186,MRN100056,2025-05-07,2025-05-11,LAKESIDE CLINIC,1003000126,M54.5,"Insurance verification: SSN 979-91-8916 on file, member portal https://portal.example.org/u/MRN100056."
+ENC000187,MRN100057,2024-11-30,2024-12-01,CEDAR VALLEY HOSP,1679576722,Z00.00,Pt Priya Brooks seen for follow-up. Call back at (295) 555-0151.
+ENC000188,MRN100057,2026-09-04,2026-09-04,CEDAR VALLEY HOSP,1003000126,F32.9,Discussed plan with patient's daughter. Contact email priya.brooks57@example.org.
+ENC000189,MRN100057,2025-03-31,2025-04-01,LAKESIDE CLINIC,1003000126,Z00.00,Pt Priya Brooks seen for follow-up. Call back at (435) 555-0127.
+ENC000190,MRN100058,2024-12-07,2024-12-12,NORTHWIND MED CTR,1003000126,F32.9,Discussed plan with patient's daughter. Contact email liam.alvarez58@example.org.
+ENC000191,MRN100058,2026-09-07,2026-09-08,LAKESIDE CLINIC,1003000126,M54.5,"Patient lives at 6535 Maple Rd, Columbus. Transport arranged for 2026-10-11."
+ENC000192,MRN100058,2024-08-30,2024-09-04,NORTHWIND MED CTR,1679576722,M54.5,"Insurance verification: SSN 940-12-4394 on file, member portal https://portal.example.org/u/MRN100058."
+ENC000193,MRN100058,2025-08-15,2025-08-17,LAKESIDE CLINIC,1679576722,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000194,MRN100059,2026-08-03,2026-08-05,LAKESIDE CLINIC,1679576722,I10,"Seen by Dr. Hughes. Pt Brooks, Aisha denies chest pain. Fax results to (770) 555-0171."
+ENC000195,MRN100059,2026-10-05,2026-10-06,CEDAR VALLEY HOSP,1679576722,E11.9,Mr./Ms. Brooks reports improvement since visit on 10/05/2026. MRN MRN100059.
+ENC000196,MRN100060,2025-08-26,2025-08-30,NORTHWIND MED CTR,1003000126,Z00.00,Mr./Ms. Garcia reports improvement since visit on 08/26/2025. MRN MRN100060.
+ENC000197,MRN100060,2025-03-02,2025-03-05,NORTHWIND MED CTR,1679576722,F32.9,Mr./Ms. Garcia reports improvement since visit on 03/02/2025. MRN MRN100060.
+ENC000198,MRN100060,2024-06-22,2024-06-28,CEDAR VALLEY HOSP,1003000126,J45.909,"Olivia tolerating metformin well. Next labs August 19, 2024."
+ENC000199,MRN100061,2026-07-07,2026-07-10,LAKESIDE CLINIC,1245319599,Z00.00,Discussed plan with patient's daughter. Contact email olivia.fischer61@example.org.
+ENC000200,MRN100061,2024-11-05,2024-11-08,CEDAR VALLEY HOSP,1003000126,Z00.00,"Insurance verification: SSN 937-98-9044 on file, member portal https://portal.example.org/u/MRN100061."
+ENC000201,MRN100061,2026-06-11,2026-06-15,LAKESIDE CLINIC,1679576722,M54.5,"Insurance verification: SSN 937-98-9044 on file, member portal https://portal.example.org/u/MRN100061."
+ENC000202,MRN100062,2025-01-07,2025-01-07,CEDAR VALLEY HOSP,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000203,MRN100062,2026-07-23,2026-07-27,CEDAR VALLEY HOSP,1679576722,J45.909,"Patient lives at 1402 Maple Ave, Seattle. Transport arranged for 2026-08-13."
+ENC000204,MRN100063,2026-07-24,2026-07-31,CEDAR VALLEY HOSP,1245319599,I10,"Seen by Dr. Hughes. Pt Alvarez, Emma denies chest pain. Fax results to (526) 555-0108."
+ENC000205,MRN100063,2026-10-08,2026-10-13,LAKESIDE CLINIC,1245319599,J45.909,Mr./Ms. Alvarez reports improvement since visit on 10/08/2026. MRN MRN100063.
+ENC000206,MRN100063,2025-04-14,2025-04-16,CEDAR VALLEY HOSP,1003000126,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC000207,MRN100063,2026-04-24,2026-04-30,NORTHWIND MED CTR,1679576722,M54.5,Pt Emma Alvarez seen for follow-up. Call back at (955) 555-0178.
+ENC000208,MRN100064,2025-01-15,2025-01-20,LAKESIDE CLINIC,1245319599,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000209,MRN100064,2025-11-05,2025-11-12,CEDAR VALLEY HOSP,1003000126,I10,Discussed plan with patient's daughter. Contact email mateo.alvarez64@example.org.
+ENC000210,MRN100064,2024-12-12,2024-12-14,NORTHWIND MED CTR,1245319599,F32.9,Mr./Ms. Alvarez reports improvement since visit on 12/12/2024. MRN MRN100064.
+ENC000211,MRN100064,2024-11-20,2024-11-22,NORTHWIND MED CTR,1003000126,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC000212,MRN100064,2025-08-24,2025-08-26,CEDAR VALLEY HOSP,1679576722,J45.909,Discussed plan with patient's daughter. Contact email mateo.alvarez64@example.org.
+ENC000213,MRN100065,2025-06-18,2025-06-20,CEDAR VALLEY HOSP,1245319599,I50.9,Pt Priya Fischer seen for follow-up. Call back at (979) 555-0128.
+ENC000214,MRN100065,2026-03-15,2026-03-19,CEDAR VALLEY HOSP,1003000126,I10,"Seen by Dr. Hughes. Pt Fischer, Priya denies chest pain. Fax results to (779) 555-0195."
+ENC000215,MRN100065,2025-03-24,2025-03-25,NORTHWIND MED CTR,1003000126,Z00.00,"Priya tolerating metformin well. Next labs April 17, 2025."
+ENC000216,MRN100065,2025-04-20,2025-04-23,NORTHWIND MED CTR,1679576722,E11.9,Mr./Ms. Fischer reports improvement since visit on 04/20/2025. MRN MRN100065.
+ENC000217,MRN100066,2024-07-29,2024-07-29,LAKESIDE CLINIC,1003000126,J45.909,"Ethan tolerating metformin well. Next labs September 10, 2024."
+ENC000218,MRN100066,2025-12-04,2025-12-08,NORTHWIND MED CTR,1245319599,M54.5,"Insurance verification: SSN 926-85-6744 on file, member portal https://portal.example.org/u/MRN100066."
+ENC000219,MRN100067,2025-10-12,2025-10-19,LAKESIDE CLINIC,1679576722,F32.9,Mr./Ms. Esposito reports improvement since visit on 10/12/2025. MRN MRN100067.
+ENC000220,MRN100067,2025-07-23,2025-07-30,LAKESIDE CLINIC,1679576722,F32.9,Pt James Esposito seen for follow-up. Call back at (950) 555-0111.
+ENC000221,MRN100067,2024-06-13,2024-06-14,NORTHWIND MED CTR,1679576722,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000222,MRN100067,2025-12-05,2025-12-09,CEDAR VALLEY HOSP,1003000126,E11.9,Discussed plan with patient's daughter. Contact email james.esposito67@example.org.
+ENC000223,MRN100068,2026-02-17,2026-02-18,LAKESIDE CLINIC,1679576722,N18.3,Discussed plan with patient's daughter. Contact email james.brooks68@example.org.
+ENC000224,MRN100068,2025-08-18,2025-08-19,CEDAR VALLEY HOSP,1245319599,J45.909,Mr./Ms. Brooks reports improvement since visit on 08/18/2025. MRN MRN100068.
+ENC000225,MRN100068,2025-03-03,2025-03-06,LAKESIDE CLINIC,1679576722,I10,"Seen by Dr. Hughes. Pt Brooks, James denies chest pain. Fax results to (209) 555-0101."
+ENC000226,MRN100069,2025-02-14,2025-02-16,LAKESIDE CLINIC,1003000126,J45.909,"Sofia tolerating metformin well. Next labs March 21, 2025."
+ENC000227,MRN100070,2025-02-23,2025-02-27,NORTHWIND MED CTR,1003000126,N18.3,Pt Sofia Jensen seen for follow-up. Call back at (874) 555-0138.
+ENC000228,MRN100070,2024-09-26,2024-10-02,CEDAR VALLEY HOSP,1245319599,N18.3,Pt Sofia Jensen seen for follow-up. Call back at (445) 555-0163.
+ENC000229,MRN100070,2025-06-07,2025-06-08,NORTHWIND MED CTR,1679576722,M54.5,Pt Sofia Jensen seen for follow-up. Call back at (569) 555-0140.
+ENC000230,MRN100070,2025-10-22,2025-10-24,NORTHWIND MED CTR,1003000126,I10,"Seen by Dr. Hughes. Pt Jensen, Sofia denies chest pain. Fax results to (988) 555-0109."
+ENC000231,MRN100070,2026-10-17,2026-10-21,LAKESIDE CLINIC,1679576722,M54.5,Pt Sofia Jensen seen for follow-up. Call back at (261) 555-0150.
+ENC000232,MRN100071,2025-12-18,2025-12-24,NORTHWIND MED CTR,1679576722,I10,"Patient lives at 2555 Lakeview Rd, Denver. Transport arranged for 2026-02-09."
+ENC000233,MRN100072,2026-05-14,2026-05-19,NORTHWIND MED CTR,1679576722,M54.5,"Insurance verification: SSN 901-27-1185 on file, member portal https://portal.example.org/u/MRN100072."
+ENC000234,MRN100072,2026-01-26,2026-01-27,LAKESIDE CLINIC,1679576722,E11.9,Mr./Ms. Jensen reports improvement since visit on 01/26/2026. MRN MRN100072.
+ENC000235,MRN100072,2025-06-07,2025-06-09,NORTHWIND MED CTR,1003000126,I10,Discussed plan with patient's daughter. Contact email ethan.jensen72@example.org.
+ENC000236,MRN100073,2025-03-25,2025-03-30,LAKESIDE CLINIC,1245319599,M54.5,Pt Fatima Lindqvist seen for follow-up. Call back at (383) 555-0128.
+ENC000237,MRN100074,2024-10-11,2024-10-14,NORTHWIND MED CTR,1003000126,F32.9,Pt Aisha Hughes seen for follow-up. Call back at (619) 555-0103.
+ENC000238,MRN100074,2025-01-18,2025-01-18,CEDAR VALLEY HOSP,1003000126,I50.9,Pt Aisha Hughes seen for follow-up. Call back at (977) 555-0184.
+ENC000239,MRN100075,2025-03-16,2025-03-17,NORTHWIND MED CTR,1003000126,E11.9,Discussed plan with patient's daughter. Contact email wei.dawson75@example.org.
+ENC000240,MRN100076,2026-05-16,2026-05-23,LAKESIDE CLINIC,1679576722,N18.3,"Sofia tolerating metformin well. Next labs June 21, 2026."
+ENC000241,MRN100077,2026-02-07,2026-02-09,LAKESIDE CLINIC,1003000126,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000242,MRN100077,2026-07-27,2026-08-03,NORTHWIND MED CTR,1245319599,J45.909,Discussed plan with patient's daughter. Contact email ethan.esposito77@example.org.
+ENC000243,MRN100077,2026-04-12,2026-04-18,CEDAR VALLEY HOSP,1245319599,E11.9,Mr./Ms. Esposito reports improvement since visit on 04/12/2026. MRN MRN100077.
+ENC000244,MRN100078,2024-12-01,2024-12-07,CEDAR VALLEY HOSP,1679576722,Z00.00,"Aisha tolerating metformin well. Next labs December 19, 2024."
+ENC000245,MRN100078,2026-06-01,2026-06-01,CEDAR VALLEY HOSP,1679576722,Z00.00,"Patient lives at 7106 Willow Drive, Tampa. Transport arranged for 2026-07-17."
+ENC000246,MRN100078,2026-08-30,2026-08-31,NORTHWIND MED CTR,1003000126,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000247,MRN100078,2025-01-24,2025-01-24,CEDAR VALLEY HOSP,1679576722,F32.9,"Aisha tolerating metformin well. Next labs February 24, 2025."
+ENC000248,MRN100079,2024-07-18,2024-07-18,CEDAR VALLEY HOSP,1245319599,J45.909,"Patient lives at 3823 Oak St, Boston. Transport arranged for 2024-09-11."
+ENC000249,MRN100079,2026-03-03,2026-03-08,LAKESIDE CLINIC,1003000126,F32.9,"Mateo tolerating metformin well. Next labs April 30, 2026."
+ENC000250,MRN100079,2025-03-29,2025-03-31,CEDAR VALLEY HOSP,1245319599,Z00.00,"Patient lives at 3823 Oak St, Boston. Transport arranged for 2025-05-11."
+ENC000251,MRN100079,2026-09-23,2026-09-24,NORTHWIND MED CTR,1003000126,Z00.00,"Patient lives at 3823 Oak St, Boston. Transport arranged for 2026-10-03."
+ENC000252,MRN100079,2026-10-31,2026-11-05,LAKESIDE CLINIC,1245319599,F32.9,"Patient lives at 3823 Oak St, Boston. Transport arranged for 2026-12-16."
+ENC000253,MRN100080,2024-08-12,2024-08-19,LAKESIDE CLINIC,1003000126,F32.9,"James tolerating metformin well. Next labs September 29, 2024."
+ENC000254,MRN100080,2026-03-17,2026-03-19,CEDAR VALLEY HOSP,1245319599,J45.909,"Insurance verification: SSN 947-94-7481 on file, member portal https://portal.example.org/u/MRN100080."
+ENC000255,MRN100080,2024-10-15,2024-10-15,NORTHWIND MED CTR,1245319599,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000256,MRN100080,2024-07-25,2024-07-28,CEDAR VALLEY HOSP,1003000126,I10,Mr./Ms. Alvarez reports improvement since visit on 07/25/2024. MRN MRN100080.
+ENC000257,MRN100081,2026-09-12,2026-09-18,CEDAR VALLEY HOSP,1679576722,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000258,MRN100082,2024-10-12,2024-10-13,LAKESIDE CLINIC,1679576722,E11.9,Mr./Ms. Brooks reports improvement since visit on 10/12/2024. MRN MRN100082.
+ENC000259,MRN100082,2025-08-16,2025-08-18,NORTHWIND MED CTR,1679576722,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000260,MRN100083,2026-01-03,2026-01-10,NORTHWIND MED CTR,1003000126,I50.9,Mr./Ms. Garcia reports improvement since visit on 01/03/2026. MRN MRN100083.
+ENC000261,MRN100084,2025-07-12,2025-07-16,NORTHWIND MED CTR,1003000126,I10,"Insurance verification: SSN 982-79-7349 on file, member portal https://portal.example.org/u/MRN100084."
+ENC000262,MRN100084,2026-08-05,2026-08-10,NORTHWIND MED CTR,1003000126,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000263,MRN100084,2024-06-23,2024-06-29,CEDAR VALLEY HOSP,1003000126,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000264,MRN100084,2025-07-01,2025-07-05,LAKESIDE CLINIC,1003000126,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC000265,MRN100085,2025-04-10,2025-04-16,CEDAR VALLEY HOSP,1245319599,M54.5,"Wei tolerating metformin well. Next labs May 22, 2025."
+ENC000266,MRN100085,2026-07-08,2026-07-14,LAKESIDE CLINIC,1245319599,I10,Discussed plan with patient's daughter. Contact email wei.moreau85@example.org.
+ENC000267,MRN100085,2025-04-03,2025-04-04,CEDAR VALLEY HOSP,1679576722,M54.5,"Insurance verification: SSN 954-20-8133 on file, member portal https://portal.example.org/u/MRN100085."
+ENC000268,MRN100085,2024-12-30,2025-01-06,CEDAR VALLEY HOSP,1679576722,J45.909,"Seen by Dr. Hughes. Pt Moreau, Wei denies chest pain. Fax results to (238) 555-0122."
+ENC000269,MRN100086,2024-05-25,2024-05-28,CEDAR VALLEY HOSP,1679576722,M54.5,"Insurance verification: SSN 947-12-6535 on file, member portal https://portal.example.org/u/MRN100086."
+ENC000270,MRN100087,2026-10-02,2026-10-04,NORTHWIND MED CTR,1679576722,E11.9,"Patient lives at 8313 Elm Ave, Tampa. Transport arranged for 2026-10-21."
+ENC000271,MRN100087,2025-10-27,2025-10-30,CEDAR VALLEY HOSP,1003000126,I10,"Aisha tolerating metformin well. Next labs November 20, 2025."
+ENC000272,MRN100087,2024-12-03,2024-12-03,CEDAR VALLEY HOSP,1245319599,Z00.00,"Aisha tolerating metformin well. Next labs December 25, 2024."
+ENC000273,MRN100087,2025-03-10,2025-03-15,LAKESIDE CLINIC,1245319599,I50.9,Discussed plan with patient's daughter. Contact email aisha.dawson87@example.org.
+ENC000274,MRN100087,2026-10-03,2026-10-09,NORTHWIND MED CTR,1245319599,N18.3,Discussed plan with patient's daughter. Contact email aisha.dawson87@example.org.
+ENC000275,MRN100088,2025-08-24,2025-08-30,CEDAR VALLEY HOSP,1679576722,M54.5,"Seen by Dr. Hughes. Pt Esposito, John denies chest pain. Fax results to (458) 555-0127."
+ENC000276,MRN100088,2025-03-12,2025-03-13,LAKESIDE CLINIC,1003000126,I50.9,"John tolerating metformin well. Next labs March 19, 2025."
+ENC000277,MRN100088,2025-12-30,2025-12-31,LAKESIDE CLINIC,1679576722,I50.9,Mr./Ms. Esposito reports improvement since visit on 12/30/2025. MRN MRN100088.
+ENC000278,MRN100089,2025-09-12,2025-09-18,LAKESIDE CLINIC,1245319599,F32.9,Pt Liam Kowalski seen for follow-up. Call back at (797) 555-0190.
+ENC000279,MRN100089,2024-10-18,2024-10-21,LAKESIDE CLINIC,1679576722,J45.909,"Seen by Dr. Hughes. Pt Kowalski, Liam denies chest pain. Fax results to (887) 555-0145."
+ENC000280,MRN100089,2024-06-23,2024-06-25,LAKESIDE CLINIC,1679576722,J45.909,Mr./Ms. Kowalski reports improvement since visit on 06/23/2024. MRN MRN100089.
+ENC000281,MRN100089,2024-12-04,2024-12-09,NORTHWIND MED CTR,1003000126,I50.9,Mr./Ms. Kowalski reports improvement since visit on 12/04/2024. MRN MRN100089.
+ENC000282,MRN100090,2026-09-06,2026-09-08,LAKESIDE CLINIC,1679576722,J45.909,"Patient lives at 8209 Maple Drive, Madison. Transport arranged for 2026-09-21."
+ENC000283,MRN100090,2025-12-12,2025-12-14,LAKESIDE CLINIC,1245319599,F32.9,Mr./Ms. Moreau reports improvement since visit on 12/12/2025. MRN MRN100090.
+ENC000284,MRN100090,2025-01-20,2025-01-20,NORTHWIND MED CTR,1003000126,J45.909,"Seen by Dr. Hughes. Pt Moreau, Sofia denies chest pain. Fax results to (480) 555-0126."
+ENC000285,MRN100090,2025-06-17,2025-06-18,CEDAR VALLEY HOSP,1679576722,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC000286,MRN100091,2026-07-18,2026-07-24,NORTHWIND MED CTR,1679576722,I50.9,"Insurance verification: SSN 902-96-1067 on file, member portal https://portal.example.org/u/MRN100091."
+ENC000287,MRN100091,2025-07-22,2025-07-27,CEDAR VALLEY HOSP,1245319599,J45.909,Discussed plan with patient's daughter. Contact email mateo.alvarez91@example.org.
+ENC000288,MRN100092,2024-12-23,2024-12-24,NORTHWIND MED CTR,1679576722,Z00.00,Pt Mateo Alvarez seen for follow-up. Call back at (249) 555-0188.
+ENC000289,MRN100093,2025-05-26,2025-05-27,NORTHWIND MED CTR,1003000126,N18.3,Mr./Ms. Brooks reports improvement since visit on 05/26/2025. MRN MRN100093.
+ENC000290,MRN100094,2024-12-15,2024-12-22,LAKESIDE CLINIC,1003000126,I10,Mr./Ms. Nakamura reports improvement since visit on 12/15/2024. MRN MRN100094.
+ENC000291,MRN100094,2026-02-11,2026-02-14,NORTHWIND MED CTR,1245319599,J45.909,"Insurance verification: SSN 905-80-9132 on file, member portal https://portal.example.org/u/MRN100094."
+ENC000292,MRN100094,2024-05-19,2024-05-19,CEDAR VALLEY HOSP,1003000126,I10,"Liam tolerating metformin well. Next labs June 13, 2024."
+ENC000293,MRN100094,2026-07-26,2026-07-26,NORTHWIND MED CTR,1679576722,F32.9,Discussed plan with patient's daughter. Contact email liam.nakamura94@example.org.
+ENC000294,MRN100094,2025-08-09,2025-08-13,NORTHWIND MED CTR,1245319599,M54.5,Mr./Ms. Nakamura reports improvement since visit on 08/09/2025. MRN MRN100094.
+ENC000295,MRN100095,2026-04-29,2026-05-05,LAKESIDE CLINIC,1003000126,J45.909,"Mateo tolerating metformin well. Next labs June 24, 2026."
+ENC000296,MRN100095,2025-06-24,2025-07-01,NORTHWIND MED CTR,1679576722,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000297,MRN100095,2026-10-19,2026-10-22,LAKESIDE CLINIC,1003000126,I10,"Mateo tolerating metformin well. Next labs December 7, 2026."
+ENC000298,MRN100095,2025-08-14,2025-08-17,LAKESIDE CLINIC,1679576722,J45.909,"Mateo tolerating metformin well. Next labs September 20, 2025."
+ENC000299,MRN100096,2026-08-12,2026-08-19,CEDAR VALLEY HOSP,1679576722,I10,"Seen by Dr. Hughes. Pt Alvarez, James denies chest pain. Fax results to (290) 555-0163."
+ENC000300,MRN100096,2025-06-09,2025-06-09,LAKESIDE CLINIC,1003000126,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000301,MRN100097,2024-10-28,2024-11-04,NORTHWIND MED CTR,1245319599,F32.9,Mr./Ms. Moreau reports improvement since visit on 10/28/2024. MRN MRN100097.
+ENC000302,MRN100097,2025-11-02,2025-11-06,NORTHWIND MED CTR,1245319599,Z00.00,"Aisha tolerating metformin well. Next labs December 14, 2025."
+ENC000303,MRN100097,2026-06-10,2026-06-16,NORTHWIND MED CTR,1245319599,M54.5,"Insurance verification: SSN 943-56-1889 on file, member portal https://portal.example.org/u/MRN100097."
+ENC000304,MRN100098,2024-10-08,2024-10-08,LAKESIDE CLINIC,1245319599,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC000305,MRN100098,2024-10-13,2024-10-15,LAKESIDE CLINIC,1679576722,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC000306,MRN100098,2025-08-29,2025-09-01,CEDAR VALLEY HOSP,1245319599,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC000307,MRN100098,2025-09-04,2025-09-08,LAKESIDE CLINIC,1003000126,N18.3,"John tolerating metformin well. Next labs November 3, 2025."
+ENC000308,MRN100098,2026-04-09,2026-04-12,LAKESIDE CLINIC,1245319599,J45.909,"Insurance verification: SSN 981-96-3018 on file, member portal https://portal.example.org/u/MRN100098."
+ENC000309,MRN100099,2024-09-23,2024-09-25,LAKESIDE CLINIC,1679576722,N18.3,"Insurance verification: SSN 954-11-9564 on file, member portal https://portal.example.org/u/MRN100099."
+ENC000310,MRN100099,2024-09-20,2024-09-20,LAKESIDE CLINIC,1003000126,N18.3,"Seen by Dr. Hughes. Pt Lindqvist, Noah denies chest pain. Fax results to (304) 555-0178."
+ENC000311,MRN100099,2024-10-01,2024-10-07,NORTHWIND MED CTR,1679576722,M54.5,"Insurance verification: SSN 954-11-9564 on file, member portal https://portal.example.org/u/MRN100099."
+ENC000312,MRN100100,2024-08-28,2024-08-31,NORTHWIND MED CTR,1245319599,J45.909,"Seen by Dr. Hughes. Pt Moreau, Sofia denies chest pain. Fax results to (381) 555-0187."
+ENC000313,MRN100100,2024-10-09,2024-10-10,LAKESIDE CLINIC,1679576722,J45.909,Pt Sofia Moreau seen for follow-up. Call back at (638) 555-0135.
+ENC000314,MRN100101,2025-05-11,2025-05-14,CEDAR VALLEY HOSP,1003000126,M54.5,Mr./Ms. Jensen reports improvement since visit on 05/11/2025. MRN MRN100101.
+ENC000315,MRN100101,2026-07-29,2026-08-03,CEDAR VALLEY HOSP,1679576722,I50.9,"Patient lives at 4944 Elm Lane, Denver. Transport arranged for 2026-08-19."
+ENC000316,MRN100101,2026-03-22,2026-03-29,CEDAR VALLEY HOSP,1679576722,N18.3,Pt Priya Jensen seen for follow-up. Call back at (317) 555-0185.
+ENC000317,MRN100102,2025-01-02,2025-01-05,LAKESIDE CLINIC,1003000126,E11.9,Mr./Ms. Alvarez reports improvement since visit on 01/02/2025. MRN MRN100102.
+ENC000318,MRN100102,2025-01-28,2025-01-29,NORTHWIND MED CTR,1245319599,M54.5,"Patient lives at 6153 Lakeview Lane, Austin. Transport arranged for 2025-02-17."
+ENC000319,MRN100102,2025-01-07,2025-01-08,LAKESIDE CLINIC,1679576722,E11.9,Discussed plan with patient's daughter. Contact email fatima.alvarez102@example.org.
+ENC000320,MRN100103,2026-10-25,2026-10-26,CEDAR VALLEY HOSP,1003000126,I10,Pt Aisha Brooks seen for follow-up. Call back at (917) 555-0109.
+ENC000321,MRN100103,2026-01-08,2026-01-12,CEDAR VALLEY HOSP,1679576722,M54.5,Mr./Ms. Brooks reports improvement since visit on 01/08/2026. MRN MRN100103.
+ENC000322,MRN100103,2024-07-12,2024-07-12,NORTHWIND MED CTR,1003000126,M54.5,Discussed plan with patient's daughter. Contact email aisha.brooks103@example.org.
+ENC000323,MRN100103,2024-08-07,2024-08-11,LAKESIDE CLINIC,1003000126,F32.9,Discussed plan with patient's daughter. Contact email aisha.brooks103@example.org.
+ENC000324,MRN100103,2026-10-20,2026-10-22,LAKESIDE CLINIC,1679576722,I10,Pt Aisha Brooks seen for follow-up. Call back at (205) 555-0173.
+ENC000325,MRN100104,2025-07-16,2025-07-17,NORTHWIND MED CTR,1003000126,Z00.00,Mr./Ms. Dawson reports improvement since visit on 07/16/2025. MRN MRN100104.
+ENC000326,MRN100104,2025-11-27,2025-12-02,LAKESIDE CLINIC,1245319599,N18.3,"Patient lives at 2981 Hillcrest Lane, Denver. Transport arranged for 2025-12-12."
+ENC000327,MRN100104,2025-12-10,2025-12-17,CEDAR VALLEY HOSP,1003000126,J45.909,"Olivia tolerating metformin well. Next labs January 14, 2026."
+ENC000328,MRN100104,2025-03-31,2025-04-05,NORTHWIND MED CTR,1679576722,N18.3,"Olivia tolerating metformin well. Next labs May 28, 2025."
+ENC000329,MRN100104,2024-08-18,2024-08-21,NORTHWIND MED CTR,1003000126,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000330,MRN100105,2024-07-21,2024-07-27,CEDAR VALLEY HOSP,1003000126,Z00.00,"Patient lives at 1262 Hillcrest St, Denver. Transport arranged for 2024-09-15."
+ENC000331,MRN100106,2025-03-31,2025-04-02,NORTHWIND MED CTR,1679576722,N18.3,"Seen by Dr. Hughes. Pt Fischer, Carlos denies chest pain. Fax results to (567) 555-0105."
+ENC000332,MRN100106,2026-08-28,2026-09-01,NORTHWIND MED CTR,1003000126,F32.9,"Patient lives at 2727 Willow Lane, Austin. Transport arranged for 2026-09-27."
+ENC000333,MRN100106,2025-09-29,2025-10-06,CEDAR VALLEY HOSP,1245319599,I50.9,Pt Carlos Fischer seen for follow-up. Call back at (240) 555-0183.
+ENC000334,MRN100106,2024-06-29,2024-07-03,CEDAR VALLEY HOSP,1679576722,I10,Discussed plan with patient's daughter. Contact email carlos.fischer106@example.org.
+ENC000335,MRN100106,2025-05-20,2025-05-24,CEDAR VALLEY HOSP,1679576722,Z00.00,"Patient lives at 2727 Willow Lane, Austin. Transport arranged for 2025-06-20."
+ENC000336,MRN100107,2024-10-24,2024-10-25,LAKESIDE CLINIC,1245319599,M54.5,"Seen by Dr. Hughes. Pt Jensen, Grace denies chest pain. Fax results to (690) 555-0126."
+ENC000337,MRN100107,2026-10-09,2026-10-12,NORTHWIND MED CTR,1245319599,E11.9,Discussed plan with patient's daughter. Contact email grace.jensen107@example.org.
+ENC000338,MRN100107,2025-03-24,2025-03-26,LAKESIDE CLINIC,1679576722,E11.9,Discussed plan with patient's daughter. Contact email grace.jensen107@example.org.
+ENC000339,MRN100108,2025-07-24,2025-07-25,NORTHWIND MED CTR,1245319599,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000340,MRN100108,2025-05-14,2025-05-20,NORTHWIND MED CTR,1679576722,E11.9,Discussed plan with patient's daughter. Contact email olivia.brooks108@example.org.
+ENC000341,MRN100108,2024-05-16,2024-05-17,LAKESIDE CLINIC,1003000126,E11.9,"Seen by Dr. Hughes. Pt Brooks, Olivia denies chest pain. Fax results to (875) 555-0116."
+ENC000342,MRN100109,2024-06-04,2024-06-05,NORTHWIND MED CTR,1003000126,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000343,MRN100109,2025-03-19,2025-03-20,NORTHWIND MED CTR,1003000126,F32.9,Pt Sofia Ibrahim seen for follow-up. Call back at (584) 555-0183.
+ENC000344,MRN100110,2025-10-17,2025-10-24,LAKESIDE CLINIC,1679576722,J45.909,"Insurance verification: SSN 972-56-5514 on file, member portal https://portal.example.org/u/MRN100110."
+ENC000345,MRN100110,2024-06-08,2024-06-09,NORTHWIND MED CTR,1245319599,N18.3,"Patient lives at 3347 Elm Lane, Boston. Transport arranged for 2024-08-01."
+ENC000346,MRN100111,2026-08-11,2026-08-11,LAKESIDE CLINIC,1003000126,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000347,MRN100111,2024-11-02,2024-11-02,CEDAR VALLEY HOSP,1245319599,N18.3,Discussed plan with patient's daughter. Contact email mateo.moreau111@example.org.
+ENC000348,MRN100111,2024-06-13,2024-06-17,LAKESIDE CLINIC,1003000126,N18.3,Pt Mateo Moreau seen for follow-up. Call back at (813) 555-0165.
+ENC000349,MRN100112,2026-07-31,2026-08-04,NORTHWIND MED CTR,1003000126,N18.3,"Priya tolerating metformin well. Next labs September 22, 2026."
+ENC000350,MRN100113,2025-06-23,2025-06-26,CEDAR VALLEY HOSP,1003000126,E11.9,"Ethan tolerating metformin well. Next labs August 17, 2025."
+ENC000351,MRN100113,2025-06-25,2025-06-26,NORTHWIND MED CTR,1003000126,N18.3,Mr./Ms. Garcia reports improvement since visit on 06/25/2025. MRN MRN100113.
+ENC000352,MRN100113,2024-08-03,2024-08-08,NORTHWIND MED CTR,1003000126,I50.9,"Ethan tolerating metformin well. Next labs September 5, 2024."
+ENC000353,MRN100113,2026-02-19,2026-02-23,CEDAR VALLEY HOSP,1245319599,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC000354,MRN100113,2025-07-01,2025-07-06,NORTHWIND MED CTR,1003000126,N18.3,"Patient lives at 4232 Lakeview Lane, Austin. Transport arranged for 2025-07-30."
+ENC000355,MRN100114,2026-09-18,2026-09-25,CEDAR VALLEY HOSP,1679576722,J45.909,"Grace tolerating metformin well. Next labs October 18, 2026."
+ENC000356,MRN100114,2024-09-09,2024-09-13,NORTHWIND MED CTR,1245319599,M54.5,"Patient lives at 1295 Hillcrest Drive, Raleigh. Transport arranged for 2024-10-11."
+ENC000357,MRN100114,2025-06-29,2025-06-29,NORTHWIND MED CTR,1679576722,I10,"Grace tolerating metformin well. Next labs August 7, 2025."
+ENC000358,MRN100114,2024-11-15,2024-11-22,NORTHWIND MED CTR,1679576722,I10,Pt Grace Lindqvist seen for follow-up. Call back at (212) 555-0186.
+ENC000359,MRN100114,2025-12-02,2025-12-07,CEDAR VALLEY HOSP,1245319599,I50.9,"Insurance verification: SSN 979-55-3555 on file, member portal https://portal.example.org/u/MRN100114."
+ENC000360,MRN100115,2024-10-23,2024-10-27,CEDAR VALLEY HOSP,1245319599,J45.909,"Patient lives at 9371 Oak Lane, Seattle. Transport arranged for 2024-12-20."
+ENC000361,MRN100116,2025-07-28,2025-08-02,LAKESIDE CLINIC,1679576722,F32.9,"Carlos tolerating metformin well. Next labs August 20, 2025."
+ENC000362,MRN100117,2024-05-25,2024-05-27,LAKESIDE CLINIC,1003000126,M54.5,"Maria tolerating metformin well. Next labs July 11, 2024."
+ENC000363,MRN100117,2024-06-14,2024-06-15,CEDAR VALLEY HOSP,1679576722,I50.9,Discussed plan with patient's daughter. Contact email maria.garcia117@example.org.
+ENC000364,MRN100118,2026-03-30,2026-04-01,CEDAR VALLEY HOSP,1003000126,E11.9,Mr./Ms. Jensen reports improvement since visit on 03/30/2026. MRN MRN100118.
+ENC000365,MRN100119,2026-09-26,2026-10-01,CEDAR VALLEY HOSP,1003000126,Z00.00,"Seen by Dr. Hughes. Pt Moreau, Maria denies chest pain. Fax results to (678) 555-0169."
+ENC000366,MRN100120,2026-10-21,2026-10-21,CEDAR VALLEY HOSP,1003000126,E11.9,Discussed plan with patient's daughter. Contact email carlos.lindqvist120@example.org.
+ENC000367,MRN100120,2024-11-26,2024-12-03,CEDAR VALLEY HOSP,1679576722,N18.3,"Seen by Dr. Hughes. Pt Lindqvist, Carlos denies chest pain. Fax results to (506) 555-0101."
+ENC000368,MRN100120,2024-08-07,2024-08-07,LAKESIDE CLINIC,1679576722,M54.5,"Carlos tolerating metformin well. Next labs September 18, 2024."
+ENC000369,MRN100121,2025-09-04,2025-09-07,NORTHWIND MED CTR,1003000126,Z00.00,Discussed plan with patient's daughter. Contact email fatima.chen121@example.org.
+ENC000370,MRN100121,2025-02-06,2025-02-13,NORTHWIND MED CTR,1245319599,E11.9,"Seen by Dr. Hughes. Pt Chen, Fatima denies chest pain. Fax results to (392) 555-0141."
+ENC000371,MRN100121,2025-05-02,2025-05-02,NORTHWIND MED CTR,1003000126,Z00.00,Mr./Ms. Chen reports improvement since visit on 05/02/2025. MRN MRN100121.
+ENC000372,MRN100122,2025-07-07,2025-07-09,NORTHWIND MED CTR,1003000126,N18.3,"Insurance verification: SSN 963-57-8597 on file, member portal https://portal.example.org/u/MRN100122."
+ENC000373,MRN100122,2025-10-02,2025-10-09,LAKESIDE CLINIC,1245319599,N18.3,Pt Maria Dawson seen for follow-up. Call back at (403) 555-0158.
+ENC000374,MRN100122,2025-07-04,2025-07-10,LAKESIDE CLINIC,1003000126,E11.9,"Insurance verification: SSN 963-57-8597 on file, member portal https://portal.example.org/u/MRN100122."
+ENC000375,MRN100122,2024-09-29,2024-09-30,NORTHWIND MED CTR,1679576722,E11.9,"Seen by Dr. Hughes. Pt Dawson, Maria denies chest pain. Fax results to (853) 555-0138."
+ENC000376,MRN100122,2024-05-30,2024-06-02,CEDAR VALLEY HOSP,1245319599,J45.909,"Patient lives at 5420 Maple Ave, Seattle. Transport arranged for 2024-06-13."
+ENC000377,MRN100123,2026-08-31,2026-09-05,NORTHWIND MED CTR,1245319599,Z00.00,Discussed plan with patient's daughter. Contact email liam.jensen123@example.org.
+ENC000378,MRN100124,2026-01-03,2026-01-10,CEDAR VALLEY HOSP,1003000126,Z00.00,Discussed plan with patient's daughter. Contact email fatima.fischer124@example.org.
+ENC000379,MRN100124,2026-01-23,2026-01-25,CEDAR VALLEY HOSP,1003000126,F32.9,Discussed plan with patient's daughter. Contact email fatima.fischer124@example.org.
+ENC000380,MRN100124,2025-07-24,2025-07-24,NORTHWIND MED CTR,1003000126,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000381,MRN100124,2024-08-28,2024-08-31,CEDAR VALLEY HOSP,1245319599,Z00.00,Mr./Ms. Fischer reports improvement since visit on 08/28/2024. MRN MRN100124.
+ENC000382,MRN100124,2024-09-07,2024-09-09,LAKESIDE CLINIC,1679576722,I10,"Insurance verification: SSN 902-98-7189 on file, member portal https://portal.example.org/u/MRN100124."
+ENC000383,MRN100125,2024-11-12,2024-11-16,LAKESIDE CLINIC,1245319599,E11.9,"Wei tolerating metformin well. Next labs November 22, 2024."
+ENC000384,MRN100125,2026-04-01,2026-04-08,NORTHWIND MED CTR,1679576722,M54.5,Mr./Ms. Ibrahim reports improvement since visit on 04/01/2026. MRN MRN100125.
+ENC000385,MRN100125,2024-07-12,2024-07-17,LAKESIDE CLINIC,1245319599,I10,Pt Wei Ibrahim seen for follow-up. Call back at (831) 555-0134.
+ENC000386,MRN100125,2024-06-29,2024-07-03,NORTHWIND MED CTR,1003000126,N18.3,"Patient lives at 9365 Hillcrest Blvd, Columbus. Transport arranged for 2024-07-10."
+ENC000387,MRN100125,2025-05-05,2025-05-11,NORTHWIND MED CTR,1003000126,J45.909,"Patient lives at 9365 Hillcrest Blvd, Columbus. Transport arranged for 2025-05-24."
+ENC000388,MRN100126,2025-04-16,2025-04-21,CEDAR VALLEY HOSP,1003000126,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000389,MRN100126,2025-02-15,2025-02-18,LAKESIDE CLINIC,1003000126,I50.9,"Patient lives at 8278 Cedar Drive, Madison. Transport arranged for 2025-03-30."
+ENC000390,MRN100126,2025-10-28,2025-11-04,NORTHWIND MED CTR,1679576722,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000391,MRN100127,2026-03-07,2026-03-11,CEDAR VALLEY HOSP,1003000126,N18.3,"Insurance verification: SSN 970-75-3534 on file, member portal https://portal.example.org/u/MRN100127."
+ENC000392,MRN100127,2024-10-10,2024-10-11,CEDAR VALLEY HOSP,1003000126,I10,"Carlos tolerating metformin well. Next labs December 2, 2024."
+ENC000393,MRN100128,2026-09-06,2026-09-10,LAKESIDE CLINIC,1245319599,F32.9,Pt Olivia Alvarez seen for follow-up. Call back at (526) 555-0169.
+ENC000394,MRN100128,2025-06-04,2025-06-07,CEDAR VALLEY HOSP,1679576722,I10,Pt Olivia Alvarez seen for follow-up. Call back at (889) 555-0193.
+ENC000395,MRN100128,2026-03-18,2026-03-24,CEDAR VALLEY HOSP,1245319599,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC000396,MRN100128,2025-03-25,2025-03-25,CEDAR VALLEY HOSP,1003000126,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC000397,MRN100129,2025-11-09,2025-11-12,NORTHWIND MED CTR,1679576722,J45.909,"Carlos tolerating metformin well. Next labs December 6, 2025."
+ENC000398,MRN100129,2025-11-07,2025-11-14,NORTHWIND MED CTR,1245319599,F32.9,Discussed plan with patient's daughter. Contact email carlos.moreau129@example.org.
+ENC000399,MRN100129,2026-05-25,2026-05-26,NORTHWIND MED CTR,1679576722,E11.9,Pt Carlos Moreau seen for follow-up. Call back at (448) 555-0179.
+ENC000400,MRN100130,2024-11-19,2024-11-19,NORTHWIND MED CTR,1679576722,N18.3,Pt Noah Lindqvist seen for follow-up. Call back at (461) 555-0121.
+ENC000401,MRN100130,2024-08-14,2024-08-18,NORTHWIND MED CTR,1679576722,I50.9,"Seen by Dr. Hughes. Pt Lindqvist, Noah denies chest pain. Fax results to (870) 555-0101."
+ENC000402,MRN100131,2026-09-21,2026-09-24,CEDAR VALLEY HOSP,1003000126,J45.909,"Insurance verification: SSN 940-72-9709 on file, member portal https://portal.example.org/u/MRN100131."
+ENC000403,MRN100132,2026-08-03,2026-08-09,LAKESIDE CLINIC,1245319599,M54.5,"Patient lives at 4600 Oak Ave, Boston. Transport arranged for 2026-09-12."
+ENC000404,MRN100132,2025-12-16,2025-12-21,NORTHWIND MED CTR,1003000126,N18.3,Discussed plan with patient's daughter. Contact email maria.fischer132@example.org.
+ENC000405,MRN100133,2025-09-03,2025-09-09,LAKESIDE CLINIC,1679576722,J45.909,"Seen by Dr. Hughes. Pt Esposito, Carlos denies chest pain. Fax results to (963) 555-0181."
+ENC000406,MRN100133,2024-08-25,2024-08-28,LAKESIDE CLINIC,1003000126,I50.9,Discussed plan with patient's daughter. Contact email carlos.esposito133@example.org.
+ENC000407,MRN100133,2025-02-18,2025-02-21,NORTHWIND MED CTR,1679576722,I10,"Patient lives at 3026 Cedar Ave, Denver. Transport arranged for 2025-04-04."
+ENC000408,MRN100134,2025-09-04,2025-09-07,NORTHWIND MED CTR,1245319599,Z00.00,"Patient lives at 3176 Oak St, Tampa. Transport arranged for 2025-10-28."
+ENC000409,MRN100134,2024-05-27,2024-06-03,CEDAR VALLEY HOSP,1679576722,E11.9,"Grace tolerating metformin well. Next labs July 17, 2024."
+ENC000410,MRN100134,2025-02-16,2025-02-22,LAKESIDE CLINIC,1003000126,E11.9,"Grace tolerating metformin well. Next labs April 10, 2025."
+ENC000411,MRN100135,2025-07-16,2025-07-18,LAKESIDE CLINIC,1003000126,J45.909,"Insurance verification: SSN 971-59-9456 on file, member portal https://portal.example.org/u/MRN100135."
+ENC000412,MRN100135,2025-07-14,2025-07-21,LAKESIDE CLINIC,1003000126,J45.909,Mr./Ms. Hughes reports improvement since visit on 07/14/2025. MRN MRN100135.
+ENC000413,MRN100135,2025-09-24,2025-09-30,CEDAR VALLEY HOSP,1003000126,N18.3,"Seen by Dr. Hughes. Pt Hughes, Wei denies chest pain. Fax results to (225) 555-0122."
+ENC000414,MRN100136,2025-04-16,2025-04-22,LAKESIDE CLINIC,1245319599,J45.909,Discussed plan with patient's daughter. Contact email ethan.brooks136@example.org.
+ENC000415,MRN100136,2024-05-25,2024-05-27,CEDAR VALLEY HOSP,1003000126,Z00.00,Pt Ethan Brooks seen for follow-up. Call back at (629) 555-0139.
+ENC000416,MRN100136,2026-01-09,2026-01-11,LAKESIDE CLINIC,1679576722,E11.9,Discussed plan with patient's daughter. Contact email ethan.brooks136@example.org.
+ENC000417,MRN100136,2025-07-19,2025-07-26,NORTHWIND MED CTR,1245319599,Z00.00,Pt Ethan Brooks seen for follow-up. Call back at (822) 555-0163.
+ENC000418,MRN100137,2024-06-25,2024-06-29,CEDAR VALLEY HOSP,1245319599,J45.909,Mr./Ms. Garcia reports improvement since visit on 06/25/2024. MRN MRN100137.
+ENC000419,MRN100137,2024-12-12,2024-12-16,LAKESIDE CLINIC,1679576722,E11.9,Discussed plan with patient's daughter. Contact email ethan.garcia137@example.org.
+ENC000420,MRN100137,2026-07-28,2026-08-01,CEDAR VALLEY HOSP,1003000126,I10,"Ethan tolerating metformin well. Next labs August 24, 2026."
+ENC000421,MRN100137,2026-01-05,2026-01-12,CEDAR VALLEY HOSP,1003000126,M54.5,Mr./Ms. Garcia reports improvement since visit on 01/05/2026. MRN MRN100137.
+ENC000422,MRN100137,2025-05-12,2025-05-15,NORTHWIND MED CTR,1003000126,I10,"Patient lives at 5728 Maple Ave, Ely. Transport arranged for 2025-07-02."
+ENC000423,MRN100138,2024-07-26,2024-07-28,NORTHWIND MED CTR,1245319599,I10,"Patient lives at 9228 Elm Lane, Tampa. Transport arranged for 2024-09-10."
+ENC000424,MRN100138,2026-10-07,2026-10-14,LAKESIDE CLINIC,1679576722,M54.5,Mr./Ms. Lindqvist reports improvement since visit on 10/07/2026. MRN MRN100138.
+ENC000425,MRN100138,2026-09-15,2026-09-20,NORTHWIND MED CTR,1003000126,I50.9,"Patient lives at 9228 Elm Lane, Tampa. Transport arranged for 2026-10-14."
+ENC000426,MRN100138,2026-02-13,2026-02-14,CEDAR VALLEY HOSP,1245319599,I10,"Insurance verification: SSN 967-83-6797 on file, member portal https://portal.example.org/u/MRN100138."
+ENC000427,MRN100139,2025-07-15,2025-07-21,LAKESIDE CLINIC,1003000126,F32.9,Pt Noah Fischer seen for follow-up. Call back at (733) 555-0138.
+ENC000428,MRN100139,2025-04-11,2025-04-11,NORTHWIND MED CTR,1679576722,E11.9,"Noah tolerating metformin well. Next labs May 1, 2025."
+ENC000429,MRN100139,2025-11-18,2025-11-24,CEDAR VALLEY HOSP,1245319599,I10,Discussed plan with patient's daughter. Contact email noah.fischer139@example.org.
+ENC000430,MRN100140,2026-07-29,2026-08-05,NORTHWIND MED CTR,1245319599,F32.9,Pt Olivia Lindqvist seen for follow-up. Call back at (694) 555-0164.
+ENC000431,MRN100140,2025-06-23,2025-06-27,NORTHWIND MED CTR,1003000126,J45.909,"Olivia tolerating metformin well. Next labs August 18, 2025."
+ENC000432,MRN100141,2026-10-08,2026-10-12,NORTHWIND MED CTR,1679576722,I50.9,"Patient lives at 765 Maple Lane, Boston. Transport arranged for 2026-11-24."
+ENC000433,MRN100141,2025-05-04,2025-05-09,CEDAR VALLEY HOSP,1245319599,J45.909,"Seen by Dr. Hughes. Pt Lindqvist, John denies chest pain. Fax results to (887) 555-0115."
+ENC000434,MRN100141,2026-01-24,2026-01-25,CEDAR VALLEY HOSP,1003000126,F32.9,Mr./Ms. Lindqvist reports improvement since visit on 01/24/2026. MRN MRN100141.
+ENC000435,MRN100142,2025-10-04,2025-10-04,LAKESIDE CLINIC,1003000126,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC000436,MRN100143,2025-07-07,2025-07-10,CEDAR VALLEY HOSP,1679576722,J45.909,Discussed plan with patient's daughter. Contact email emma.esposito143@example.org.
+ENC000437,MRN100143,2024-11-14,2024-11-19,NORTHWIND MED CTR,1245319599,Z00.00,"Emma tolerating metformin well. Next labs January 10, 2025."
+ENC000438,MRN100143,2026-07-08,2026-07-13,CEDAR VALLEY HOSP,1003000126,J45.909,"Seen by Dr. Hughes. Pt Esposito, Emma denies chest pain. Fax results to (374) 555-0136."
+ENC000439,MRN100143,2025-05-29,2025-05-30,LAKESIDE CLINIC,1245319599,I50.9,Mr./Ms. Esposito reports improvement since visit on 05/29/2025. MRN MRN100143.
+ENC000440,MRN100144,2024-11-20,2024-11-23,LAKESIDE CLINIC,1679576722,I10,Mr./Ms. Garcia reports improvement since visit on 11/20/2024. MRN MRN100144.
+ENC000441,MRN100144,2025-03-04,2025-03-11,CEDAR VALLEY HOSP,1679576722,I10,Mr./Ms. Garcia reports improvement since visit on 03/04/2025. MRN MRN100144.
+ENC000442,MRN100144,2025-02-26,2025-02-27,LAKESIDE CLINIC,1003000126,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000443,MRN100144,2026-07-31,2026-08-03,LAKESIDE CLINIC,1245319599,J45.909,Discussed plan with patient's daughter. Contact email ethan.garcia144@example.org.
+ENC000444,MRN100144,2024-12-24,2024-12-26,LAKESIDE CLINIC,1679576722,N18.3,"Insurance verification: SSN 949-18-6582 on file, member portal https://portal.example.org/u/MRN100144."
+ENC000445,MRN100145,2025-04-17,2025-04-17,NORTHWIND MED CTR,1245319599,M54.5,"John tolerating metformin well. Next labs April 24, 2025."
+ENC000446,MRN100145,2024-11-11,2024-11-17,CEDAR VALLEY HOSP,1679576722,M54.5,"John tolerating metformin well. Next labs December 28, 2024."
+ENC000447,MRN100145,2025-04-21,2025-04-24,NORTHWIND MED CTR,1003000126,M54.5,Discussed plan with patient's daughter. Contact email john.kowalski145@example.org.
+ENC000448,MRN100146,2025-08-22,2025-08-24,CEDAR VALLEY HOSP,1679576722,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000449,MRN100146,2026-04-24,2026-04-30,LAKESIDE CLINIC,1245319599,I50.9,Pt Emma Nakamura seen for follow-up. Call back at (791) 555-0163.
+ENC000450,MRN100146,2025-09-06,2025-09-11,LAKESIDE CLINIC,1679576722,I10,Pt Emma Nakamura seen for follow-up. Call back at (781) 555-0161.
+ENC000451,MRN100146,2025-03-16,2025-03-23,LAKESIDE CLINIC,1003000126,I50.9,Mr./Ms. Nakamura reports improvement since visit on 03/16/2025. MRN MRN100146.
+ENC000452,MRN100146,2025-07-12,2025-07-13,LAKESIDE CLINIC,1003000126,I10,Mr./Ms. Nakamura reports improvement since visit on 07/12/2025. MRN MRN100146.
+ENC000453,MRN100147,2026-02-07,2026-02-07,LAKESIDE CLINIC,1245319599,I50.9,"Seen by Dr. Hughes. Pt Jensen, Olivia denies chest pain. Fax results to (792) 555-0121."
+ENC000454,MRN100147,2024-07-25,2024-07-25,LAKESIDE CLINIC,1245319599,I50.9,"Seen by Dr. Hughes. Pt Jensen, Olivia denies chest pain. Fax results to (284) 555-0116."
+ENC000455,MRN100147,2026-02-15,2026-02-17,NORTHWIND MED CTR,1003000126,I10,"Insurance verification: SSN 965-70-6431 on file, member portal https://portal.example.org/u/MRN100147."
+ENC000456,MRN100147,2025-02-20,2025-02-22,CEDAR VALLEY HOSP,1245319599,I50.9,Discussed plan with patient's daughter. Contact email olivia.jensen147@example.org.
+ENC000457,MRN100147,2024-08-21,2024-08-24,CEDAR VALLEY HOSP,1245319599,J45.909,Discussed plan with patient's daughter. Contact email olivia.jensen147@example.org.
+ENC000458,MRN100148,2025-12-27,2026-01-03,LAKESIDE CLINIC,1679576722,Z00.00,"Patient lives at 4341 Willow St, Madison. Transport arranged for 2026-02-19."
+ENC000459,MRN100148,2026-02-05,2026-02-07,CEDAR VALLEY HOSP,1679576722,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000460,MRN100148,2025-05-07,2025-05-07,LAKESIDE CLINIC,1679576722,F32.9,"Carlos tolerating metformin well. Next labs May 20, 2025."
+ENC000461,MRN100148,2026-01-28,2026-02-01,LAKESIDE CLINIC,1679576722,Z00.00,Mr./Ms. Nakamura reports improvement since visit on 01/28/2026. MRN MRN100148.
+ENC000462,MRN100149,2024-10-19,2024-10-23,LAKESIDE CLINIC,1245319599,E11.9,"Patient lives at 6747 Maple Lane, Denver. Transport arranged for 2024-11-11."
+ENC000463,MRN100149,2025-03-02,2025-03-05,NORTHWIND MED CTR,1003000126,J45.909,Mr./Ms. Lindqvist reports improvement since visit on 03/02/2025. MRN MRN100149.
+ENC000464,MRN100150,2024-11-22,2024-11-27,NORTHWIND MED CTR,1679576722,M54.5,Discussed plan with patient's daughter. Contact email mateo.kowalski150@example.org.
+ENC000465,MRN100150,2025-11-25,2025-11-25,NORTHWIND MED CTR,1679576722,N18.3,"Insurance verification: SSN 989-33-5150 on file, member portal https://portal.example.org/u/MRN100150."
+ENC000466,MRN100150,2025-02-14,2025-02-20,LAKESIDE CLINIC,1679576722,N18.3,"Seen by Dr. Hughes. Pt Kowalski, Mateo denies chest pain. Fax results to (311) 555-0118."
+ENC000467,MRN100150,2025-02-10,2025-02-11,NORTHWIND MED CTR,1245319599,I50.9,"Insurance verification: SSN 989-33-5150 on file, member portal https://portal.example.org/u/MRN100150."
+ENC000468,MRN100151,2025-08-11,2025-08-17,NORTHWIND MED CTR,1679576722,Z00.00,Mr./Ms. Alvarez reports improvement since visit on 08/11/2025. MRN MRN100151.
+ENC000469,MRN100151,2026-06-29,2026-07-04,LAKESIDE CLINIC,1003000126,I10,"Insurance verification: SSN 934-29-6403 on file, member portal https://portal.example.org/u/MRN100151."
+ENC000470,MRN100151,2025-10-22,2025-10-27,CEDAR VALLEY HOSP,1003000126,N18.3,"Seen by Dr. Hughes. Pt Alvarez, Ethan denies chest pain. Fax results to (978) 555-0198."
+ENC000471,MRN100151,2026-05-04,2026-05-04,CEDAR VALLEY HOSP,1245319599,F32.9,"Patient lives at 70 Lakeview Drive, Columbus. Transport arranged for 2026-06-04."
+ENC000472,MRN100152,2024-06-29,2024-07-06,CEDAR VALLEY HOSP,1003000126,E11.9,Pt Grace Brooks seen for follow-up. Call back at (547) 555-0107.
+ENC000473,MRN100152,2025-09-11,2025-09-12,NORTHWIND MED CTR,1003000126,N18.3,"Seen by Dr. Hughes. Pt Brooks, Grace denies chest pain. Fax results to (894) 555-0168."
+ENC000474,MRN100152,2026-08-19,2026-08-19,NORTHWIND MED CTR,1679576722,E11.9,Discussed plan with patient's daughter. Contact email grace.brooks152@example.org.
+ENC000475,MRN100152,2026-02-25,2026-02-27,CEDAR VALLEY HOSP,1245319599,Z00.00,Discussed plan with patient's daughter. Contact email grace.brooks152@example.org.
+ENC000476,MRN100152,2025-02-13,2025-02-15,CEDAR VALLEY HOSP,1003000126,N18.3,Mr./Ms. Brooks reports improvement since visit on 02/13/2025. MRN MRN100152.
+ENC000477,MRN100153,2025-04-13,2025-04-15,NORTHWIND MED CTR,1245319599,M54.5,"Patient lives at 5506 Maple St, Austin. Transport arranged for 2025-05-18."
+ENC000478,MRN100153,2024-08-26,2024-08-28,NORTHWIND MED CTR,1245319599,I10,"Seen by Dr. Hughes. Pt Moreau, Aisha denies chest pain. Fax results to (282) 555-0100."
+ENC000479,MRN100153,2024-11-07,2024-11-11,NORTHWIND MED CTR,1245319599,I50.9,"Seen by Dr. Hughes. Pt Moreau, Aisha denies chest pain. Fax results to (908) 555-0116."
+ENC000480,MRN100154,2025-10-26,2025-10-29,NORTHWIND MED CTR,1245319599,J45.909,"Patient lives at 84 Lakeview Ave, Denver. Transport arranged for 2025-12-01."
+ENC000481,MRN100154,2024-11-29,2024-12-06,NORTHWIND MED CTR,1245319599,F32.9,Discussed plan with patient's daughter. Contact email ethan.garcia154@example.org.
+ENC000482,MRN100154,2026-01-13,2026-01-16,CEDAR VALLEY HOSP,1245319599,I10,"Insurance verification: SSN 978-21-5934 on file, member portal https://portal.example.org/u/MRN100154."
+ENC000483,MRN100154,2024-10-03,2024-10-03,CEDAR VALLEY HOSP,1003000126,I10,Discussed plan with patient's daughter. Contact email ethan.garcia154@example.org.
+ENC000484,MRN100154,2026-08-20,2026-08-23,CEDAR VALLEY HOSP,1679576722,N18.3,"Seen by Dr. Hughes. Pt Garcia, Ethan denies chest pain. Fax results to (806) 555-0174."
+ENC000485,MRN100155,2025-10-14,2025-10-16,CEDAR VALLEY HOSP,1245319599,F32.9,"Patient lives at 7946 Maple Blvd, Seattle. Transport arranged for 2025-11-19."
+ENC000486,MRN100155,2026-06-23,2026-06-23,NORTHWIND MED CTR,1679576722,Z00.00,Pt Noah Dawson seen for follow-up. Call back at (487) 555-0117.
+ENC000487,MRN100155,2025-08-29,2025-08-31,LAKESIDE CLINIC,1245319599,J45.909,"Noah tolerating metformin well. Next labs October 23, 2025."
+ENC000488,MRN100155,2025-03-19,2025-03-22,NORTHWIND MED CTR,1003000126,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC000489,MRN100156,2025-05-06,2025-05-12,NORTHWIND MED CTR,1245319599,E11.9,Mr./Ms. Esposito reports improvement since visit on 05/06/2025. MRN MRN100156.
+ENC000490,MRN100156,2024-11-21,2024-11-27,NORTHWIND MED CTR,1003000126,I10,Discussed plan with patient's daughter. Contact email ethan.esposito156@example.org.
+ENC000491,MRN100156,2026-10-15,2026-10-22,CEDAR VALLEY HOSP,1003000126,E11.9,"Insurance verification: SSN 975-29-1083 on file, member portal https://portal.example.org/u/MRN100156."
+ENC000492,MRN100156,2025-07-23,2025-07-30,NORTHWIND MED CTR,1679576722,Z00.00,Discussed plan with patient's daughter. Contact email ethan.esposito156@example.org.
+ENC000493,MRN100157,2024-12-10,2024-12-15,CEDAR VALLEY HOSP,1003000126,E11.9,Mr./Ms. Nakamura reports improvement since visit on 12/10/2024. MRN MRN100157.
+ENC000494,MRN100157,2025-10-22,2025-10-27,NORTHWIND MED CTR,1245319599,F32.9,Mr./Ms. Nakamura reports improvement since visit on 10/22/2025. MRN MRN100157.
+ENC000495,MRN100157,2026-03-01,2026-03-02,LAKESIDE CLINIC,1003000126,N18.3,"Seen by Dr. Hughes. Pt Nakamura, Maria denies chest pain. Fax results to (955) 555-0196."
+ENC000496,MRN100157,2024-09-20,2024-09-23,LAKESIDE CLINIC,1679576722,I50.9,"Maria tolerating metformin well. Next labs October 17, 2024."
+ENC000497,MRN100157,2026-09-06,2026-09-07,LAKESIDE CLINIC,1003000126,I10,"Maria tolerating metformin well. Next labs October 6, 2026."
+ENC000498,MRN100158,2025-06-10,2025-06-12,LAKESIDE CLINIC,1003000126,J45.909,Pt Grace Lindqvist seen for follow-up. Call back at (500) 555-0153.
+ENC000499,MRN100158,2025-07-03,2025-07-08,NORTHWIND MED CTR,1679576722,N18.3,"Seen by Dr. Hughes. Pt Lindqvist, Grace denies chest pain. Fax results to (955) 555-0182."
+ENC000500,MRN100159,2026-06-18,2026-06-22,CEDAR VALLEY HOSP,1679576722,E11.9,"Insurance verification: SSN 983-92-6346 on file, member portal https://portal.example.org/u/MRN100159."
+ENC000501,MRN100159,2026-06-02,2026-06-07,NORTHWIND MED CTR,1003000126,I50.9,"Seen by Dr. Hughes. Pt Alvarez, Aisha denies chest pain. Fax results to (370) 555-0179."
+ENC000502,MRN100159,2026-04-28,2026-04-30,NORTHWIND MED CTR,1245319599,F32.9,Discussed plan with patient's daughter. Contact email aisha.alvarez159@example.org.
+ENC000503,MRN100159,2025-03-22,2025-03-24,NORTHWIND MED CTR,1003000126,E11.9,"Insurance verification: SSN 983-92-6346 on file, member portal https://portal.example.org/u/MRN100159."
+ENC000504,MRN100159,2024-12-19,2024-12-24,LAKESIDE CLINIC,1245319599,I50.9,Discussed plan with patient's daughter. Contact email aisha.alvarez159@example.org.
+ENC000505,MRN100160,2024-12-18,2024-12-20,NORTHWIND MED CTR,1003000126,Z00.00,"Seen by Dr. Hughes. Pt Alvarez, Wei denies chest pain. Fax results to (546) 555-0188."
+ENC000506,MRN100160,2026-09-20,2026-09-22,CEDAR VALLEY HOSP,1003000126,N18.3,Mr./Ms. Alvarez reports improvement since visit on 09/20/2026. MRN MRN100160.
+ENC000507,MRN100160,2025-08-01,2025-08-06,LAKESIDE CLINIC,1245319599,N18.3,"Wei tolerating metformin well. Next labs August 13, 2025."
+ENC000508,MRN100160,2024-08-22,2024-08-26,CEDAR VALLEY HOSP,1003000126,I10,Pt Wei Alvarez seen for follow-up. Call back at (285) 555-0168.
+ENC000509,MRN100160,2025-05-25,2025-05-31,LAKESIDE CLINIC,1003000126,E11.9,"Seen by Dr. Hughes. Pt Alvarez, Wei denies chest pain. Fax results to (525) 555-0177."
+ENC000510,MRN100161,2024-07-31,2024-08-07,LAKESIDE CLINIC,1679576722,J45.909,Discussed plan with patient's daughter. Contact email emma.garcia161@example.org.
+ENC000511,MRN100161,2024-06-28,2024-06-29,LAKESIDE CLINIC,1679576722,I10,"Patient lives at 1445 Oak Drive, Columbus. Transport arranged for 2024-07-14."
+ENC000512,MRN100161,2025-03-06,2025-03-12,CEDAR VALLEY HOSP,1679576722,J45.909,Pt Emma Garcia seen for follow-up. Call back at (619) 555-0181.
+ENC000513,MRN100161,2025-04-10,2025-04-17,CEDAR VALLEY HOSP,1679576722,Z00.00,Discussed plan with patient's daughter. Contact email emma.garcia161@example.org.
+ENC000514,MRN100162,2026-05-01,2026-05-08,CEDAR VALLEY HOSP,1679576722,I10,"Patient lives at 7752 Maple Drive, Madison. Transport arranged for 2026-06-21."
+ENC000515,MRN100162,2025-02-25,2025-03-02,CEDAR VALLEY HOSP,1003000126,Z00.00,"Seen by Dr. Hughes. Pt Nakamura, James denies chest pain. Fax results to (779) 555-0155."
+ENC000516,MRN100162,2024-11-20,2024-11-21,LAKESIDE CLINIC,1245319599,J45.909,Pt James Nakamura seen for follow-up. Call back at (465) 555-0120.
+ENC000517,MRN100162,2025-12-08,2025-12-15,NORTHWIND MED CTR,1679576722,F32.9,Discussed plan with patient's daughter. Contact email james.nakamura162@example.org.
+ENC000518,MRN100163,2026-01-27,2026-02-01,NORTHWIND MED CTR,1003000126,I50.9,"Sofia tolerating metformin well. Next labs February 9, 2026."
+ENC000519,MRN100163,2025-10-15,2025-10-22,NORTHWIND MED CTR,1245319599,N18.3,"Sofia tolerating metformin well. Next labs November 17, 2025."
+ENC000520,MRN100163,2024-07-02,2024-07-05,NORTHWIND MED CTR,1245319599,J45.909,Mr./Ms. Kowalski reports improvement since visit on 07/02/2024. MRN MRN100163.
+ENC000521,MRN100164,2026-03-31,2026-04-02,NORTHWIND MED CTR,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000522,MRN100164,2024-08-29,2024-09-05,NORTHWIND MED CTR,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000523,MRN100165,2025-03-17,2025-03-22,LAKESIDE CLINIC,1003000126,N18.3,Discussed plan with patient's daughter. Contact email grace.brooks165@example.org.
+ENC000524,MRN100165,2025-06-01,2025-06-02,LAKESIDE CLINIC,1245319599,I50.9,Pt Grace Brooks seen for follow-up. Call back at (741) 555-0127.
+ENC000525,MRN100165,2026-05-09,2026-05-09,LAKESIDE CLINIC,1679576722,F32.9,Mr./Ms. Brooks reports improvement since visit on 05/09/2026. MRN MRN100165.
+ENC000526,MRN100166,2024-11-09,2024-11-13,CEDAR VALLEY HOSP,1245319599,M54.5,Pt Priya Hughes seen for follow-up. Call back at (284) 555-0141.
+ENC000527,MRN100166,2026-01-14,2026-01-21,NORTHWIND MED CTR,1003000126,M54.5,"Insurance verification: SSN 927-75-4728 on file, member portal https://portal.example.org/u/MRN100166."
+ENC000528,MRN100166,2026-01-07,2026-01-13,CEDAR VALLEY HOSP,1245319599,E11.9,Mr./Ms. Hughes reports improvement since visit on 01/07/2026. MRN MRN100166.
+ENC000529,MRN100167,2025-03-01,2025-03-07,CEDAR VALLEY HOSP,1679576722,I50.9,"Patient lives at 1676 Hillcrest Ave, Austin. Transport arranged for 2025-03-15."
+ENC000530,MRN100167,2024-09-17,2024-09-23,CEDAR VALLEY HOSP,1679576722,I50.9,"Seen by Dr. Hughes. Pt Kowalski, Grace denies chest pain. Fax results to (882) 555-0177."
+ENC000531,MRN100168,2025-12-25,2025-12-26,LAKESIDE CLINIC,1679576722,Z00.00,Mr./Ms. Moreau reports improvement since visit on 12/25/2025. MRN MRN100168.
+ENC000532,MRN100168,2026-04-08,2026-04-12,CEDAR VALLEY HOSP,1003000126,F32.9,"Seen by Dr. Hughes. Pt Moreau, Carlos denies chest pain. Fax results to (702) 555-0164."
+ENC000533,MRN100169,2025-08-16,2025-08-18,NORTHWIND MED CTR,1003000126,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC000534,MRN100169,2024-12-25,2025-01-01,CEDAR VALLEY HOSP,1679576722,Z00.00,Discussed plan with patient's daughter. Contact email maria.moreau169@example.org.
+ENC000535,MRN100169,2025-03-05,2025-03-11,CEDAR VALLEY HOSP,1245319599,E11.9,"Maria tolerating metformin well. Next labs April 20, 2025."
+ENC000536,MRN100169,2025-03-06,2025-03-06,LAKESIDE CLINIC,1245319599,F32.9,"Maria tolerating metformin well. Next labs March 21, 2025."
+ENC000537,MRN100170,2025-12-02,2025-12-02,CEDAR VALLEY HOSP,1679576722,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000538,MRN100170,2024-11-18,2024-11-25,LAKESIDE CLINIC,1679576722,F32.9,Pt Mateo Brooks seen for follow-up. Call back at (524) 555-0148.
+ENC000539,MRN100170,2025-03-24,2025-03-25,LAKESIDE CLINIC,1245319599,F32.9,"Seen by Dr. Hughes. Pt Brooks, Mateo denies chest pain. Fax results to (302) 555-0188."
+ENC000540,MRN100170,2025-06-10,2025-06-15,NORTHWIND MED CTR,1679576722,I10,"Insurance verification: SSN 930-92-6113 on file, member portal https://portal.example.org/u/MRN100170."
+ENC000541,MRN100170,2024-06-23,2024-06-26,LAKESIDE CLINIC,1679576722,N18.3,"Insurance verification: SSN 930-92-6113 on file, member portal https://portal.example.org/u/MRN100170."
+ENC000542,MRN100171,2026-04-10,2026-04-16,CEDAR VALLEY HOSP,1003000126,J45.909,"Insurance verification: SSN 954-36-6690 on file, member portal https://portal.example.org/u/MRN100171."
+ENC000543,MRN100171,2026-10-12,2026-10-14,LAKESIDE CLINIC,1679576722,I50.9,"Seen by Dr. Hughes. Pt Lindqvist, Aisha denies chest pain. Fax results to (418) 555-0184."
+ENC000544,MRN100171,2025-01-16,2025-01-22,CEDAR VALLEY HOSP,1679576722,J45.909,Pt Aisha Lindqvist seen for follow-up. Call back at (734) 555-0125.
+ENC000545,MRN100172,2026-04-18,2026-04-18,LAKESIDE CLINIC,1679576722,M54.5,"Insurance verification: SSN 952-44-5702 on file, member portal https://portal.example.org/u/MRN100172."
+ENC000546,MRN100172,2025-01-07,2025-01-07,NORTHWIND MED CTR,1679576722,I50.9,Discussed plan with patient's daughter. Contact email fatima.chen172@example.org.
+ENC000547,MRN100173,2025-03-26,2025-03-27,NORTHWIND MED CTR,1003000126,I10,"Insurance verification: SSN 977-48-2041 on file, member portal https://portal.example.org/u/MRN100173."
+ENC000548,MRN100174,2025-12-11,2025-12-17,CEDAR VALLEY HOSP,1679576722,F32.9,"Patient lives at 6700 Cedar Lane, Raleigh. Transport arranged for 2026-01-17."
+ENC000549,MRN100175,2026-10-23,2026-10-29,NORTHWIND MED CTR,1679576722,N18.3,"Insurance verification: SSN 932-80-7302 on file, member portal https://portal.example.org/u/MRN100175."
+ENC000550,MRN100175,2024-06-03,2024-06-05,CEDAR VALLEY HOSP,1245319599,I50.9,"Olivia tolerating metformin well. Next labs July 8, 2024."
+ENC000551,MRN100175,2024-05-27,2024-05-28,CEDAR VALLEY HOSP,1679576722,M54.5,"Seen by Dr. Hughes. Pt Alvarez, Olivia denies chest pain. Fax results to (682) 555-0194."
+ENC000552,MRN100175,2024-05-17,2024-05-18,LAKESIDE CLINIC,1245319599,F32.9,Discussed plan with patient's daughter. Contact email olivia.alvarez175@example.org.
+ENC000553,MRN100176,2026-08-08,2026-08-09,LAKESIDE CLINIC,1245319599,M54.5,"Patient lives at 2239 Maple Blvd, Columbus. Transport arranged for 2026-08-25."
+ENC000554,MRN100176,2024-08-11,2024-08-16,CEDAR VALLEY HOSP,1245319599,F32.9,"Seen by Dr. Hughes. Pt Jensen, Sofia denies chest pain. Fax results to (952) 555-0117."
+ENC000555,MRN100176,2024-08-04,2024-08-08,NORTHWIND MED CTR,1679576722,M54.5,Mr./Ms. Jensen reports improvement since visit on 08/04/2024. MRN MRN100176.
+ENC000556,MRN100176,2024-06-29,2024-07-02,LAKESIDE CLINIC,1003000126,N18.3,Pt Sofia Jensen seen for follow-up. Call back at (771) 555-0182.
+ENC000557,MRN100176,2026-08-01,2026-08-08,NORTHWIND MED CTR,1679576722,M54.5,"Insurance verification: SSN 982-92-4010 on file, member portal https://portal.example.org/u/MRN100176."
+ENC000558,MRN100177,2026-01-10,2026-01-17,LAKESIDE CLINIC,1245319599,I50.9,Discussed plan with patient's daughter. Contact email liam.chen177@example.org.
+ENC000559,MRN100177,2024-10-17,2024-10-20,NORTHWIND MED CTR,1679576722,I50.9,Discussed plan with patient's daughter. Contact email liam.chen177@example.org.
+ENC000560,MRN100177,2026-03-04,2026-03-11,LAKESIDE CLINIC,1679576722,I10,"Liam tolerating metformin well. Next labs March 26, 2026."
+ENC000561,MRN100178,2025-11-03,2025-11-03,CEDAR VALLEY HOSP,1679576722,M54.5,"Insurance verification: SSN 990-64-5198 on file, member portal https://portal.example.org/u/MRN100178."
+ENC000562,MRN100178,2024-12-13,2024-12-18,CEDAR VALLEY HOSP,1245319599,Z00.00,Pt Maria Hughes seen for follow-up. Call back at (794) 555-0122.
+ENC000563,MRN100178,2025-11-18,2025-11-25,LAKESIDE CLINIC,1679576722,J45.909,Mr./Ms. Hughes reports improvement since visit on 11/18/2025. MRN MRN100178.
+ENC000564,MRN100178,2026-02-07,2026-02-08,CEDAR VALLEY HOSP,1003000126,F32.9,Pt Maria Hughes seen for follow-up. Call back at (330) 555-0163.
+ENC000565,MRN100179,2026-04-21,2026-04-23,CEDAR VALLEY HOSP,1679576722,J45.909,"Patient lives at 2488 Lakeview Drive, Boston. Transport arranged for 2026-05-01."
+ENC000566,MRN100180,2024-07-11,2024-07-15,LAKESIDE CLINIC,1003000126,J45.909,"Patient lives at 1543 Oak Rd, Madison. Transport arranged for 2024-08-23."
+ENC000567,MRN100180,2025-08-31,2025-09-01,CEDAR VALLEY HOSP,1245319599,I50.9,"Seen by Dr. Hughes. Pt Garcia, Ethan denies chest pain. Fax results to (893) 555-0112."
+ENC000568,MRN100180,2024-12-03,2024-12-04,CEDAR VALLEY HOSP,1245319599,E11.9,"Ethan tolerating metformin well. Next labs January 4, 2025."
+ENC000569,MRN100180,2026-08-09,2026-08-16,CEDAR VALLEY HOSP,1003000126,E11.9,"Seen by Dr. Hughes. Pt Garcia, Ethan denies chest pain. Fax results to (664) 555-0180."
+ENC000570,MRN100180,2025-11-28,2025-11-28,LAKESIDE CLINIC,1003000126,J45.909,"Seen by Dr. Hughes. Pt Garcia, Ethan denies chest pain. Fax results to (532) 555-0193."
+ENC000571,MRN100181,2026-10-10,2026-10-13,LAKESIDE CLINIC,1003000126,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC000572,MRN100182,2025-08-24,2025-08-25,NORTHWIND MED CTR,1679576722,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC000573,MRN100182,2026-07-28,2026-07-28,NORTHWIND MED CTR,1003000126,J45.909,"Wei tolerating metformin well. Next labs September 5, 2026."
+ENC000574,MRN100182,2025-06-11,2025-06-12,CEDAR VALLEY HOSP,1679576722,J45.909,"Seen by Dr. Hughes. Pt Esposito, Wei denies chest pain. Fax results to (647) 555-0110."
+ENC000575,MRN100182,2026-06-23,2026-06-27,CEDAR VALLEY HOSP,1003000126,E11.9,"Patient lives at 8031 Elm Blvd, Denver. Transport arranged for 2026-08-22."
+ENC000576,MRN100182,2025-04-15,2025-04-16,CEDAR VALLEY HOSP,1245319599,Z00.00,Mr./Ms. Esposito reports improvement since visit on 04/15/2025. MRN MRN100182.
+ENC000577,MRN100183,2025-01-31,2025-02-04,NORTHWIND MED CTR,1003000126,I50.9,Discussed plan with patient's daughter. Contact email liam.fischer183@example.org.
+ENC000578,MRN100183,2024-05-22,2024-05-23,NORTHWIND MED CTR,1245319599,J45.909,Pt Liam Fischer seen for follow-up. Call back at (205) 555-0150.
+ENC000579,MRN100183,2024-12-29,2025-01-05,LAKESIDE CLINIC,1003000126,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC000580,MRN100183,2025-12-25,2025-12-30,NORTHWIND MED CTR,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000581,MRN100184,2026-05-14,2026-05-16,NORTHWIND MED CTR,1679576722,N18.3,"Seen by Dr. Hughes. Pt Brooks, John denies chest pain. Fax results to (696) 555-0160."
+ENC000582,MRN100185,2026-03-08,2026-03-08,CEDAR VALLEY HOSP,1003000126,I10,Pt John Esposito seen for follow-up. Call back at (632) 555-0173.
+ENC000583,MRN100185,2026-01-30,2026-02-05,LAKESIDE CLINIC,1679576722,Z00.00,Mr./Ms. Esposito reports improvement since visit on 01/30/2026. MRN MRN100185.
+ENC000584,MRN100185,2024-11-16,2024-11-22,NORTHWIND MED CTR,1679576722,F32.9,Discussed plan with patient's daughter. Contact email john.esposito185@example.org.
+ENC000585,MRN100185,2025-08-09,2025-08-12,CEDAR VALLEY HOSP,1003000126,Z00.00,"Patient lives at 6558 Elm Lane, Austin. Transport arranged for 2025-09-17."
+ENC000586,MRN100186,2025-06-15,2025-06-16,NORTHWIND MED CTR,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000587,MRN100186,2026-10-13,2026-10-18,NORTHWIND MED CTR,1003000126,E11.9,"Carlos tolerating metformin well. Next labs November 5, 2026."
+ENC000588,MRN100186,2024-07-27,2024-07-28,NORTHWIND MED CTR,1245319599,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000589,MRN100186,2025-06-20,2025-06-24,LAKESIDE CLINIC,1679576722,J45.909,"Carlos tolerating metformin well. Next labs July 18, 2025."
+ENC000590,MRN100186,2024-06-10,2024-06-11,NORTHWIND MED CTR,1245319599,I10,Pt Carlos Esposito seen for follow-up. Call back at (648) 555-0158.
+ENC000591,MRN100187,2026-06-28,2026-07-01,NORTHWIND MED CTR,1245319599,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC000592,MRN100187,2025-11-16,2025-11-20,CEDAR VALLEY HOSP,1003000126,M54.5,Discussed plan with patient's daughter. Contact email james.ibrahim187@example.org.
+ENC000593,MRN100188,2026-08-21,2026-08-22,NORTHWIND MED CTR,1679576722,E11.9,"Emma tolerating metformin well. Next labs September 18, 2026."
+ENC000594,MRN100188,2025-09-24,2025-09-24,LAKESIDE CLINIC,1003000126,I50.9,Discussed plan with patient's daughter. Contact email emma.kowalski188@example.org.
+ENC000595,MRN100188,2025-08-28,2025-09-03,CEDAR VALLEY HOSP,1679576722,E11.9,"Insurance verification: SSN 954-62-7706 on file, member portal https://portal.example.org/u/MRN100188."
+ENC000596,MRN100188,2024-07-07,2024-07-11,CEDAR VALLEY HOSP,1003000126,N18.3,Discussed plan with patient's daughter. Contact email emma.kowalski188@example.org.
+ENC000597,MRN100188,2025-04-22,2025-04-29,NORTHWIND MED CTR,1679576722,I10,"Emma tolerating metformin well. Next labs June 12, 2025."
+ENC000598,MRN100189,2026-02-09,2026-02-12,LAKESIDE CLINIC,1245319599,E11.9,"Insurance verification: SSN 911-75-6115 on file, member portal https://portal.example.org/u/MRN100189."
+ENC000599,MRN100189,2024-06-22,2024-06-27,LAKESIDE CLINIC,1245319599,Z00.00,"James tolerating metformin well. Next labs July 15, 2024."
+ENC000600,MRN100189,2025-12-30,2025-12-30,LAKESIDE CLINIC,1003000126,N18.3,"James tolerating metformin well. Next labs February 4, 2026."
+ENC000601,MRN100189,2025-11-07,2025-11-11,LAKESIDE CLINIC,1003000126,N18.3,Discussed plan with patient's daughter. Contact email james.ibrahim189@example.org.
+ENC000602,MRN100189,2026-07-16,2026-07-21,NORTHWIND MED CTR,1245319599,M54.5,"Patient lives at 2631 Maple St, Boston. Transport arranged for 2026-08-25."
+ENC000603,MRN100190,2025-01-18,2025-01-24,NORTHWIND MED CTR,1245319599,J45.909,"Seen by Dr. Hughes. Pt Brooks, Sofia denies chest pain. Fax results to (949) 555-0153."
+ENC000604,MRN100190,2025-06-22,2025-06-29,CEDAR VALLEY HOSP,1679576722,E11.9,Mr./Ms. Brooks reports improvement since visit on 06/22/2025. MRN MRN100190.
+ENC000605,MRN100190,2024-09-27,2024-09-29,CEDAR VALLEY HOSP,1245319599,I10,"Sofia tolerating metformin well. Next labs November 8, 2024."
+ENC000606,MRN100190,2025-10-18,2025-10-22,CEDAR VALLEY HOSP,1679576722,I50.9,Discussed plan with patient's daughter. Contact email sofia.brooks190@example.org.
+ENC000607,MRN100191,2025-08-30,2025-09-06,CEDAR VALLEY HOSP,1679576722,Z00.00,"Insurance verification: SSN 939-46-4532 on file, member portal https://portal.example.org/u/MRN100191."
+ENC000608,MRN100192,2026-09-15,2026-09-22,NORTHWIND MED CTR,1003000126,E11.9,"Insurance verification: SSN 993-51-2463 on file, member portal https://portal.example.org/u/MRN100192."
+ENC000609,MRN100192,2025-03-25,2025-03-29,NORTHWIND MED CTR,1245319599,E11.9,Mr./Ms. Moreau reports improvement since visit on 03/25/2025. MRN MRN100192.
+ENC000610,MRN100192,2025-03-27,2025-03-30,NORTHWIND MED CTR,1003000126,J45.909,"Seen by Dr. Hughes. Pt Moreau, Carlos denies chest pain. Fax results to (714) 555-0102."
+ENC000611,MRN100192,2026-10-12,2026-10-16,LAKESIDE CLINIC,1679576722,I10,"Patient lives at 6721 Elm Ave, Madison. Transport arranged for 2026-12-08."
+ENC000612,MRN100192,2024-07-27,2024-08-01,CEDAR VALLEY HOSP,1679576722,J45.909,Pt Carlos Moreau seen for follow-up. Call back at (703) 555-0102.
+ENC000613,MRN100193,2026-09-01,2026-09-06,CEDAR VALLEY HOSP,1679576722,I10,Pt Sofia Alvarez seen for follow-up. Call back at (930) 555-0107.
+ENC000614,MRN100193,2025-12-08,2025-12-10,NORTHWIND MED CTR,1245319599,N18.3,"Sofia tolerating metformin well. Next labs January 10, 2026."
+ENC000615,MRN100194,2025-04-12,2025-04-13,CEDAR VALLEY HOSP,1679576722,I10,Discussed plan with patient's daughter. Contact email fatima.moreau194@example.org.
+ENC000616,MRN100194,2024-06-17,2024-06-20,NORTHWIND MED CTR,1245319599,M54.5,Discussed plan with patient's daughter. Contact email fatima.moreau194@example.org.
+ENC000617,MRN100194,2025-04-11,2025-04-18,CEDAR VALLEY HOSP,1003000126,J45.909,Pt Fatima Moreau seen for follow-up. Call back at (675) 555-0179.
+ENC000618,MRN100195,2025-09-22,2025-09-23,CEDAR VALLEY HOSP,1679576722,N18.3,Discussed plan with patient's daughter. Contact email maria.alvarez195@example.org.
+ENC000619,MRN100196,2025-02-15,2025-02-22,CEDAR VALLEY HOSP,1003000126,Z00.00,Pt Noah Kowalski seen for follow-up. Call back at (888) 555-0122.
+ENC000620,MRN100197,2026-06-26,2026-07-03,NORTHWIND MED CTR,1003000126,E11.9,"Patient lives at 5874 Elm Ave, Newport. Transport arranged for 2026-07-26."
+ENC000621,MRN100198,2024-07-13,2024-07-19,CEDAR VALLEY HOSP,1245319599,N18.3,"Insurance verification: SSN 929-73-6947 on file, member portal https://portal.example.org/u/MRN100198."
+ENC000622,MRN100198,2024-12-25,2024-12-27,NORTHWIND MED CTR,1679576722,N18.3,Discussed plan with patient's daughter. Contact email liam.kowalski198@example.org.
+ENC000623,MRN100199,2025-10-26,2025-10-26,CEDAR VALLEY HOSP,1003000126,Z00.00,"Patient lives at 6676 Cedar St, Boston. Transport arranged for 2025-12-18."
+ENC000624,MRN100199,2025-12-12,2025-12-12,LAKESIDE CLINIC,1245319599,N18.3,"Patient lives at 6676 Cedar St, Boston. Transport arranged for 2026-01-13."
+ENC000625,MRN100199,2024-11-24,2024-11-30,CEDAR VALLEY HOSP,1679576722,I10,"Patient lives at 6676 Cedar St, Boston. Transport arranged for 2024-12-05."
+ENC000626,MRN100199,2025-01-28,2025-01-29,LAKESIDE CLINIC,1003000126,F32.9,"Seen by Dr. Hughes. Pt Dawson, Liam denies chest pain. Fax results to (642) 555-0103."
+ENC000627,MRN100200,2025-12-15,2025-12-16,NORTHWIND MED CTR,1679576722,M54.5,Discussed plan with patient's daughter. Contact email liam.dawson200@example.org.
+ENC000628,MRN100200,2026-08-25,2026-08-26,CEDAR VALLEY HOSP,1679576722,M54.5,Pt Liam Dawson seen for follow-up. Call back at (772) 555-0106.
+ENC000629,MRN100200,2026-07-25,2026-07-31,CEDAR VALLEY HOSP,1679576722,I10,Pt Liam Dawson seen for follow-up. Call back at (664) 555-0149.
+ENC000630,MRN100200,2025-11-18,2025-11-18,NORTHWIND MED CTR,1245319599,E11.9,"Liam tolerating metformin well. Next labs December 24, 2025."
+ENC000631,MRN100201,2025-05-24,2025-05-29,CEDAR VALLEY HOSP,1003000126,F32.9,Discussed plan with patient's daughter. Contact email aisha.jensen201@example.org.
+ENC000632,MRN100201,2026-01-06,2026-01-11,LAKESIDE CLINIC,1003000126,E11.9,Discussed plan with patient's daughter. Contact email aisha.jensen201@example.org.
+ENC000633,MRN100201,2025-08-25,2025-08-30,NORTHWIND MED CTR,1679576722,N18.3,"Patient lives at 2265 Willow St, Boston. Transport arranged for 2025-09-13."
+ENC000634,MRN100201,2024-12-17,2024-12-24,CEDAR VALLEY HOSP,1003000126,F32.9,"Seen by Dr. Hughes. Pt Jensen, Aisha denies chest pain. Fax results to (814) 555-0188."
+ENC000635,MRN100202,2026-04-04,2026-04-10,NORTHWIND MED CTR,1679576722,E11.9,Pt Olivia Garcia seen for follow-up. Call back at (571) 555-0101.
+ENC000636,MRN100202,2025-04-11,2025-04-12,LAKESIDE CLINIC,1003000126,F32.9,"Insurance verification: SSN 928-10-4654 on file, member portal https://portal.example.org/u/MRN100202."
+ENC000637,MRN100202,2026-09-17,2026-09-17,NORTHWIND MED CTR,1679576722,J45.909,"Patient lives at 7653 Lakeview Ave, Columbus. Transport arranged for 2026-10-06."
+ENC000638,MRN100202,2025-11-18,2025-11-21,CEDAR VALLEY HOSP,1245319599,E11.9,"Patient lives at 7653 Lakeview Ave, Columbus. Transport arranged for 2025-12-06."
+ENC000639,MRN100203,2026-07-02,2026-07-04,CEDAR VALLEY HOSP,1003000126,F32.9,"Patient lives at 8643 Willow Lane, Boston. Transport arranged for 2026-07-17."
+ENC000640,MRN100204,2026-03-31,2026-04-01,NORTHWIND MED CTR,1245319599,M54.5,"Seen by Dr. Hughes. Pt Jensen, Noah denies chest pain. Fax results to (879) 555-0178."
+ENC000641,MRN100204,2024-09-22,2024-09-27,LAKESIDE CLINIC,1679576722,Z00.00,"Seen by Dr. Hughes. Pt Jensen, Noah denies chest pain. Fax results to (383) 555-0141."
+ENC000642,MRN100204,2024-10-29,2024-11-05,LAKESIDE CLINIC,1003000126,E11.9,"Insurance verification: SSN 919-51-5049 on file, member portal https://portal.example.org/u/MRN100204."
+ENC000643,MRN100204,2026-04-02,2026-04-05,NORTHWIND MED CTR,1679576722,M54.5,"Seen by Dr. Hughes. Pt Jensen, Noah denies chest pain. Fax results to (440) 555-0150."
+ENC000644,MRN100205,2025-07-27,2025-08-03,CEDAR VALLEY HOSP,1679576722,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC000645,MRN100205,2026-10-06,2026-10-08,NORTHWIND MED CTR,1679576722,I10,"Patient lives at 9577 Maple Blvd, Denver. Transport arranged for 2026-11-10."
+ENC000646,MRN100205,2026-01-03,2026-01-04,NORTHWIND MED CTR,1245319599,F32.9,"Insurance verification: SSN 937-66-9500 on file, member portal https://portal.example.org/u/MRN100205."
+ENC000647,MRN100205,2026-09-22,2026-09-25,CEDAR VALLEY HOSP,1679576722,I50.9,"Patient lives at 9577 Maple Blvd, Denver. Transport arranged for 2026-10-20."
+ENC000648,MRN100206,2024-05-28,2024-06-03,NORTHWIND MED CTR,1679576722,N18.3,"Patient lives at 204 Elm Drive, Columbus. Transport arranged for 2024-06-18."
+ENC000649,MRN100206,2025-05-21,2025-05-28,CEDAR VALLEY HOSP,1245319599,M54.5,"Seen by Dr. Hughes. Pt Lindqvist, John denies chest pain. Fax results to (548) 555-0110."
+ENC000650,MRN100207,2024-09-10,2024-09-14,NORTHWIND MED CTR,1245319599,F32.9,Pt Sofia Dawson seen for follow-up. Call back at (781) 555-0104.
+ENC000651,MRN100207,2025-03-29,2025-04-04,LAKESIDE CLINIC,1679576722,N18.3,"Patient lives at 5577 Oak Blvd, Denver. Transport arranged for 2025-04-29."
+ENC000652,MRN100207,2025-07-02,2025-07-03,NORTHWIND MED CTR,1245319599,I10,"Seen by Dr. Hughes. Pt Dawson, Sofia denies chest pain. Fax results to (854) 555-0138."
+ENC000653,MRN100207,2024-12-09,2024-12-11,NORTHWIND MED CTR,1245319599,M54.5,"Seen by Dr. Hughes. Pt Dawson, Sofia denies chest pain. Fax results to (227) 555-0123."
+ENC000654,MRN100208,2025-09-28,2025-10-01,LAKESIDE CLINIC,1003000126,Z00.00,"Patient lives at 6417 Oak St, Newport. Transport arranged for 2025-10-13."
+ENC000655,MRN100209,2025-07-17,2025-07-24,CEDAR VALLEY HOSP,1003000126,Z00.00,Pt Priya Jensen seen for follow-up. Call back at (954) 555-0111.
+ENC000656,MRN100209,2025-11-10,2025-11-14,NORTHWIND MED CTR,1003000126,M54.5,Discussed plan with patient's daughter. Contact email priya.jensen209@example.org.
+ENC000657,MRN100209,2025-07-20,2025-07-26,NORTHWIND MED CTR,1679576722,E11.9,Discussed plan with patient's daughter. Contact email priya.jensen209@example.org.
+ENC000658,MRN100209,2026-02-28,2026-03-02,LAKESIDE CLINIC,1003000126,N18.3,"Insurance verification: SSN 925-10-3337 on file, member portal https://portal.example.org/u/MRN100209."
+ENC000659,MRN100210,2025-10-06,2025-10-11,NORTHWIND MED CTR,1245319599,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000660,MRN100210,2026-07-06,2026-07-08,NORTHWIND MED CTR,1245319599,N18.3,"Seen by Dr. Hughes. Pt Garcia, Grace denies chest pain. Fax results to (696) 555-0159."
+ENC000661,MRN100210,2024-10-31,2024-11-07,NORTHWIND MED CTR,1245319599,I10,"Seen by Dr. Hughes. Pt Garcia, Grace denies chest pain. Fax results to (485) 555-0120."
+ENC000662,MRN100210,2026-05-03,2026-05-07,LAKESIDE CLINIC,1245319599,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000663,MRN100211,2026-10-27,2026-10-27,NORTHWIND MED CTR,1679576722,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000664,MRN100211,2026-04-10,2026-04-11,CEDAR VALLEY HOSP,1245319599,I10,No acute distress. Vitals stable. Continue current regimen.
+ENC000665,MRN100211,2026-03-20,2026-03-21,NORTHWIND MED CTR,1679576722,I10,Discussed plan with patient's daughter. Contact email carlos.hughes211@example.org.
+ENC000666,MRN100211,2024-07-18,2024-07-23,LAKESIDE CLINIC,1679576722,M54.5,"Patient lives at 1694 Elm Drive, Raleigh. Transport arranged for 2024-08-14."
+ENC000667,MRN100211,2026-06-30,2026-07-03,NORTHWIND MED CTR,1245319599,M54.5,Mr./Ms. Hughes reports improvement since visit on 06/30/2026. MRN MRN100211.
+ENC000668,MRN100212,2026-05-09,2026-05-13,CEDAR VALLEY HOSP,1003000126,J45.909,"Noah tolerating metformin well. Next labs May 22, 2026."
+ENC000669,MRN100212,2025-11-25,2025-11-27,NORTHWIND MED CTR,1679576722,E11.9,"Noah tolerating metformin well. Next labs January 11, 2026."
+ENC000670,MRN100212,2025-02-15,2025-02-22,LAKESIDE CLINIC,1245319599,N18.3,"Patient lives at 9821 Elm St, Ely. Transport arranged for 2025-03-18."
+ENC000671,MRN100212,2026-10-10,2026-10-11,NORTHWIND MED CTR,1003000126,I10,"Patient lives at 9821 Elm St, Ely. Transport arranged for 2026-11-05."
+ENC000672,MRN100212,2026-08-31,2026-09-02,NORTHWIND MED CTR,1679576722,N18.3,"Seen by Dr. Hughes. Pt Alvarez, Noah denies chest pain. Fax results to (503) 555-0125."
+ENC000673,MRN100213,2026-04-04,2026-04-04,LAKESIDE CLINIC,1245319599,M54.5,"Patient lives at 4736 Willow St, Tampa. Transport arranged for 2026-05-23."
+ENC000674,MRN100213,2025-05-16,2025-05-21,NORTHWIND MED CTR,1679576722,I10,"Seen by Dr. Hughes. Pt Dawson, James denies chest pain. Fax results to (844) 555-0100."
+ENC000675,MRN100214,2026-05-04,2026-05-07,LAKESIDE CLINIC,1245319599,I50.9,"Insurance verification: SSN 930-74-2280 on file, member portal https://portal.example.org/u/MRN100214."
+ENC000676,MRN100214,2024-05-31,2024-06-07,NORTHWIND MED CTR,1679576722,Z00.00,"John tolerating metformin well. Next labs June 12, 2024."
+ENC000677,MRN100214,2025-08-25,2025-08-31,CEDAR VALLEY HOSP,1679576722,I10,Discussed plan with patient's daughter. Contact email john.alvarez214@example.org.
+ENC000678,MRN100214,2024-09-14,2024-09-18,NORTHWIND MED CTR,1679576722,M54.5,Discussed plan with patient's daughter. Contact email john.alvarez214@example.org.
+ENC000679,MRN100215,2025-09-12,2025-09-18,CEDAR VALLEY HOSP,1003000126,I10,"Ethan tolerating metformin well. Next labs October 14, 2025."
+ENC000680,MRN100215,2025-09-08,2025-09-08,NORTHWIND MED CTR,1679576722,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000681,MRN100215,2024-09-02,2024-09-07,CEDAR VALLEY HOSP,1003000126,E11.9,"Seen by Dr. Hughes. Pt Esposito, Ethan denies chest pain. Fax results to (850) 555-0188."
+ENC000682,MRN100215,2025-01-03,2025-01-09,NORTHWIND MED CTR,1679576722,E11.9,"Patient lives at 78 Maple Lane, Austin. Transport arranged for 2025-02-06."
+ENC000683,MRN100216,2024-07-04,2024-07-10,LAKESIDE CLINIC,1679576722,I50.9,"Insurance verification: SSN 914-21-7297 on file, member portal https://portal.example.org/u/MRN100216."
+ENC000684,MRN100216,2024-10-10,2024-10-16,LAKESIDE CLINIC,1679576722,J45.909,Mr./Ms. Esposito reports improvement since visit on 10/10/2024. MRN MRN100216.
+ENC000685,MRN100217,2025-10-13,2025-10-15,NORTHWIND MED CTR,1003000126,I10,Discussed plan with patient's daughter. Contact email liam.lindqvist217@example.org.
+ENC000686,MRN100217,2025-07-27,2025-07-30,NORTHWIND MED CTR,1245319599,I50.9,"Patient lives at 8610 Elm Drive, Denver. Transport arranged for 2025-08-14."
+ENC000687,MRN100218,2024-12-12,2024-12-13,NORTHWIND MED CTR,1003000126,E11.9,Pt Sofia Hughes seen for follow-up. Call back at (472) 555-0196.
+ENC000688,MRN100218,2026-07-24,2026-07-27,LAKESIDE CLINIC,1679576722,Z00.00,Pt Sofia Hughes seen for follow-up. Call back at (584) 555-0177.
+ENC000689,MRN100218,2025-07-04,2025-07-09,LAKESIDE CLINIC,1679576722,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000690,MRN100218,2024-07-17,2024-07-20,NORTHWIND MED CTR,1679576722,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000691,MRN100219,2026-10-14,2026-10-19,NORTHWIND MED CTR,1003000126,Z00.00,"Wei tolerating metformin well. Next labs October 23, 2026."
+ENC000692,MRN100219,2025-09-17,2025-09-18,LAKESIDE CLINIC,1245319599,M54.5,No acute distress. Vitals stable. Continue current regimen.
+ENC000693,MRN100219,2026-01-04,2026-01-07,LAKESIDE CLINIC,1003000126,E11.9,Discussed plan with patient's daughter. Contact email wei.alvarez219@example.org.
+ENC000694,MRN100220,2024-10-29,2024-10-29,CEDAR VALLEY HOSP,1245319599,I50.9,"Carlos tolerating metformin well. Next labs November 15, 2024."
+ENC000695,MRN100220,2024-12-19,2024-12-26,LAKESIDE CLINIC,1003000126,Z00.00,Mr./Ms. Hughes reports improvement since visit on 12/19/2024. MRN MRN100220.
+ENC000696,MRN100220,2026-07-31,2026-08-05,CEDAR VALLEY HOSP,1003000126,M54.5,Mr./Ms. Hughes reports improvement since visit on 07/31/2026. MRN MRN100220.
+ENC000697,MRN100220,2024-12-31,2025-01-06,NORTHWIND MED CTR,1679576722,I10,"Patient lives at 3956 Oak Ave, Madison. Transport arranged for 2025-02-27."
+ENC000698,MRN100221,2025-08-24,2025-08-29,LAKESIDE CLINIC,1003000126,N18.3,"Wei tolerating metformin well. Next labs October 19, 2025."
+ENC000699,MRN100221,2026-07-14,2026-07-20,CEDAR VALLEY HOSP,1245319599,Z00.00,"Seen by Dr. Hughes. Pt Brooks, Wei denies chest pain. Fax results to (523) 555-0118."
+ENC000700,MRN100221,2024-12-04,2024-12-11,LAKESIDE CLINIC,1003000126,E11.9,"Insurance verification: SSN 916-50-7229 on file, member portal https://portal.example.org/u/MRN100221."
+ENC000701,MRN100221,2025-02-25,2025-03-02,LAKESIDE CLINIC,1679576722,N18.3,Mr./Ms. Brooks reports improvement since visit on 02/25/2025. MRN MRN100221.
+ENC000702,MRN100222,2025-12-29,2025-12-31,LAKESIDE CLINIC,1679576722,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000703,MRN100222,2024-09-16,2024-09-22,CEDAR VALLEY HOSP,1679576722,N18.3,Mr./Ms. Esposito reports improvement since visit on 09/16/2024. MRN MRN100222.
+ENC000704,MRN100222,2024-11-13,2024-11-19,LAKESIDE CLINIC,1245319599,I50.9,Discussed plan with patient's daughter. Contact email grace.esposito222@example.org.
+ENC000705,MRN100222,2025-07-20,2025-07-22,CEDAR VALLEY HOSP,1679576722,J45.909,Discussed plan with patient's daughter. Contact email grace.esposito222@example.org.
+ENC000706,MRN100223,2025-01-04,2025-01-09,LAKESIDE CLINIC,1679576722,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000707,MRN100223,2026-09-27,2026-09-28,LAKESIDE CLINIC,1003000126,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC000708,MRN100223,2025-01-01,2025-01-07,CEDAR VALLEY HOSP,1679576722,Z00.00,Mr./Ms. Dawson reports improvement since visit on 01/01/2025. MRN MRN100223.
+ENC000709,MRN100223,2025-10-20,2025-10-20,CEDAR VALLEY HOSP,1003000126,N18.3,Mr./Ms. Dawson reports improvement since visit on 10/20/2025. MRN MRN100223.
+ENC000710,MRN100223,2026-10-08,2026-10-15,CEDAR VALLEY HOSP,1679576722,M54.5,Mr./Ms. Dawson reports improvement since visit on 10/08/2026. MRN MRN100223.
+ENC000711,MRN100224,2024-10-31,2024-11-01,NORTHWIND MED CTR,1003000126,J45.909,"Patient lives at 8694 Elm St, Denver. Transport arranged for 2024-12-25."
+ENC000712,MRN100224,2026-10-26,2026-11-02,NORTHWIND MED CTR,1003000126,N18.3,"Olivia tolerating metformin well. Next labs December 23, 2026."
+ENC000713,MRN100224,2025-01-01,2025-01-03,NORTHWIND MED CTR,1245319599,I50.9,"Insurance verification: SSN 989-12-7451 on file, member portal https://portal.example.org/u/MRN100224."
+ENC000714,MRN100224,2025-10-24,2025-10-26,NORTHWIND MED CTR,1003000126,I50.9,Pt Olivia Jensen seen for follow-up. Call back at (454) 555-0138.
+ENC000715,MRN100224,2024-12-26,2025-01-02,LAKESIDE CLINIC,1679576722,N18.3,"Seen by Dr. Hughes. Pt Jensen, Olivia denies chest pain. Fax results to (911) 555-0140."
+ENC000716,MRN100225,2026-02-12,2026-02-16,NORTHWIND MED CTR,1679576722,M54.5,Discussed plan with patient's daughter. Contact email wei.kowalski225@example.org.
+ENC000717,MRN100225,2024-11-19,2024-11-21,LAKESIDE CLINIC,1679576722,N18.3,"Patient lives at 4554 Oak Drive, Boston. Transport arranged for 2024-12-30."
+ENC000718,MRN100225,2024-10-30,2024-11-04,CEDAR VALLEY HOSP,1679576722,M54.5,Discussed plan with patient's daughter. Contact email wei.kowalski225@example.org.
+ENC000719,MRN100225,2026-10-05,2026-10-08,NORTHWIND MED CTR,1003000126,M54.5,"Insurance verification: SSN 917-87-4539 on file, member portal https://portal.example.org/u/MRN100225."
+ENC000720,MRN100225,2026-08-25,2026-08-30,CEDAR VALLEY HOSP,1245319599,N18.3,Mr./Ms. Kowalski reports improvement since visit on 08/25/2026. MRN MRN100225.
+ENC000721,MRN100226,2025-02-16,2025-02-17,CEDAR VALLEY HOSP,1245319599,F32.9,Discussed plan with patient's daughter. Contact email liam.alvarez226@example.org.
+ENC000722,MRN100226,2024-07-28,2024-08-03,LAKESIDE CLINIC,1003000126,J45.909,Discussed plan with patient's daughter. Contact email liam.alvarez226@example.org.
+ENC000723,MRN100226,2024-12-27,2024-12-29,CEDAR VALLEY HOSP,1245319599,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000724,MRN100227,2024-09-02,2024-09-07,NORTHWIND MED CTR,1245319599,J45.909,Mr./Ms. Kowalski reports improvement since visit on 09/02/2024. MRN MRN100227.
+ENC000725,MRN100227,2025-03-21,2025-03-21,NORTHWIND MED CTR,1679576722,J45.909,"Insurance verification: SSN 964-46-5519 on file, member portal https://portal.example.org/u/MRN100227."
+ENC000726,MRN100227,2025-06-27,2025-07-04,LAKESIDE CLINIC,1245319599,E11.9,Mr./Ms. Kowalski reports improvement since visit on 06/27/2025. MRN MRN100227.
+ENC000727,MRN100227,2024-10-30,2024-11-05,LAKESIDE CLINIC,1003000126,E11.9,"Fatima tolerating metformin well. Next labs December 20, 2024."
+ENC000728,MRN100228,2024-07-02,2024-07-03,CEDAR VALLEY HOSP,1245319599,E11.9,"Insurance verification: SSN 965-55-1834 on file, member portal https://portal.example.org/u/MRN100228."
+ENC000729,MRN100228,2024-10-06,2024-10-12,NORTHWIND MED CTR,1679576722,Z00.00,"Insurance verification: SSN 965-55-1834 on file, member portal https://portal.example.org/u/MRN100228."
+ENC000730,MRN100229,2025-09-06,2025-09-07,LAKESIDE CLINIC,1679576722,N18.3,Pt James Fischer seen for follow-up. Call back at (359) 555-0198.
+ENC000731,MRN100229,2025-07-07,2025-07-13,NORTHWIND MED CTR,1003000126,I50.9,"Insurance verification: SSN 944-33-7587 on file, member portal https://portal.example.org/u/MRN100229."
+ENC000732,MRN100230,2026-05-20,2026-05-23,CEDAR VALLEY HOSP,1003000126,Z00.00,"Insurance verification: SSN 945-35-2813 on file, member portal https://portal.example.org/u/MRN100230."
+ENC000733,MRN100231,2024-12-06,2024-12-11,CEDAR VALLEY HOSP,1679576722,Z00.00,Pt Carlos Fischer seen for follow-up. Call back at (644) 555-0161.
+ENC000734,MRN100232,2024-11-13,2024-11-15,NORTHWIND MED CTR,1679576722,E11.9,Discussed plan with patient's daughter. Contact email aisha.moreau232@example.org.
+ENC000735,MRN100233,2025-08-20,2025-08-20,CEDAR VALLEY HOSP,1679576722,M54.5,Mr./Ms. Dawson reports improvement since visit on 08/20/2025. MRN MRN100233.
+ENC000736,MRN100233,2026-02-21,2026-02-26,NORTHWIND MED CTR,1003000126,F32.9,Discussed plan with patient's daughter. Contact email liam.dawson233@example.org.
+ENC000737,MRN100233,2026-03-28,2026-04-01,CEDAR VALLEY HOSP,1245319599,I50.9,"Insurance verification: SSN 948-62-9601 on file, member portal https://portal.example.org/u/MRN100233."
+ENC000738,MRN100233,2025-06-15,2025-06-20,LAKESIDE CLINIC,1245319599,J45.909,"Insurance verification: SSN 948-62-9601 on file, member portal https://portal.example.org/u/MRN100233."
+ENC000739,MRN100233,2025-11-26,2025-12-01,LAKESIDE CLINIC,1003000126,F32.9,"Liam tolerating metformin well. Next labs January 19, 2026."
+ENC000740,MRN100234,2025-04-20,2025-04-25,LAKESIDE CLINIC,1003000126,J45.909,"Seen by Dr. Hughes. Pt Kowalski, Fatima denies chest pain. Fax results to (979) 555-0125."
+ENC000741,MRN100235,2026-05-14,2026-05-18,LAKESIDE CLINIC,1245319599,N18.3,Discussed plan with patient's daughter. Contact email james.chen235@example.org.
+ENC000742,MRN100236,2025-07-22,2025-07-26,CEDAR VALLEY HOSP,1003000126,I10,"Patient lives at 68 Oak Lane, Seattle. Transport arranged for 2025-08-17."
+ENC000743,MRN100236,2026-05-09,2026-05-12,LAKESIDE CLINIC,1245319599,I50.9,"Patient lives at 68 Oak Lane, Seattle. Transport arranged for 2026-05-18."
+ENC000744,MRN100236,2026-06-17,2026-06-21,NORTHWIND MED CTR,1003000126,I10,Pt Mateo Hughes seen for follow-up. Call back at (857) 555-0131.
+ENC000745,MRN100236,2026-10-30,2026-11-04,LAKESIDE CLINIC,1003000126,I50.9,"Mateo tolerating metformin well. Next labs December 16, 2026."
+ENC000746,MRN100236,2024-10-22,2024-10-24,LAKESIDE CLINIC,1245319599,F32.9,"Insurance verification: SSN 951-87-5448 on file, member portal https://portal.example.org/u/MRN100236."
+ENC000747,MRN100237,2026-05-25,2026-06-01,CEDAR VALLEY HOSP,1245319599,Z00.00,No acute distress. Vitals stable. Continue current regimen.
+ENC000748,MRN100237,2026-04-29,2026-05-06,CEDAR VALLEY HOSP,1003000126,J45.909,Discussed plan with patient's daughter. Contact email fatima.lindqvist237@example.org.
+ENC000749,MRN100237,2025-01-06,2025-01-10,CEDAR VALLEY HOSP,1003000126,N18.3,"Insurance verification: SSN 983-42-4377 on file, member portal https://portal.example.org/u/MRN100237."
+ENC000750,MRN100237,2026-08-21,2026-08-23,LAKESIDE CLINIC,1679576722,I10,No acute distress. Vitals stable. Continue current regimen.
+ENC000751,MRN100238,2024-08-11,2024-08-11,CEDAR VALLEY HOSP,1003000126,I10,Mr./Ms. Lindqvist reports improvement since visit on 08/11/2024. MRN MRN100238.
+ENC000752,MRN100239,2026-01-01,2026-01-02,NORTHWIND MED CTR,1245319599,N18.3,No acute distress. Vitals stable. Continue current regimen.
+ENC000753,MRN100239,2025-08-20,2025-08-26,NORTHWIND MED CTR,1003000126,M54.5,"John tolerating metformin well. Next labs September 5, 2025."
+ENC000754,MRN100239,2024-11-27,2024-11-28,NORTHWIND MED CTR,1679576722,F32.9,Discussed plan with patient's daughter. Contact email john.chen239@example.org.
+ENC000755,MRN100239,2026-08-14,2026-08-19,LAKESIDE CLINIC,1245319599,J45.909,"John tolerating metformin well. Next labs August 28, 2026."
+ENC000756,MRN100239,2025-08-19,2025-08-24,NORTHWIND MED CTR,1003000126,I50.9,Discussed plan with patient's daughter. Contact email john.chen239@example.org.
+ENC000757,MRN100240,2026-07-08,2026-07-14,CEDAR VALLEY HOSP,1245319599,J45.909,"Insurance verification: SSN 900-29-3401 on file, member portal https://portal.example.org/u/MRN100240."
+ENC000758,MRN100241,2024-07-12,2024-07-15,CEDAR VALLEY HOSP,1003000126,N18.3,Mr./Ms. Fischer reports improvement since visit on 07/12/2024. MRN MRN100241.
+ENC000759,MRN100241,2024-11-11,2024-11-12,NORTHWIND MED CTR,1679576722,Z00.00,"Mateo tolerating metformin well. Next labs December 3, 2024."
+ENC000760,MRN100241,2026-06-17,2026-06-18,NORTHWIND MED CTR,1679576722,Z00.00,"Mateo tolerating metformin well. Next labs June 27, 2026."
+ENC000761,MRN100241,2026-06-06,2026-06-12,LAKESIDE CLINIC,1245319599,I10,"Patient lives at 9010 Elm Lane, Seattle. Transport arranged for 2026-06-28."
+ENC000762,MRN100241,2024-11-18,2024-11-20,CEDAR VALLEY HOSP,1245319599,I10,Pt Mateo Fischer seen for follow-up. Call back at (912) 555-0154.
+ENC000763,MRN100242,2024-11-15,2024-11-19,CEDAR VALLEY HOSP,1003000126,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000764,MRN100242,2026-01-11,2026-01-12,LAKESIDE CLINIC,1245319599,J45.909,Pt Aisha Hughes seen for follow-up. Call back at (857) 555-0104.
+ENC000765,MRN100242,2026-10-20,2026-10-26,LAKESIDE CLINIC,1003000126,I50.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000766,MRN100242,2025-03-25,2025-03-29,CEDAR VALLEY HOSP,1245319599,M54.5,"Patient lives at 2462 Willow Ave, Denver. Transport arranged for 2025-05-16."
+ENC000767,MRN100242,2026-06-25,2026-06-28,NORTHWIND MED CTR,1003000126,I10,Pt Aisha Hughes seen for follow-up. Call back at (424) 555-0150.
+ENC000768,MRN100243,2026-10-03,2026-10-06,NORTHWIND MED CTR,1245319599,E11.9,Discussed plan with patient's daughter. Contact email ethan.hughes243@example.org.
+ENC000769,MRN100243,2024-09-17,2024-09-21,NORTHWIND MED CTR,1679576722,I10,"Patient lives at 1786 Maple St, Denver. Transport arranged for 2024-10-06."
+ENC000770,MRN100243,2025-03-27,2025-03-27,CEDAR VALLEY HOSP,1245319599,I50.9,"Seen by Dr. Hughes. Pt Hughes, Ethan denies chest pain. Fax results to (246) 555-0106."
+ENC000771,MRN100244,2025-03-09,2025-03-15,NORTHWIND MED CTR,1003000126,Z00.00,Pt Maria Fischer seen for follow-up. Call back at (497) 555-0120.
+ENC000772,MRN100245,2024-06-07,2024-06-13,LAKESIDE CLINIC,1003000126,I10,No acute distress. Vitals stable. Continue current regimen.
+ENC000773,MRN100245,2026-05-28,2026-06-04,CEDAR VALLEY HOSP,1003000126,I10,Pt Aisha Kowalski seen for follow-up. Call back at (346) 555-0198.
+ENC000774,MRN100245,2025-06-08,2025-06-09,NORTHWIND MED CTR,1245319599,I50.9,"Aisha tolerating metformin well. Next labs July 14, 2025."
+ENC000775,MRN100245,2025-03-20,2025-03-25,LAKESIDE CLINIC,1679576722,I50.9,Mr./Ms. Kowalski reports improvement since visit on 03/20/2025. MRN MRN100245.
+ENC000776,MRN100245,2025-07-04,2025-07-08,NORTHWIND MED CTR,1003000126,Z00.00,"Seen by Dr. Hughes. Pt Kowalski, Aisha denies chest pain. Fax results to (865) 555-0117."
+ENC000777,MRN100246,2024-10-03,2024-10-06,CEDAR VALLEY HOSP,1679576722,J45.909,Pt James Fischer seen for follow-up. Call back at (358) 555-0113.
+ENC000778,MRN100247,2026-04-10,2026-04-16,LAKESIDE CLINIC,1679576722,N18.3,Mr./Ms. Nakamura reports improvement since visit on 04/10/2026. MRN MRN100247.
+ENC000779,MRN100247,2024-11-11,2024-11-18,LAKESIDE CLINIC,1245319599,Z00.00,"Insurance verification: SSN 959-92-9767 on file, member portal https://portal.example.org/u/MRN100247."
+ENC000780,MRN100247,2026-06-04,2026-06-07,CEDAR VALLEY HOSP,1245319599,F32.9,Pt Mateo Nakamura seen for follow-up. Call back at (815) 555-0199.
+ENC000781,MRN100247,2024-08-14,2024-08-20,NORTHWIND MED CTR,1003000126,M54.5,"Patient lives at 1416 Oak Drive, Tampa. Transport arranged for 2024-09-20."
+ENC000782,MRN100248,2026-05-16,2026-05-19,LAKESIDE CLINIC,1003000126,J45.909,No acute distress. Vitals stable. Continue current regimen.
+ENC000783,MRN100248,2024-11-17,2024-11-23,LAKESIDE CLINIC,1245319599,I10,No acute distress. Vitals stable. Continue current regimen.
+ENC000784,MRN100248,2024-10-21,2024-10-23,CEDAR VALLEY HOSP,1245319599,Z00.00,"Liam tolerating metformin well. Next labs November 17, 2024."
+ENC000785,MRN100249,2024-11-17,2024-11-19,NORTHWIND MED CTR,1245319599,E11.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000786,MRN100249,2025-10-17,2025-10-22,NORTHWIND MED CTR,1003000126,Z00.00,"Insurance verification: SSN 916-91-8361 on file, member portal https://portal.example.org/u/MRN100249."
+ENC000787,MRN100249,2025-01-05,2025-01-12,LAKESIDE CLINIC,1679576722,F32.9,No acute distress. Vitals stable. Continue current regimen.
+ENC000788,MRN100249,2026-07-07,2026-07-09,LAKESIDE CLINIC,1003000126,J45.909,No acute distress. Vitals stable. Continue current regimen.

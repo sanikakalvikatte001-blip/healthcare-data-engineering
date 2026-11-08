@@ -1,0 +1,69 @@
+# HIPAA Safe Harbor de-identification policy  (45 CFR 164.514(b)(2))
+#
+# Every column of every input table MUST have a rule here. An unknown column
+# stops the run ("fail closed"): a new column that shows up in the source
+# extract can't leak into the research dataset without someone reviewing it.
+#
+# Rules
+#   keep              not an identifier of the individual -> pass through
+#   drop              one of the 18 Safe Harbor identifiers -> removed
+#   surrogate:<dom>   replace with a random token; the crosswalk is written to a
+#                     restricted folder (re-identification code per 164.514(c):
+#                     random, NOT derived from the identifier, e.g. no hash of MRN)
+#   year              date -> year only (all other date elements removed)
+#   dob_to_age        date of birth -> age_years (top-coded at 90) + birth_year
+#                     (nulled when the person is 90 or older)
+#   zip3              ZIP -> first 3 digits, or "000" for 3-digit ZIP areas
+#                     with 20,000 people or fewer
+#   scrub_text        free text -> pattern + known-value redaction
+
+[run]
+as_of_date = "2026-11-01"          # reference date for age calculation
+small_cell_k = 5                   # report quasi-identifier groups smaller than k
+
+# 3-digit ZIP areas with <= 20,000 people (2000 Census), per HHS guidance on
+# Safe Harbor. Update this list when a newer Census list is adopted.
+[zip3]
+restricted = ["036", "059", "063", "102", "203", "556", "692", "790", "821",
+              "823", "830", "831", "878", "879", "884", "890", "893"]
+
+# ---------------------------------------------------------------- patients
+[tables.patients]
+file = "patients.csv"
+
+[tables.patients.columns]
+mrn        = "surrogate:patient"    # (R) medical record number
+first_name = "drop"                 # (A) names
+last_name  = "drop"
+dob        = "dob_to_age"           # (C) dates, ages over 89
+sex        = "keep"
+ssn        = "drop"                 # (G) social security number
+phone      = "drop"                 # (D) telephone
+email      = "drop"                 # (F) e-mail
+street     = "drop"                 # (B) geographic subdivisions smaller than a state
+city       = "drop"
+state      = "keep"                 #     state is allowed
+zip        = "zip3"                 #     initial 3 ZIP digits allowed, with population rule
+member_id  = "drop"                 # (I) health plan beneficiary number
+
+# -------------------------------------------------------------- encounters
+[tables.encounters]
+file = "encounters.csv"
+
+[tables.encounters.columns]
+encounter_id   = "surrogate:encounter"  # (R) account / unique identifying number
+mrn            = "surrogate:patient"    # same domain as patients.mrn -> joins still work
+admit_date     = "year"
+discharge_date = "year"
+facility       = "keep"
+attending_npi  = "keep"                 # provider identifier, not the patient's
+primary_dx     = "keep"
+note_text      = "scrub_text"
+
+# Values from the linked patient record that must never appear in that
+# patient's notes (names, MRN, SSN, phone, e-mail, street, city).
+[tables.encounters.scrub]
+column = "note_text"
+link_table = "patients"
+link_key = "mrn"
+known_values = ["first_name", "last_name", "mrn", "ssn", "phone", "email", "street", "city"]
