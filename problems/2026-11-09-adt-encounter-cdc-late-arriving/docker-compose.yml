@@ -1,0 +1,11 @@
+# Only dependency: PostgreSQL 15+ (MERGE). Tested on PostgreSQL 16.
+#   docker compose up -d
+#   export PGHOST=localhost PGPORT=5433 PGUSER=postgres PGPASSWORD=postgres
+#   ./scripts/run_demo.sh && ./scripts/run_tests.sh
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"

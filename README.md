@@ -38,6 +38,7 @@ Every project README covers:
 | 2026-11-05 | [835 ERA remittance parsing, balancing & claim-to-payment reconciliation](problems/2026-11-05-835-era-remittance-reconciliation/) | Claims / Remittance (835) / Reconciliation | C# (.NET 8), X12 835, class library + CLI |
 | 2026-11-07 | [Claims lag triangles, completion factors & IBNR with a reporting-completeness gate](problems/2026-11-07-claims-lag-triangle-ibnr-r/) | Claims / Lag Analysis (DOS vs paid date) / IBNR | R, tidyverse (dplyr, tidyr, purrr), testthat, R Markdown |
 | 2026-11-08 | [PHI de-identification (HIPAA Safe Harbor) with a fail-closed policy and release gate](problems/2026-11-08-phi-safe-harbor-deidentification/) | Privacy / PHI De-identification (Safe Harbor) | Python, polars, TOML config, pytest |
+| 2026-11-09 | [Incremental ADT encounter load with late-arriving, out-of-order & duplicate HL7 messages](problems/2026-11-09-adt-encounter-cdc-late-arriving/) | HL7 v2 ADT / Incremental (CDC) Loads / Encounters | SQL (PostgreSQL, PL/pgSQL), MERGE, SCD2 |
 <!-- NEW_ROWS_ABOVE -->
 
 ## About
