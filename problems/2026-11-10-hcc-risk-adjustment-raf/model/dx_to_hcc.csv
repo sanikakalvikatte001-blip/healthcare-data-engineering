@@ -1,0 +1,40 @@
+icd10,hcc,icd10_description
+C7800,17,Secondary malignant neoplasm of unspecified lung
+C787,17,Secondary malignant neoplasm of liver and intrahepatic bile duct
+C7931,17,Secondary malignant neoplasm of brain
+C7951,18,Secondary malignant neoplasm of bone
+C50911,23,Malignant neoplasm of unspecified site of right female breast
+C61,23,Malignant neoplasm of prostate
+E1110,36,Type 2 diabetes mellitus with ketoacidosis without coma
+E11641,36,Type 2 diabetes mellitus with hypoglycemia with coma
+E1122,37,Type 2 diabetes mellitus with diabetic chronic kidney disease
+E1140,37,Type 2 diabetes mellitus with diabetic neuropathy unspecified
+E1151,37,Type 2 diabetes mellitus with diabetic peripheral angiopathy without gangrene
+E119,38,Type 2 diabetes mellitus without complications
+E1165,38,Type 2 diabetes mellitus with hyperglycemia
+E6601,48,Morbid (severe) obesity due to excess calories
+Z6841,48,Body mass index [BMI] 40.0-44.9 adult
+M0579,93,Rheumatoid arthritis with rheumatoid factor of multiple sites without organ involvement
+M069,93,Rheumatoid arthritis unspecified
+F321,155,Major depressive disorder single episode moderate
+F322,155,Major depressive disorder single episode severe without psychotic features
+F331,155,Major depressive disorder recurrent moderate
+I5084,222,End stage heart failure
+I5023,224,Acute on chronic systolic (congestive) heart failure
+I5033,224,Acute on chronic diastolic (congestive) heart failure
+I5043,224,Acute on chronic combined systolic and diastolic heart failure
+I5021,225,Acute systolic (congestive) heart failure
+I5031,225,Acute diastolic (congestive) heart failure
+I509,226,Heart failure unspecified
+I5022,226,Chronic systolic (congestive) heart failure
+I5032,226,Chronic diastolic (congestive) heart failure
+I110,226,Hypertensive heart disease with heart failure
+J449,280,Chronic obstructive pulmonary disease unspecified
+J441,280,Chronic obstructive pulmonary disease with (acute) exacerbation
+J440,280,Chronic obstructive pulmonary disease with acute lower respiratory infection
+N185,326,Chronic kidney disease stage 5
+N186,326,End stage renal disease
+N184,327,Chronic kidney disease stage 4 (severe)
+N1832,328,Chronic kidney disease stage 3b
+N1830,329,Chronic kidney disease stage 3 unspecified
+N1831,329,Chronic kidney disease stage 3a

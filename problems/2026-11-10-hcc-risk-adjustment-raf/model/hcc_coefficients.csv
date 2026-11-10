@@ -1,0 +1,19 @@
+hcc,hcc_label,coefficient
+17,Cancer Metastatic to Lung/Liver/Brain/Other Organs,4.209
+18,Cancer Metastatic to Bone,2.906
+23,Prostate/Breast/Other Cancers and Tumors,0.186
+36,Diabetes with Severe Acute Complications,0.166
+37,Diabetes with Chronic Complications,0.166
+38,Diabetes with Glycemic/Unspecified/No Complications,0.166
+48,Morbid Obesity,0.186
+93,Rheumatoid Arthritis and Inflammatory Rheumatic Disorders,0.353
+155,Major Depression Moderate or Severe without Psychosis,0.299
+222,End-Stage Heart Failure,0.512
+224,Acute on Chronic Heart Failure,0.432
+225,Acute Heart Failure (Excludes Acute on Chronic),0.360
+226,Heart Failure Except End-Stage and Acute,0.360
+280,Chronic Obstructive Pulmonary Disease,0.319
+326,Chronic Kidney Disease Stage 5,0.815
+327,Chronic Kidney Disease Severe (Stage 4),0.514
+328,Chronic Kidney Disease Moderate (Stage 3B),0.127
+329,Chronic Kidney Disease Moderate (Stage 3 Except 3B),0.127

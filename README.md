@@ -39,6 +39,7 @@ Every project README covers:
 | 2026-11-07 | [Claims lag triangles, completion factors & IBNR with a reporting-completeness gate](problems/2026-11-07-claims-lag-triangle-ibnr-r/) | Claims / Lag Analysis (DOS vs paid date) / IBNR | R, tidyverse (dplyr, tidyr, purrr), testthat, R Markdown |
 | 2026-11-08 | [PHI de-identification (HIPAA Safe Harbor) with a fail-closed policy and release gate](problems/2026-11-08-phi-safe-harbor-deidentification/) | Privacy / PHI De-identification (Safe Harbor) | Python, polars, TOML config, pytest |
 | 2026-11-09 | [Incremental ADT encounter load with late-arriving, out-of-order & duplicate HL7 messages](problems/2026-11-09-adt-encounter-cdc-late-arriving/) | HL7 v2 ADT / Incremental (CDC) Loads / Encounters | SQL (PostgreSQL, PL/pgSQL), MERGE, SCD2 |
+| 2026-11-10 | [CMS-HCC risk adjustment: diagnosis filtering, hierarchies & member RAF scores](problems/2026-11-10-hcc-risk-adjustment-raf/) | Risk Adjustment (HCC) / Medicare Advantage / Claims | PySpark (DataFrame API), config-driven model tables, CLI, pytest |
 <!-- NEW_ROWS_ABOVE -->
 
 ## About

@@ -1,0 +1,33 @@
+{
+  "_note": "Illustrative CMS-HCC V28-style model for a community, non-dual, aged segment. Coefficients are NOT official CMS values.",
+  "model_version": "V28-illustrative",
+  "payment_year": 2026,
+  "dos_start": "2025-01-01",
+  "dos_end": "2025-12-31",
+  "age_as_of": "2026-02-01",
+  "normalization_factor": 1.045,
+  "coding_intensity_adjustment": 0.059,
+  "acceptable_cpt": [
+    "99202", "99203", "99204", "99205",
+    "99212", "99213", "99214", "99215",
+    "99221", "99222", "99223", "99231", "99232", "99233",
+    "99347", "99348", "99349", "99350",
+    "99495", "99496", "G0438", "G0439"
+  ],
+  "excluded_specialties": ["CLINICAL_LAB", "DIAGNOSTIC_RADIOLOGY", "DME_SUPPLIER", "AMBULANCE"],
+  "inpatient_bill_type_prefixes": ["11"],
+  "outpatient_bill_type_prefixes": ["13", "71", "73", "76", "77", "85"],
+  "interactions": [
+    {"name": "DIABETES_HF", "coefficient": 0.112, "groups": [[36, 37, 38], [222, 224, 225, 226]]},
+    {"name": "HF_CHR_LUNG", "coefficient": 0.078, "groups": [[222, 224, 225, 226], [280]]},
+    {"name": "HF_KIDNEY",   "coefficient": 0.176, "groups": [[222, 224, 225, 226], [326, 327, 328, 329]]}
+  ],
+  "count_variables": [
+    {"name": "D5",   "min_hccs": 5,  "max_hccs": 5,   "coefficient": 0.056},
+    {"name": "D6",   "min_hccs": 6,  "max_hccs": 6,   "coefficient": 0.076},
+    {"name": "D7",   "min_hccs": 7,  "max_hccs": 7,   "coefficient": 0.120},
+    {"name": "D8",   "min_hccs": 8,  "max_hccs": 8,   "coefficient": 0.180},
+    {"name": "D9",   "min_hccs": 9,  "max_hccs": 9,   "coefficient": 0.250},
+    {"name": "D10P", "min_hccs": 10, "max_hccs": 999, "coefficient": 0.420}
+  ]
+}
