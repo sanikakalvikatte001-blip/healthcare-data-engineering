@@ -1,0 +1,23 @@
+member_id,expected_outcome,expected_product_line,story
+S01,NUMERATOR,COMMERCIAL,Uncontrolled in March but controlled at the most recent visit - latest date wins
+S02,GAP_UNCONTROLLED,COMMERCIAL,Two readings on the latest date (150/92 and 144/86) - lowest of each is 144/86 - still uncontrolled
+S03,NUMERATOR,COMMERCIAL,Same-day 146/82 and 136/92 - lowest systolic and lowest diastolic combine to 136/82
+S04,GAP_NO_READING,MEDICAID,HTN member whose only reading is in the prior year
+S05,NUMERATOR,COMMERCIAL,Later ED reading 170/100 is ignored - office reading 130/80 is representative
+S06,NUMERATOR,MEDICARE,No EHR vitals - CPT II 3075F + 3079F on a claim gives a controlled result
+S07,GAP_UNCONTROLLED,MEDICARE,Earlier EHR 120/70 but later CPT II 3077F + 3078F (systolic >=140)
+S08,EXCL_HOSPICE,MEDICARE,Hospice HCPCS in the measurement year
+S09,EXCL_ESRD,MEDICARE,ESRD diagnosis
+S10,EXCL_FRAILTY_ADVANCED_ILLNESS,MEDICARE,Age 72 with frailty (MY) and Alzheimer disease (prior year)
+S11,NUMERATOR,MEDICARE,Age 72 with frailty only - not excluded below age 81 - controlled
+S12,EXCL_FRAILTY_81_PLUS,MEDICARE,Age 83 with frailty only
+S13,NOT_IN_DENOMINATOR_HTN,COMMERCIAL,Two HTN claim lines but both on the same date of service
+S14,NOT_ELIGIBLE_ENROLLMENT,COMMERCIAL,Two short gaps in the measurement year
+S15,NUMERATOR,MEDICAID,One 30-day gap is allowed
+S16,NOT_ELIGIBLE_ENROLLMENT,MEDICAID,One 61-day gap exceeds 45 days
+S17,NOT_ELIGIBLE_AGE,MEDICARE,Age 86 on Dec 31
+S18,NUMERATOR,MEDICARE,Moved Medicaid -> Medicare mid-year - reported under the Dec 31 product line
+S19,NUMERATOR,COMMERCIAL,Free-text '138 / 88 mmHg' parses - a later swapped '78/136' is rejected as invalid
+S20,EXCL_PREGNANCY,MEDICAID,Pregnancy diagnosis in the measurement year
+S21,GAP_UNCONTROLLED,COMMERCIAL,Boundary 140/89 - systolic must be strictly below 140
+S22,NUMERATOR,COMMERCIAL,Coverage segment resent twice by the eligibility feed - not counted as a gap

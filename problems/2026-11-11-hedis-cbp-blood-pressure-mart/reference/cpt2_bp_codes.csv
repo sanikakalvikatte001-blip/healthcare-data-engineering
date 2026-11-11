@@ -1,0 +1,7 @@
+code,component,band,representative_value,description
+3074F,SYSTOLIC,<130,129,Most recent systolic BP less than 130
+3075F,SYSTOLIC,130-139,139,Most recent systolic BP 130-139
+3077F,SYSTOLIC,>=140,140,Most recent systolic BP 140 or greater
+3078F,DIASTOLIC,<80,79,Most recent diastolic BP less than 80
+3079F,DIASTOLIC,80-89,89,Most recent diastolic BP 80-89
+3080F,DIASTOLIC,>=90,90,Most recent diastolic BP 90 or greater

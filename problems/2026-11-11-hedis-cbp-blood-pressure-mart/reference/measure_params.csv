@@ -1,0 +1,14 @@
+param,value,note
+measure_id,CBP,Controlling High Blood Pressure (HEDIS-style)
+measurement_year,2026,All windows below are derived from this year
+min_age,18,Age as of Dec 31 of the measurement year
+max_age,85,Age as of Dec 31 of the measurement year
+htn_window_start_offset_years,-1,HTN visits counted from Jan 1 of (MY + offset)
+htn_window_end_mmdd,06-30,...through this month-day of the MY
+min_htn_visit_dates,2,Distinct dates of service with an HTN diagnosis
+ce_max_gaps,1,Continuous enrollment: allowed number of gaps in the MY
+ce_max_gap_days,45,Continuous enrollment: longest allowed gap
+systolic_threshold,140,Controlled when systolic is strictly below this
+diastolic_threshold,90,Controlled when diastolic is strictly below this
+frailty_adv_illness_min_age,66,Frailty AND advanced illness exclusion applies from this age
+frailty_only_min_age,81,Frailty alone excludes from this age

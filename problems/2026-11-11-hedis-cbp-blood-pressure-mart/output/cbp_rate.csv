@@ -1,0 +1,5 @@
+measure_id,measurement_year,product_line,eligible_population,required_exclusions,denominator,numerator,gap_uncontrolled,gap_no_reading,rate_pct
+CBP,2026,COMMERCIAL,178,11,167,87,54,26,52.1
+CBP,2026,MEDICAID,174,13,161,76,57,28,47.2
+CBP,2026,MEDICARE,179,18,161,89,57,15,55.28
+CBP,2026,ALL,531,42,489,252,168,69,51.53

@@ -1,0 +1,34 @@
+value_set,code_system,code,description
+HYPERTENSION,ICD10CM,I10,Essential (primary) hypertension
+OUTPATIENT_VISIT,CPT,99202,Office/outpatient visit new
+OUTPATIENT_VISIT,CPT,99203,Office/outpatient visit new
+OUTPATIENT_VISIT,CPT,99204,Office/outpatient visit new
+OUTPATIENT_VISIT,CPT,99212,Office/outpatient visit established
+OUTPATIENT_VISIT,CPT,99213,Office/outpatient visit established
+OUTPATIENT_VISIT,CPT,99214,Office/outpatient visit established
+OUTPATIENT_VISIT,CPT,99215,Office/outpatient visit established
+TELEPHONE_ONLINE,CPT,98966,Telephone assessment
+TELEPHONE_ONLINE,CPT,99421,Online digital E/M
+TELEPHONE_ONLINE,CPT,99422,Online digital E/M
+ACUTE_OR_ED_POS,POS,21,Inpatient hospital
+ACUTE_OR_ED_POS,POS,23,Emergency room - hospital
+HOSPICE,HCPCS,Q5001,Hospice care in patient home
+HOSPICE,HCPCS,Q5002,Hospice care in assisted living
+HOSPICE,HCPCS,G9473,Services performed by hospice
+PALLIATIVE_CARE,ICD10CM,Z515,Encounter for palliative care
+PALLIATIVE_CARE,HCPCS,G9054,Palliative care oncology
+ESRD,ICD10CM,N186,End stage renal disease
+ESRD,ICD10CM,Z992,Dependence on renal dialysis
+ESRD,ICD10CM,Z940,Kidney transplant status
+ESRD,CPT,90935,Hemodialysis single evaluation
+PREGNANCY,ICD10CM,Z3400,Supervision of normal first pregnancy
+PREGNANCY,ICD10CM,Z3490,Supervision of normal pregnancy unspecified
+PREGNANCY,ICD10CM,Z331,Pregnant state incidental
+FRAILTY,ICD10CM,R54,Age-related physical debility
+FRAILTY,ICD10CM,Z9911,Dependence on respirator
+FRAILTY,ICD10CM,Z993,Dependence on wheelchair
+FRAILTY,HCPCS,E0130,Walker rigid
+ADVANCED_ILLNESS,ICD10CM,G309,Alzheimer disease unspecified
+ADVANCED_ILLNESS,ICD10CM,C259,Malignant neoplasm of pancreas
+ADVANCED_ILLNESS,ICD10CM,I5022,Chronic systolic heart failure
+ADVANCED_ILLNESS,ICD10CM,N185,Chronic kidney disease stage 5
