@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3">
+  <realmCode code="US" />
+  <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040" />
+  <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2015-08-01" />
+  <templateId root="2.16.840.1.113883.10.20.22.1.2" extension="2015-08-01" />
+  <id root="2.16.840.1.113883.19.5.99999.1" extension="CCD-C-0002" />
+  <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" displayName="Summarization of Episode Note" />
+  <title>Continuity of Care Document</title>
+  <effectiveTime value="20261106080000-0500" />
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" />
+  <languageCode code="en-US" />
+  <setId root="2.16.840.1.113883.19.5.99999.1" extension="SET-C" />
+  <versionNumber value="2" />
+  <recordTarget>
+    <patientRole>
+      <id root="2.16.840.1.113883.19.5.99999.2" extension="100003" />
+      <patient>
+        <name use="L">
+          <given>Priya</given>
+          <family>Raman</family>
+        </name>
+        <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" />
+        <birthTime value="19750721" />
+      </patient>
+    </patientRole>
+  </recordTarget>
+  <relatedDocument typeCode="RPLC">
+    <parentDocument>
+      <id root="2.16.840.1.113883.19.5.99999.1" extension="CCD-C-0001" />
+    </parentDocument>
+  </relatedDocument>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.5.1" extension="2015-08-01" />
+          <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" />
+          <title>Problems</title>
+          <text>
+            <paragraph>Hypertensive disorder (active); Chronic kidney disease stage 3 (active)</paragraph>
+          </text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+              <id root="2.16.840.1.113883.19.5.99999.3" extension="C-P1" />
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20170902" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+                  <id root="2.16.840.1.113883.19.5.99999.3" extension="C-P1-obs" />
+                  <code code="55607006" codeSystem="2.16.840.1.113883.6.96" displayName="Problem" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170902" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="38341003" codeSystem="2.16.840.1.113883.6.96" displayName="Hypertensive disorder" />
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+              <id root="2.16.840.1.113883.19.5.99999.3" extension="C-P2" />
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20250115" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+                  <id root="2.16.840.1.113883.19.5.99999.3" extension="C-P2-obs" />
+                  <code code="55607006" codeSystem="2.16.840.1.113883.6.96" displayName="Problem" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20250115" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="433144002" codeSystem="2.16.840.1.113883.6.96" displayName="Chronic kidney disease stage 3" />
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.1.1" extension="2015-08-01" />
+          <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" />
+          <title>Medications</title>
+          <text>
+            <paragraph>amlodipine 5 MG Oral Tablet (active)</paragraph>
+          </text>
+          <entry typeCode="DRIV">
+            <substanceAdministration classCode="SBADM" moodCode="INT">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+              <id root="2.16.840.1.113883.19.5.99999.3" extension="C-M1" />
+              <statusCode code="active" />
+              <effectiveTime xsi:type="IVL_TS">
+                <low value="20220505" />
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+                  <manufacturedMaterial>
+                    <code code="197361" codeSystem="2.16.840.1.113883.6.88" displayName="amlodipine 5 MG Oral Tablet" />
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+            </substanceAdministration>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.6.1" extension="2015-08-01" />
+          <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" />
+          <title>Allergies and Intolerances</title>
+          <text>
+            <paragraph>Sulfamethoxazole (active)</paragraph>
+          </text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <id root="2.16.840.1.113883.19.5.99999.3" extension="C-L1" />
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+              <statusCode code="active" />
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <id root="2.16.840.1.113883.19.5.99999.3" extension="C-L1-obs" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20100101" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="419511003" codeSystem="2.16.840.1.113883.6.96" displayName="Propensity to adverse reactions to drug" />
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="10831" codeSystem="2.16.840.1.113883.6.88" displayName="Sulfamethoxazole" />
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.3.1" extension="2015-08-01" />
+          <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" />
+          <title>Results</title>
+          <text>
+            <paragraph>Glomerular filtration rate/1.73 sq M.predicted 52 mL/min/{1.73_m2} (20261101); Creatinine [Mass/volume] in Serum or Plasma 1.3 mg/dL (20261101)</paragraph>
+          </text>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+              <id root="2.16.840.1.113883.19.5.99999.3" extension="C-R1-panel" />
+              <code code="26436-6" codeSystem="2.16.840.1.113883.6.1" displayName="Laboratory studies" />
+              <statusCode code="completed" />
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+                  <id root="2.16.840.1.113883.19.5.99999.3" extension="C-R1" />
+                  <code code="33914-3" codeSystem="2.16.840.1.113883.6.1" displayName="Glomerular filtration rate/1.73 sq M.predicted" />
+                  <statusCode code="completed" />
+                  <effectiveTime value="20261101" />
+                  <value xsi:type="PQ" value="52" unit="mL/min/{1.73_m2}" />
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+              <id root="2.16.840.1.113883.19.5.99999.3" extension="C-R2-panel" />
+              <code code="26436-6" codeSystem="2.16.840.1.113883.6.1" displayName="Laboratory studies" />
+              <statusCode code="completed" />
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+                  <id root="2.16.840.1.113883.19.5.99999.3" extension="C-R2" />
+                  <code code="2160-0" codeSystem="2.16.840.1.113883.6.1" displayName="Creatinine [Mass/volume] in Serum or Plasma" />
+                  <statusCode code="completed" />
+                  <effectiveTime value="20261101" />
+                  <value xsi:type="PQ" value="1.3" unit="mg/dL" />
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</ClinicalDocument>

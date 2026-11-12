@@ -41,6 +41,7 @@ Every project README covers:
 | 2026-11-09 | [Incremental ADT encounter load with late-arriving, out-of-order & duplicate HL7 messages](problems/2026-11-09-adt-encounter-cdc-late-arriving/) | HL7 v2 ADT / Incremental (CDC) Loads / Encounters | SQL (PostgreSQL, PL/pgSQL), MERGE, SCD2 |
 | 2026-11-10 | [CMS-HCC risk adjustment: diagnosis filtering, hierarchies & member RAF scores](problems/2026-11-10-hcc-risk-adjustment-raf/) | Risk Adjustment (HCC) / Medicare Advantage / Claims | PySpark (DataFrame API), config-driven model tables, CLI, pytest |
 | 2026-11-11 | [HEDIS Controlling High Blood Pressure (CBP): layered warehouse combining EHR vitals + CPT II claims](problems/2026-11-11-hedis-cbp-blood-pressure-mart/) | Quality Measures (HEDIS CBP) / Clinical + Claims Integration / Warehouse Modeling | SQL (DuckDB), SCD2, gaps-and-islands, window functions, SQL data tests |
+| 2026-11-12 | [C-CDA document ingestion: file + canonical-XML hash dedup, RPLC versioning & entry-level dedup](problems/2026-11-12-ccda-document-dedup-ingestion/) | CCDA / Clinical Document Ingestion / Dedup | C# (.NET 8), LINQ to XML, SHA-256, DuckDB SQL reconciliation |
 <!-- NEW_ROWS_ABOVE -->
 
 ## About

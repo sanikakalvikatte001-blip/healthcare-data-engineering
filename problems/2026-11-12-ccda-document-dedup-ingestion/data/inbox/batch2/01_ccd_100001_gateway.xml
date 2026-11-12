@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="CDA.xsl"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3">
+	<!-- Re-sent by HIE gateway (retry 2) -->
+	<realmCode code="US" />
+	<typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3" />
+	<templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.1.1" />
+	<templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.1.2" />
+	<id extension="CCD-A-0001" root="2.16.840.1.113883.19.5.99999.1" />
+	<code displayName="Summarization of Episode Note" codeSystem="2.16.840.1.113883.6.1" code="34133-9" />
+	<title>Continuity of Care Document</title>
+	<effectiveTime value="20261103091500-0500" />
+	<confidentialityCode codeSystem="2.16.840.1.113883.5.25" code="N" />
+	<languageCode code="en-US" />
+	<setId extension="SET-A" root="2.16.840.1.113883.19.5.99999.1" />
+	<versionNumber value="1" />
+	<recordTarget>
+		<patientRole>
+			<id extension="100001" root="2.16.840.1.113883.19.5.99999.2" />
+			<patient>
+				<name use="L">
+					<given>Ava</given>
+					<family>Thornton</family>
+				</name>
+				<administrativeGenderCode codeSystem="2.16.840.1.113883.5.1" code="F" />
+				<birthTime value="19580314" />
+			</patient>
+		</patientRole>
+	</recordTarget>
+	<component>
+		<structuredBody>
+			<component>
+				<section>
+					<templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.5.1" />
+					<code codeSystem="2.16.840.1.113883.6.1" code="11450-4" />
+					<title>Problems</title>
+					<text>
+						<paragraph>Diabetes mellitus type 2 (active); Hypertensive disorder (active)</paragraph>
+					</text>
+					<entry typeCode="DRIV">
+						<act moodCode="EVN" classCode="ACT">
+							<templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+							<id extension="A-P1" root="2.16.840.1.113883.19.5.99999.3" />
+							<code codeSystem="2.16.840.1.113883.5.6" code="CONC" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low value="20190415" />
+							</effectiveTime>
+							<entryRelationship typeCode="SUBJ">
+								<observation moodCode="EVN" classCode="OBS">
+									<templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4" />
+									<id extension="A-P1-obs" root="2.16.840.1.113883.19.5.99999.3" />
+									<code displayName="Problem" codeSystem="2.16.840.1.113883.6.96" code="55607006" />
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low value="20190415" />
+									</effectiveTime>
+									<value displayName="Diabetes mellitus type 2" codeSystem="2.16.840.1.113883.6.96" code="44054006" xsi:type="CD" />
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+					<entry typeCode="DRIV">
+						<act moodCode="EVN" classCode="ACT">
+							<templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+							<id extension="A-P2" root="2.16.840.1.113883.19.5.99999.3" />
+							<code codeSystem="2.16.840.1.113883.5.6" code="CONC" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low value="20170902" />
+							</effectiveTime>
+							<entryRelationship typeCode="SUBJ">
+								<observation moodCode="EVN" classCode="OBS">
+									<templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4" />
+									<id extension="A-P2-obs" root="2.16.840.1.113883.19.5.99999.3" />
+									<code displayName="Problem" codeSystem="2.16.840.1.113883.6.96" code="55607006" />
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low value="20170902" />
+									</effectiveTime>
+									<value displayName="Hypertensive disorder" codeSystem="2.16.840.1.113883.6.96" code="38341003" xsi:type="CD" />
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+				</section>
+			</component>
+			<component>
+				<section>
+					<templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.1.1" />
+					<code codeSystem="2.16.840.1.113883.6.1" code="10160-0" />
+					<title>Medications</title>
+					<text>
+						<paragraph>metformin hydrochloride 500 MG Oral Tablet (active); lisinopril 10 MG Oral Tablet (active)</paragraph>
+					</text>
+					<entry typeCode="DRIV">
+						<substanceAdministration moodCode="INT" classCode="SBADM">
+							<templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16" />
+							<id extension="A-M1" root="2.16.840.1.113883.19.5.99999.3" />
+							<statusCode code="active" />
+							<effectiveTime xsi:type="IVL_TS">
+								<low value="20240210" />
+							</effectiveTime>
+							<consumable>
+								<manufacturedProduct classCode="MANU">
+									<templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23" />
+									<manufacturedMaterial>
+										<code displayName="metformin hydrochloride 500 MG Oral Tablet" codeSystem="2.16.840.1.113883.6.88" code="861007" />
+									</manufacturedMaterial>
+								</manufacturedProduct>
+							</consumable>
+						</substanceAdministration>
+					</entry>
+					<entry typeCode="DRIV">
+						<substanceAdministration moodCode="INT" classCode="SBADM">
+							<templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16" />
+							<id extension="A-M2" root="2.16.840.1.113883.19.5.99999.3" />
+							<statusCode code="active" />
+							<effectiveTime xsi:type="IVL_TS">
+								<low value="20230601" />
+							</effectiveTime>
+							<consumable>
+								<manufacturedProduct classCode="MANU">
+									<templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23" />
+									<manufacturedMaterial>
+										<code displayName="lisinopril 10 MG Oral Tablet" codeSystem="2.16.840.1.113883.6.88" code="314076" />
+									</manufacturedMaterial>
+								</manufacturedProduct>
+							</consumable>
+						</substanceAdministration>
+					</entry>
+				</section>
+			</component>
+			<component>
+				<section>
+					<templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.6.1" />
+					<code codeSystem="2.16.840.1.113883.6.1" code="48765-2" />
+					<title>Allergies and Intolerances</title>
+					<text>
+						<paragraph>Penicillin G (active)</paragraph>
+					</text>
+					<entry typeCode="DRIV">
+						<act moodCode="EVN" classCode="ACT">
+							<templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.30" />
+							<id extension="A-L1" root="2.16.840.1.113883.19.5.99999.3" />
+							<code codeSystem="2.16.840.1.113883.5.6" code="CONC" />
+							<statusCode code="active" />
+							<entryRelationship typeCode="SUBJ">
+								<observation moodCode="EVN" classCode="OBS">
+									<templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.7" />
+									<id extension="A-L1-obs" root="2.16.840.1.113883.19.5.99999.3" />
+									<code codeSystem="2.16.840.1.113883.5.4" code="ASSERTION" />
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low value="20000101" />
+									</effectiveTime>
+									<value displayName="Propensity to adverse reactions to drug" codeSystem="2.16.840.1.113883.6.96" code="419511003" xsi:type="CD" />
+									<participant typeCode="CSM">
+										<participantRole classCode="MANU">
+											<playingEntity classCode="MMAT">
+												<code displayName="Penicillin G" codeSystem="2.16.840.1.113883.6.88" code="7980" />
+											</playingEntity>
+										</participantRole>
+									</participant>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+				</section>
+			</component>
+			<component>
+				<section>
+					<templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.3.1" />
+					<code codeSystem="2.16.840.1.113883.6.1" code="30954-2" />
+					<title>Results</title>
+					<text>
+						<paragraph>Hemoglobin A1c/Hemoglobin.total in Blood 7.4 % (20261028); Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation 118 mg/dL (20261028)</paragraph>
+					</text>
+					<entry typeCode="DRIV">
+						<organizer moodCode="EVN" classCode="BATTERY">
+							<templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.1" />
+							<id extension="A-R1-panel" root="2.16.840.1.113883.19.5.99999.3" />
+							<code displayName="Laboratory studies" codeSystem="2.16.840.1.113883.6.1" code="26436-6" />
+							<statusCode code="completed" />
+							<component>
+								<observation moodCode="EVN" classCode="OBS">
+									<templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.2" />
+									<id extension="A-R1" root="2.16.840.1.113883.19.5.99999.3" />
+									<code displayName="Hemoglobin A1c/Hemoglobin.total in Blood" codeSystem="2.16.840.1.113883.6.1" code="4548-4" />
+									<statusCode code="completed" />
+									<effectiveTime value="20261028" />
+									<value unit="%" value="7.4" xsi:type="PQ" />
+								</observation>
+							</component>
+						</organizer>
+					</entry>
+					<entry typeCode="DRIV">
+						<organizer moodCode="EVN" classCode="BATTERY">
+							<templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.1" />
+							<id extension="A-R2-panel" root="2.16.840.1.113883.19.5.99999.3" />
+							<code displayName="Laboratory studies" codeSystem="2.16.840.1.113883.6.1" code="26436-6" />
+							<statusCode code="completed" />
+							<component>
+								<observation moodCode="EVN" classCode="OBS">
+									<templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.2" />
+									<id extension="A-R2" root="2.16.840.1.113883.19.5.99999.3" />
+									<code displayName="Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation" codeSystem="2.16.840.1.113883.6.1" code="13457-7" />
+									<statusCode code="completed" />
+									<effectiveTime value="20261028" />
+									<value unit="mg/dL" value="118" xsi:type="PQ" />
+								</observation>
+							</component>
+						</organizer>
+					</entry>
+				</section>
+			</component>
+		</structuredBody>
+	</component>
+</ClinicalDocument>

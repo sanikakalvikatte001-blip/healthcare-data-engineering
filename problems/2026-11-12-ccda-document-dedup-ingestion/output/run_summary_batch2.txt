@@ -1,0 +1,26 @@
+=== C-CDA ingestion: batch2 ===
+file                           status              document_id                                      reason
+01_ccd_100001_gateway.xml      DuplicateContent    2.16.840.1.113883.19.5.99999.1^CCD-A-0001        Same canonical XML as an earlier file (re-serialized resend)
+02_ccd_100002_resend.xml       DuplicateFile                                                        Byte-identical to a file already received
+03_ccd_100002_v2.xml           Loaded              2.16.840.1.113883.19.5.99999.1^CCD-B-0002        Replaces version 1 of setId
+04_ccd_100003_v1_late.xml      StaleVersion        2.16.840.1.113883.19.5.99999.1^CCD-C-0001        Version 1 arrived after version 2 of the same setId
+05_enc_100001.xml              Loaded              2.16.840.1.113883.19.5.99999.1^ENC-A-0001        New document
+06_ccd_100004_reissued.xml     RejectedIdConflict  2.16.840.1.113883.19.5.99999.1^CCD-D-0001        Document id already used by 05_ccd_100004.xml with different content
+07_ccd_no_patient_id.xml       RejectedInvalid                                                      Missing patient identifier (patientRole/id with root and extension)
+
+Manifest (all batches) by status:
+  Loaded                5
+  Superseded            1
+  DuplicateFile         2
+  DuplicateContent      1
+  StaleVersion          1
+  RejectedIdConflict    1
+  RejectedInvalid       2
+
+Active documents: 5; raw entries in active documents: 33; curated entries: 27 (6 cross-document duplicates collapsed)
+Curated patients: 4
+  Problem      8
+  Medication   7
+  Allergy      4
+  Result       8
+Entry exceptions (all batches): 1

@@ -1,0 +1,18 @@
+  PASS  every inbox file has exactly one manifest row                          expected=13   actual=13
+  PASS  at most one Loaded document per set_id                                 expected=0    actual=0
+  PASS  every DuplicateFile hash belongs to an earlier accepted-or-logged file expected=0    actual=0
+  PASS  no raw entries from rejected / stale / duplicate documents             expected=0    actual=0
+  PASS  curated row count = SQL re-derivation                                  expected=27   actual=27
+  PASS  curated rows differing from SQL re-derivation                          expected=0    actual=0
+  PASS  curated rows sourced only from active (Loaded) documents               expected=0    actual=0
+
+Manifest by status:
+  DuplicateContent    1
+  DuplicateFile       2
+  Loaded              5
+  RejectedIdConflict  1
+  RejectedInvalid     2
+  StaleVersion        1
+  Superseded          1
+
+7/7 SQL reconciliation checks passed

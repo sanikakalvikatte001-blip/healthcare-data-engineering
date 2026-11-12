@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3">
+  <realmCode code="US" />
+  <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040" />
+  <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2015-08-01" />
+  <templateId root="2.16.840.1.113883.10.20.22.1.2" extension="2015-08-01" />
+  <id root="2.16.840.1.113883.19.5.99999.1" extension="CCD-B-0002" />
+  <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" displayName="Summarization of Episode Note" />
+  <title>Continuity of Care Document</title>
+  <effectiveTime value="20261110103000-0500" />
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" />
+  <languageCode code="en-US" />
+  <setId root="2.16.840.1.113883.19.5.99999.1" extension="SET-B" />
+  <versionNumber value="2" />
+  <recordTarget>
+    <patientRole>
+      <id root="2.16.840.1.113883.19.5.99999.2" extension="100002" />
+      <patient>
+        <name use="L">
+          <given>Marcus</given>
+          <family>Delgado</family>
+        </name>
+        <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" />
+        <birthTime value="19621102" />
+      </patient>
+    </patientRole>
+  </recordTarget>
+  <relatedDocument typeCode="RPLC">
+    <parentDocument>
+      <id root="2.16.840.1.113883.19.5.99999.1" extension="CCD-B-0001" />
+    </parentDocument>
+  </relatedDocument>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.5.1" extension="2015-08-01" />
+          <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" />
+          <title>Problems</title>
+          <text>
+            <paragraph>Hyperlipidemia (active); Asthma (completed)</paragraph>
+          </text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+              <id root="2.16.840.1.113883.19.5.99999.3" extension="B-P1" />
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20210311" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+                  <id root="2.16.840.1.113883.19.5.99999.3" extension="B-P1-obs" />
+                  <code code="55607006" codeSystem="2.16.840.1.113883.6.96" displayName="Problem" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20210311" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="55822004" codeSystem="2.16.840.1.113883.6.96" displayName="Hyperlipidemia" />
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+              <id root="2.16.840.1.113883.19.5.99999.3" extension="B-P2" />
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+              <statusCode code="completed" />
+              <effectiveTime>
+                <low value="19980101" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+                  <id root="2.16.840.1.113883.19.5.99999.3" extension="B-P2-obs" />
+                  <code code="55607006" codeSystem="2.16.840.1.113883.6.96" displayName="Problem" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="19980101" />
+                    <high value="20261108" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="195967001" codeSystem="2.16.840.1.113883.6.96" displayName="Asthma" />
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.1.1" extension="2015-08-01" />
+          <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" />
+          <title>Medications</title>
+          <text>
+            <paragraph>atorvastatin 20 MG Oral Tablet (active); albuterol 0.09 MG/ACTUAT Metered Dose Inhaler (completed)</paragraph>
+          </text>
+          <entry typeCode="DRIV">
+            <substanceAdministration classCode="SBADM" moodCode="INT">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+              <id root="2.16.840.1.113883.19.5.99999.3" extension="B-M1" />
+              <statusCode code="active" />
+              <effectiveTime xsi:type="IVL_TS">
+                <low value="20210320" />
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+                  <manufacturedMaterial>
+                    <code code="617310" codeSystem="2.16.840.1.113883.6.88" displayName="atorvastatin 20 MG Oral Tablet" />
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+            </substanceAdministration>
+          </entry>
+          <entry typeCode="DRIV">
+            <substanceAdministration classCode="SBADM" moodCode="INT">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+              <id root="2.16.840.1.113883.19.5.99999.3" extension="B-M2" />
+              <statusCode code="completed" />
+              <effectiveTime xsi:type="IVL_TS">
+                <low value="20200115" />
+                <high value="20261108" />
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+                  <manufacturedMaterial>
+                    <code code="745679" codeSystem="2.16.840.1.113883.6.88" displayName="albuterol 0.09 MG/ACTUAT Metered Dose Inhaler" />
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+            </substanceAdministration>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.6.1" extension="2015-08-01" />
+          <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" />
+          <title>Allergies and Intolerances</title>
+          <text>
+            <paragraph>Codeine (active)</paragraph>
+          </text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <id root="2.16.840.1.113883.19.5.99999.3" extension="B-L1" />
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+              <statusCode code="active" />
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <id root="2.16.840.1.113883.19.5.99999.3" extension="B-L1-obs" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20150101" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="419511003" codeSystem="2.16.840.1.113883.6.96" displayName="Propensity to adverse reactions to drug" />
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="2670" codeSystem="2.16.840.1.113883.6.88" displayName="Codeine" />
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.3.1" extension="2015-08-01" />
+          <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" />
+          <title>Results</title>
+          <text>
+            <paragraph>Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation 162 mg/dL (20261030); Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation 131 mg/dL (20261109)</paragraph>
+          </text>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+              <id root="2.16.840.1.113883.19.5.99999.3" extension="B-R1-panel" />
+              <code code="26436-6" codeSystem="2.16.840.1.113883.6.1" displayName="Laboratory studies" />
+              <statusCode code="completed" />
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+                  <id root="2.16.840.1.113883.19.5.99999.3" extension="B-R1" />
+                  <code code="13457-7" codeSystem="2.16.840.1.113883.6.1" displayName="Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation" />
+                  <statusCode code="completed" />
+                  <effectiveTime value="20261030" />
+                  <value xsi:type="PQ" value="162" unit="mg/dL" />
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+              <id root="2.16.840.1.113883.19.5.99999.3" extension="B-R2-panel" />
+              <code code="26436-6" codeSystem="2.16.840.1.113883.6.1" displayName="Laboratory studies" />
+              <statusCode code="completed" />
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+                  <id root="2.16.840.1.113883.19.5.99999.3" extension="B-R2" />
+                  <code code="13457-7" codeSystem="2.16.840.1.113883.6.1" displayName="Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation" />
+                  <statusCode code="completed" />
+                  <effectiveTime value="20261109" />
+                  <value xsi:type="PQ" value="131" unit="mg/dL" />
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</ClinicalDocument>

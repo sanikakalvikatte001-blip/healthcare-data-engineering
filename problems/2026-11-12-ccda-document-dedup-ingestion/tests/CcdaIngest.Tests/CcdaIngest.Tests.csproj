@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    The sandbox this was built in has no NuGet access, so instead of xunit/xunit.runner this project
+    carries a ~110-line runner (XunitLite.cs) that supports the same [Fact] / [Theory] + [InlineData]
+    attributes and Assert names. Swapping in real xUnit is a csproj change only: add the xunit,
+    xunit.runner.visualstudio and Microsoft.NET.Test.Sdk packages and delete XunitLite.cs.
+    Run with: dotnet run, from the tests/CcdaIngest.Tests folder (or see run.sh).
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\CcdaIngest\CcdaIngest.csproj" />
+  </ItemGroup>
+
+</Project>

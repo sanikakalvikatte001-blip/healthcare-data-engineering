@@ -1,0 +1,21 @@
+=== C-CDA ingestion: batch1 ===
+file                           status              document_id                                      reason
+01_ccd_100001.xml              Loaded              2.16.840.1.113883.19.5.99999.1^CCD-A-0001        New document
+02_ccd_100001_retry.xml        DuplicateFile                                                        Byte-identical to a file already received
+03_ccd_100002.xml              Loaded              2.16.840.1.113883.19.5.99999.1^CCD-B-0001        New document
+04_ccd_100003_v2.xml           Loaded              2.16.840.1.113883.19.5.99999.1^CCD-C-0002        Version 2; earlier versions not received
+05_ccd_100004.xml              Loaded              2.16.840.1.113883.19.5.99999.1^CCD-D-0001        New document
+06_ccd_truncated.xml           RejectedInvalid                                                      Malformed XML: There is an unclosed literal string. Line 81, position 51.
+
+Manifest (all batches) by status:
+  Loaded                4
+  DuplicateFile         1
+  RejectedInvalid       1
+
+Active documents: 4; raw entries in active documents: 23; curated entries: 23 (0 cross-document duplicates collapsed)
+Curated patients: 4
+  Problem      7
+  Medication   6
+  Allergy      4
+  Result       6
+Entry exceptions (all batches): 1
