@@ -1,5 +1,7 @@
 # Healthcare Data Engineering
- 
+
+$\color{red}{\textbf{All data in this repo is synthetic. No real PHI.}}$
+
 Solutions to common, real-world data engineering problems with healthcare data — one problem a day.
 
 Each project is small, runs on its own, and uses **synthetic data only** (no PHI). Topics come from day-to-day work in healthcare tech: EHR/EMR feeds, HL7 and FHIR, CCDA, claims (837/835), eligibility, HEDIS and quality measures, MPI and patient matching, data quality, and warehouse modeling.
